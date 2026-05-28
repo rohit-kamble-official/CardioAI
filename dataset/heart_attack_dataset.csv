@@ -1,0 +1,1201 @@
+Patient_ID,Age,Gender,BloodPressure,Cholesterol,HeartRate,BloodSugar,BMI,Smoking,AlcoholConsumption,Diabetes,ChestPainType,ECGResults,ExerciseAngina,OxygenLevel,StressLevel,FamilyHistory,PhysicalActivity,SleepHours,RiskScore,RiskLevel,HeartAttack
+PAT00001,58,Male,139,170,62,176,16.7,Former,Moderate,No,Non-anginal,Normal,No,100.0,7,Yes,Light,5.3,63.0,Medium,1
+PAT00002,50,Female,142,174,78,121,21.1,Current,None,No,Non-anginal,ST-T abnormality,No,98.4,1,No,Light,5.3,48.2,Medium,0
+PAT00003,61,Female,154,206,86,90,25.8,Current,Moderate,No,None,ST-T abnormality,No,95.9,5,Yes,Active,5.4,77.9,High,1
+PAT00004,73,Female,130,299,67,87,32.7,Never,None,No,Atypical angina,ST-T abnormality,No,95.7,1,No,Moderate,3.6,64.7,Medium,1
+PAT00005,48,Female,118,197,86,74,19.4,Current,None,Pre-diabetic,Asymptomatic,ST-T abnormality,Yes,96.2,6,No,Light,6.4,68.3,High,1
+PAT00006,48,Female,112,218,57,98,28.5,Never,None,No,Typical angina,Normal,No,100.0,9,Yes,Moderate,5.1,52.6,Medium,0
+PAT00007,74,Male,140,253,95,132,28.1,Never,Moderate,No,Typical angina,LV hypertrophy,Yes,94.8,3,No,Sedentary,6.8,82.5,High,1
+PAT00008,62,Male,141,232,75,86,35.4,Current,Moderate,No,Typical angina,Normal,Yes,97.0,6,Yes,Sedentary,3.4,100.0,High,1
+PAT00009,45,Female,138,207,66,92,29.9,Never,None,No,Non-anginal,Normal,Yes,97.9,4,Yes,Light,6.4,51.8,Medium,0
+PAT00010,59,Male,133,189,70,104,30.1,Never,None,Yes,None,Normal,Yes,99.4,6,No,Moderate,6.2,51.4,Medium,0
+PAT00011,45,Female,122,253,86,83,30.5,Never,Moderate,No,Typical angina,Normal,No,96.3,2,No,Light,5.8,59.4,Medium,1
+PAT00012,45,Female,128,263,66,76,22.4,Former,Heavy,Yes,None,Normal,Yes,95.1,4,Yes,Sedentary,7.8,71.2,High,1
+PAT00013,55,Male,122,170,64,91,24.1,Never,Moderate,Yes,Typical angina,Normal,No,97.6,7,No,Active,5.5,56.2,Medium,1
+PAT00014,25,Male,139,156,71,178,32.6,Former,None,No,Non-anginal,Normal,Yes,99.6,6,Yes,Light,6.9,51.2,Medium,0
+PAT00015,27,Female,96,181,58,88,16.7,Current,None,Pre-diabetic,None,ST-T abnormality,No,96.5,9,No,Moderate,5.7,51.5,Medium,0
+PAT00016,44,Male,127,179,100,80,23.6,Former,None,No,Typical angina,Normal,No,95.3,7,No,Active,8.7,45.2,Medium,0
+PAT00017,37,Female,145,216,67,102,20.3,Never,None,No,Atypical angina,Normal,No,97.2,1,No,Light,6.3,42.3,Medium,0
+PAT00018,56,Male,132,199,86,157,28.2,Current,Moderate,Pre-diabetic,None,Normal,No,93.8,6,No,Moderate,7.4,50.1,Medium,0
+PAT00019,39,Female,120,268,77,106,24.9,Never,Moderate,Pre-diabetic,Atypical angina,Normal,No,96.6,3,No,Moderate,7.3,46.6,Medium,0
+PAT00020,32,Male,114,231,61,80,30.1,Never,Moderate,No,None,Normal,No,99.4,8,No,Active,8.0,37.4,Medium,0
+PAT00021,72,Female,140,245,74,113,26.5,Never,Moderate,No,Atypical angina,ST-T abnormality,Yes,98.7,1,No,Light,6.7,68.8,High,1
+PAT00022,48,Male,144,243,85,94,19.3,Former,None,No,Atypical angina,LV hypertrophy,No,96.7,10,Yes,Active,4.8,70.6,High,1
+PAT00023,52,Female,103,250,72,100,19.5,Never,None,No,Non-anginal,LV hypertrophy,No,100.0,2,Yes,Sedentary,7.1,43.9,Medium,0
+PAT00024,32,Male,136,178,91,197,27.0,Never,Moderate,Pre-diabetic,Non-anginal,LV hypertrophy,No,100.0,3,No,Moderate,6.9,29.2,Low,0
+PAT00025,44,Female,108,184,89,75,23.1,Never,None,No,Typical angina,Normal,No,98.3,3,Yes,Light,3.0,50.8,Medium,0
+PAT00026,53,Female,127,220,87,206,24.3,Never,None,No,None,Normal,No,94.1,7,Yes,Sedentary,4.3,66.2,High,1
+PAT00027,35,Male,115,224,68,117,31.7,Former,None,Pre-diabetic,Asymptomatic,Normal,Yes,93.2,8,No,Sedentary,7.4,63.4,Medium,1
+PAT00028,57,Male,140,227,59,97,30.8,Current,None,No,Typical angina,ST-T abnormality,No,99.8,9,No,Light,8.3,76.4,High,1
+PAT00029,43,Male,105,160,66,124,36.0,Current,None,No,None,Normal,No,97.5,7,No,Light,6.4,46.2,Medium,0
+PAT00030,47,Female,132,187,77,139,25.4,Never,Moderate,Pre-diabetic,Non-anginal,ST-T abnormality,No,100.0,8,No,Sedentary,7.6,57.3,Medium,1
+PAT00031,43,Female,149,205,82,84,23.8,Never,Heavy,Yes,None,Normal,No,94.3,6,No,Sedentary,6.6,54.9,Medium,0
+PAT00032,77,Female,129,242,45,156,29.1,Current,None,Yes,Typical angina,Normal,No,96.7,2,No,Light,6.5,84.6,High,1
+PAT00033,51,Male,132,275,74,71,24.2,Never,None,No,Atypical angina,LV hypertrophy,Yes,99.1,1,No,Light,6.3,52.7,Medium,0
+PAT00034,37,Male,113,159,77,179,24.4,Current,Moderate,Yes,Atypical angina,ST-T abnormality,No,95.5,3,Yes,Light,6.6,71.1,High,1
+PAT00035,63,Female,142,244,71,98,26.0,Never,None,No,Asymptomatic,ST-T abnormality,No,99.0,9,No,Active,7.0,57.3,Medium,1
+PAT00036,34,Male,119,242,93,120,35.3,Current,None,No,Atypical angina,ST-T abnormality,No,96.8,7,Yes,Moderate,6.0,69.4,High,0
+PAT00037,54,Female,123,287,80,111,30.5,Never,None,Pre-diabetic,None,LV hypertrophy,No,97.1,2,Yes,Sedentary,8.1,65.8,High,1
+PAT00038,24,Male,119,174,93,90,31.0,Never,None,No,Asymptomatic,ST-T abnormality,Yes,94.6,1,No,Light,5.2,54.1,Medium,0
+PAT00039,33,Female,140,211,71,104,35.0,Former,Moderate,Yes,Asymptomatic,LV hypertrophy,No,97.5,2,Yes,Moderate,8.7,56.2,Medium,1
+PAT00040,54,Male,129,236,88,237,31.5,Former,Moderate,No,Typical angina,Normal,No,100.0,3,No,Sedentary,6.2,58.5,Medium,1
+PAT00041,62,Male,145,234,97,161,21.3,Never,None,No,Atypical angina,ST-T abnormality,Yes,97.8,6,Yes,Light,6.4,79.7,High,1
+PAT00042,54,Female,116,216,93,101,31.4,Former,None,Yes,None,ST-T abnormality,No,95.4,9,No,Light,5.7,77.3,High,1
+PAT00043,50,Female,117,228,59,161,32.1,Former,None,No,Non-anginal,Normal,Yes,99.8,8,No,Active,7.0,56.9,Medium,1
+PAT00044,47,Female,133,135,71,160,30.3,Never,None,Yes,None,LV hypertrophy,No,95.5,10,Yes,Light,6.0,72.1,High,1
+PAT00045,31,Male,135,214,70,195,26.0,Never,Heavy,No,None,LV hypertrophy,No,100.0,9,Yes,Moderate,5.9,49.1,Medium,0
+PAT00046,41,Male,128,209,81,145,29.7,Former,Moderate,Pre-diabetic,Typical angina,Normal,Yes,94.5,8,No,Light,7.3,79.3,High,1
+PAT00047,45,Female,122,203,84,97,26.9,Never,Moderate,No,None,Normal,Yes,97.5,7,Yes,Moderate,8.0,43.2,Medium,0
+PAT00048,66,Female,138,294,63,89,22.1,Former,Moderate,No,None,Normal,No,100.0,6,Yes,Light,5.1,59.2,Medium,1
+PAT00049,56,Male,117,201,75,78,23.4,Never,Moderate,No,Atypical angina,LV hypertrophy,Yes,95.3,8,No,Light,7.6,65.0,Medium,1
+PAT00050,27,Male,122,177,46,86,30.5,Never,Moderate,Pre-diabetic,None,ST-T abnormality,No,97.2,6,No,Light,8.1,50.0,Medium,0
+PAT00051,56,Male,143,281,95,89,22.5,Never,None,Yes,None,Normal,No,99.3,2,No,Active,4.2,51.1,Medium,0
+PAT00052,46,Female,121,185,67,91,22.9,Former,None,Yes,None,Normal,No,92.5,9,No,Sedentary,5.4,75.6,High,1
+PAT00053,42,Male,118,189,75,84,30.8,Never,Moderate,No,None,Normal,No,98.9,9,Yes,Sedentary,8.1,47.1,Medium,0
+PAT00054,60,Male,138,221,70,85,27.7,Never,None,No,Non-anginal,ST-T abnormality,Yes,96.8,3,Yes,Moderate,7.0,58.0,Medium,1
+PAT00055,66,Male,133,258,91,93,29.9,Never,Heavy,No,Non-anginal,Normal,No,99.9,9,Yes,Moderate,8.7,57.4,Medium,1
+PAT00056,65,Male,137,237,45,124,20.9,Current,Moderate,No,Atypical angina,Normal,No,95.3,2,Yes,Light,6.3,71.9,High,0
+PAT00057,40,Male,148,165,74,154,29.7,Never,Heavy,No,Typical angina,ST-T abnormality,Yes,94.2,3,No,Light,5.8,63.8,Medium,1
+PAT00058,47,Male,124,195,73,81,23.7,Former,None,Pre-diabetic,None,Normal,No,95.9,6,No,Light,8.3,57.8,Medium,1
+PAT00059,56,Male,128,203,68,95,21.9,Never,Heavy,Yes,None,Normal,No,95.9,4,Yes,Light,5.4,65.3,High,1
+PAT00060,65,Female,130,229,99,84,24.5,Never,None,No,None,Normal,No,96.6,8,Yes,Moderate,6.2,58.8,Medium,1
+PAT00061,45,Male,135,222,62,90,33.8,Former,Heavy,No,Typical angina,Normal,No,96.1,1,No,Sedentary,7.2,66.5,High,1
+PAT00062,49,Female,126,226,85,95,25.2,Former,None,Yes,Non-anginal,Normal,Yes,93.0,6,No,Active,7.4,67.8,High,1
+PAT00063,36,Female,113,146,79,142,38.0,Current,Moderate,No,Typical angina,LV hypertrophy,No,96.8,2,Yes,Light,5.5,73.6,High,1
+PAT00064,35,Female,136,230,92,193,16.7,Current,Moderate,No,Atypical angina,ST-T abnormality,No,97.5,6,No,Sedentary,6.8,65.3,High,1
+PAT00065,63,Male,154,237,65,146,19.3,Current,Moderate,No,None,LV hypertrophy,Yes,96.6,1,No,Light,6.1,68.3,High,1
+PAT00066,70,Male,133,278,64,95,33.6,Former,Moderate,No,Non-anginal,LV hypertrophy,No,97.6,2,Yes,Moderate,4.3,69.1,High,1
+PAT00067,50,Male,106,228,90,259,34.9,Former,Heavy,Yes,Atypical angina,Normal,No,97.2,9,Yes,Sedentary,5.9,78.5,High,1
+PAT00068,66,Female,150,265,80,87,22.7,Never,Moderate,No,Non-anginal,Normal,Yes,94.2,6,Yes,Moderate,4.4,80.0,High,1
+PAT00069,57,Female,125,236,53,187,27.3,Current,Moderate,No,Typical angina,Normal,No,96.4,8,Yes,Moderate,5.6,70.9,High,0
+PAT00070,42,Female,133,246,67,79,30.6,Former,None,No,Non-anginal,ST-T abnormality,No,97.2,7,No,Sedentary,4.9,54.8,Medium,0
+PAT00071,57,Female,109,238,80,89,25.9,Former,Moderate,Yes,Asymptomatic,ST-T abnormality,No,96.5,9,Yes,Sedentary,7.5,75.9,High,1
+PAT00072,73,Female,153,237,86,87,27.7,Never,Moderate,No,Asymptomatic,Normal,No,94.0,9,No,Sedentary,6.9,67.8,High,1
+PAT00073,51,Male,115,284,65,78,27.1,Never,Moderate,No,Typical angina,Normal,No,99.4,4,Yes,Moderate,8.5,55.0,Medium,1
+PAT00074,73,Male,151,267,45,171,19.6,Current,None,Pre-diabetic,Typical angina,Normal,No,95.1,7,No,Light,5.3,86.9,High,1
+PAT00075,18,Female,110,197,82,180,25.3,Never,Moderate,Pre-diabetic,None,Normal,Yes,94.5,5,Yes,Moderate,6.7,51.0,Medium,0
+PAT00076,63,Female,125,191,57,64,27.1,Never,None,Pre-diabetic,Asymptomatic,LV hypertrophy,No,97.1,7,Yes,Light,5.1,74.5,High,1
+PAT00077,53,Male,126,179,46,98,27.5,Never,None,Yes,Atypical angina,Normal,No,96.4,4,No,Moderate,5.7,44.9,Medium,0
+PAT00078,47,Female,135,220,45,89,18.3,Current,Moderate,No,None,LV hypertrophy,Yes,98.2,10,Yes,Moderate,6.0,73.5,High,1
+PAT00079,53,Male,132,222,86,192,30.8,Never,None,No,Atypical angina,Normal,No,98.7,1,No,Light,9.1,54.7,Medium,0
+PAT00080,24,Male,120,168,76,218,27.6,Current,None,No,None,ST-T abnormality,Yes,98.4,4,No,Active,7.0,44.2,Medium,0
+PAT00081,48,Male,151,217,71,212,21.7,Never,Moderate,No,Typical angina,LV hypertrophy,No,97.0,10,No,Moderate,6.3,57.1,Medium,1
+PAT00082,56,Male,114,269,94,91,36.0,Current,None,Pre-diabetic,Typical angina,LV hypertrophy,No,98.1,3,Yes,Light,7.9,84.2,High,1
+PAT00083,72,Female,161,260,83,99,25.3,Former,None,Yes,Atypical angina,Normal,Yes,93.9,9,Yes,Moderate,7.4,97.8,High,1
+PAT00084,44,Male,126,174,97,90,25.6,Never,None,Yes,None,Normal,No,99.2,5,No,Moderate,6.4,44.9,Medium,0
+PAT00085,40,Female,112,200,55,94,30.2,Former,Moderate,No,Asymptomatic,Normal,Yes,96.2,4,No,Light,7.4,62.4,Medium,1
+PAT00086,44,Female,109,184,74,178,36.4,Never,Moderate,Pre-diabetic,Non-anginal,Normal,No,100.0,8,Yes,Light,6.1,49.0,Medium,0
+PAT00087,64,Female,135,218,52,104,30.4,Never,Moderate,Yes,Non-anginal,ST-T abnormality,No,99.2,5,No,Light,10.4,76.2,High,1
+PAT00088,56,Male,143,209,71,182,31.1,Current,None,No,Atypical angina,LV hypertrophy,No,96.6,3,Yes,Active,8.1,71.2,High,1
+PAT00089,44,Male,124,194,71,232,22.0,Never,None,Pre-diabetic,Non-anginal,Normal,No,97.0,2,Yes,Moderate,6.0,41.8,Medium,0
+PAT00090,59,Male,152,187,83,80,27.4,Never,None,No,Atypical angina,Normal,Yes,99.4,8,Yes,Sedentary,7.5,64.5,Medium,1
+PAT00091,53,Female,113,214,75,88,24.3,Never,Moderate,No,None,Normal,Yes,92.5,2,No,Light,7.2,48.2,Medium,0
+PAT00092,65,Female,138,214,83,132,30.5,Never,Heavy,Yes,None,LV hypertrophy,Yes,96.7,8,No,Sedentary,6.9,79.7,High,1
+PAT00093,42,Male,109,120,84,73,31.0,Current,None,Yes,Atypical angina,LV hypertrophy,No,100.0,5,Yes,Light,7.2,68.6,High,1
+PAT00094,47,Female,131,273,105,86,35.2,Never,None,No,None,Normal,No,98.7,8,No,Light,5.4,42.6,Medium,0
+PAT00095,46,Male,137,243,70,67,16.2,Current,None,No,Asymptomatic,Normal,Yes,95.3,5,No,Light,5.9,62.8,Medium,1
+PAT00096,31,Female,112,183,61,84,23.8,Current,Moderate,Pre-diabetic,None,ST-T abnormality,No,97.6,1,No,Active,8.7,40.1,Medium,0
+PAT00097,56,Male,101,222,78,89,33.5,Never,Moderate,Yes,Atypical angina,ST-T abnormality,Yes,95.0,2,Yes,Active,6.8,81.6,High,1
+PAT00098,55,Female,134,185,63,155,20.0,Never,Moderate,Yes,Atypical angina,Normal,No,96.3,6,Yes,Sedentary,5.6,71.1,High,1
+PAT00099,52,Male,135,268,95,97,31.0,Current,Heavy,No,Atypical angina,LV hypertrophy,No,97.7,3,No,Light,6.3,68.3,High,1
+PAT00100,48,Female,132,269,71,79,32.7,Never,Moderate,No,Typical angina,LV hypertrophy,Yes,98.0,8,Yes,Moderate,5.8,78.4,High,1
+PAT00101,32,Female,133,200,67,93,26.9,Never,None,No,None,ST-T abnormality,Yes,98.5,5,No,Sedentary,7.7,40.8,Medium,0
+PAT00102,46,Female,113,241,68,100,19.9,Never,None,No,Non-anginal,ST-T abnormality,Yes,99.5,3,Yes,Moderate,5.8,58.5,Medium,1
+PAT00103,47,Male,135,217,85,90,26.4,Former,Moderate,No,Atypical angina,Normal,No,94.6,10,No,Active,6.6,54.7,Medium,0
+PAT00104,40,Male,137,164,72,221,34.3,Current,Moderate,No,Typical angina,ST-T abnormality,No,97.0,7,Yes,Moderate,5.6,82.0,High,1
+PAT00105,49,Male,107,201,66,301,34.7,Never,Moderate,No,Non-anginal,Normal,No,95.3,8,Yes,Light,9.4,52.8,Medium,1
+PAT00106,57,Male,137,226,98,86,28.0,Never,Moderate,No,Asymptomatic,Normal,No,96.2,4,No,Active,7.3,39.6,Medium,0
+PAT00107,78,Male,139,232,63,87,22.1,Current,Moderate,Yes,Non-anginal,Normal,No,95.5,9,Yes,Active,7.3,91.2,High,1
+PAT00108,54,Female,130,213,75,80,35.7,Current,Heavy,No,Typical angina,Normal,Yes,98.0,6,No,Moderate,7.4,65.5,High,1
+PAT00109,55,Female,136,217,84,110,31.1,Former,Moderate,No,Atypical angina,Normal,No,99.1,1,Yes,Light,6.0,51.9,Medium,0
+PAT00110,50,Male,123,212,52,105,22.4,Current,Moderate,No,Typical angina,Normal,No,99.2,5,Yes,Moderate,8.5,61.0,Medium,1
+PAT00111,25,Male,106,189,81,100,28.7,Never,None,No,Non-anginal,ST-T abnormality,No,94.8,5,Yes,Light,6.4,48.0,Medium,0
+PAT00112,51,Male,130,184,60,88,28.5,Current,Moderate,No,Asymptomatic,ST-T abnormality,Yes,96.8,7,No,Light,8.8,73.6,High,1
+PAT00113,52,Female,117,195,86,203,23.8,Never,Heavy,Pre-diabetic,None,Normal,No,94.7,7,Yes,Light,6.1,61.3,Medium,0
+PAT00114,86,Male,137,216,61,83,28.7,Never,None,Yes,Atypical angina,Normal,Yes,94.7,6,No,Active,7.4,80.3,High,1
+PAT00115,49,Female,136,243,84,100,32.5,Former,Moderate,No,Non-anginal,ST-T abnormality,Yes,95.7,8,Yes,Moderate,6.7,78.4,High,1
+PAT00116,56,Male,119,158,90,211,25.5,Never,Moderate,No,Atypical angina,Normal,Yes,97.7,2,Yes,Moderate,6.8,50.7,Medium,0
+PAT00117,51,Female,137,250,87,86,33.0,Current,None,No,Atypical angina,LV hypertrophy,Yes,98.0,7,Yes,Light,4.3,97.0,High,1
+PAT00118,35,Female,125,240,78,91,18.2,Never,Moderate,Yes,Atypical angina,Normal,Yes,98.3,10,Yes,Light,5.2,66.5,High,1
+PAT00119,67,Male,118,224,71,80,38.1,Current,None,No,Typical angina,ST-T abnormality,No,98.2,7,No,Active,8.5,74.5,High,1
+PAT00120,62,Female,128,150,66,98,27.3,Current,Heavy,No,Asymptomatic,Normal,No,95.3,4,Yes,Moderate,4.8,67.7,High,1
+PAT00121,63,Male,151,218,95,124,32.4,Never,Moderate,Yes,Atypical angina,ST-T abnormality,No,99.4,10,No,Moderate,7.7,78.1,High,1
+PAT00122,39,Female,110,201,65,76,28.1,Current,None,Yes,None,LV hypertrophy,No,98.6,2,No,Light,9.9,49.8,Medium,0
+PAT00123,71,Male,136,207,60,86,22.9,Never,None,Yes,None,LV hypertrophy,Yes,96.2,4,Yes,Moderate,7.2,70.5,High,1
+PAT00124,32,Female,123,179,84,90,26.8,Current,Moderate,Pre-diabetic,None,LV hypertrophy,No,96.3,4,No,Active,9.3,44.6,Medium,0
+PAT00125,60,Female,144,272,63,96,17.5,Former,None,Pre-diabetic,Typical angina,Normal,Yes,95.7,6,No,Light,7.4,78.1,High,1
+PAT00126,82,Female,145,270,61,103,30.4,Former,None,No,Typical angina,ST-T abnormality,No,94.4,7,No,Sedentary,6.8,94.9,High,1
+PAT00127,38,Female,114,174,54,66,28.0,Former,Moderate,No,None,Normal,No,98.3,3,No,Light,7.0,29.5,Low,0
+PAT00128,44,Male,142,160,68,107,26.0,Never,None,Yes,Typical angina,ST-T abnormality,Yes,98.6,10,No,Active,6.3,77.4,High,1
+PAT00129,53,Male,151,208,73,216,30.8,Never,None,Yes,Non-anginal,Normal,No,95.1,1,No,Moderate,6.2,55.2,Medium,1
+PAT00130,44,Male,137,202,78,86,27.2,Never,Moderate,Pre-diabetic,None,LV hypertrophy,Yes,94.5,3,Yes,Moderate,5.8,69.9,High,1
+PAT00131,30,Male,118,208,88,81,30.0,Current,Heavy,No,Atypical angina,LV hypertrophy,Yes,95.1,9,Yes,Light,7.1,79.0,High,1
+PAT00132,52,Female,120,201,82,107,31.8,Former,Moderate,No,Asymptomatic,Normal,No,97.2,1,Yes,Moderate,9.4,38.6,Medium,1
+PAT00133,37,Male,111,216,72,88,24.3,Former,Moderate,No,Atypical angina,Normal,No,94.2,8,No,Moderate,8.4,41.7,Medium,0
+PAT00134,58,Female,140,282,72,277,22.8,Never,None,No,Non-anginal,Normal,No,99.3,2,Yes,Sedentary,6.8,56.0,Medium,1
+PAT00135,39,Female,127,227,82,103,18.4,Former,None,No,Atypical angina,ST-T abnormality,Yes,99.1,6,No,Active,7.3,49.6,Medium,0
+PAT00136,73,Female,159,239,92,176,27.6,Never,None,Yes,Non-anginal,Normal,No,97.8,3,No,Light,6.4,66.5,High,1
+PAT00137,41,Male,131,199,76,106,29.3,Current,Moderate,No,Non-anginal,LV hypertrophy,No,98.6,7,Yes,Light,8.3,62.0,Medium,1
+PAT00138,47,Female,109,201,68,164,20.4,Current,Heavy,Yes,Typical angina,ST-T abnormality,Yes,97.1,2,No,Light,4.4,75.8,High,1
+PAT00139,63,Female,149,264,61,78,34.1,Never,Moderate,Yes,Asymptomatic,ST-T abnormality,No,97.9,4,Yes,Sedentary,9.0,83.2,High,1
+PAT00140,34,Male,107,178,54,183,22.9,Never,Heavy,No,Asymptomatic,ST-T abnormality,Yes,94.4,10,Yes,Moderate,5.8,58.1,Medium,1
+PAT00141,55,Female,127,222,84,60,16.5,Never,Moderate,No,Typical angina,Normal,Yes,99.8,9,No,Sedentary,6.0,63.1,Medium,1
+PAT00142,70,Female,144,238,83,167,34.5,Former,None,Yes,None,LV hypertrophy,Yes,96.0,6,No,Moderate,4.9,84.9,High,1
+PAT00143,29,Male,140,177,83,86,17.1,Former,Moderate,Yes,Atypical angina,ST-T abnormality,Yes,96.7,4,No,Light,6.7,52.8,Medium,0
+PAT00144,54,Male,168,178,73,195,31.8,Current,None,Pre-diabetic,Non-anginal,LV hypertrophy,No,100.0,2,No,Light,5.6,67.9,High,1
+PAT00145,55,Male,139,230,94,139,30.6,Never,None,Pre-diabetic,Typical angina,Normal,Yes,96.6,10,Yes,Moderate,8.0,86.8,High,1
+PAT00146,62,Male,134,226,68,135,28.6,Current,Moderate,Pre-diabetic,None,ST-T abnormality,No,98.5,9,Yes,Moderate,7.4,74.8,High,1
+PAT00147,34,Male,126,212,88,83,24.4,Former,Moderate,No,None,Normal,No,98.0,4,No,Sedentary,5.6,42.7,Medium,0
+PAT00148,33,Male,129,180,74,86,29.5,Never,Moderate,Pre-diabetic,Typical angina,ST-T abnormality,No,94.3,9,No,Active,5.4,60.3,Medium,1
+PAT00149,59,Male,130,261,66,127,32.2,Former,Moderate,Yes,None,ST-T abnormality,Yes,95.0,2,Yes,Moderate,5.7,82.7,High,1
+PAT00150,56,Male,154,195,83,156,22.1,Never,None,Pre-diabetic,Atypical angina,ST-T abnormality,Yes,100.0,7,No,Sedentary,5.3,72.4,High,1
+PAT00151,55,Female,134,272,80,74,31.9,Former,Moderate,No,Non-anginal,ST-T abnormality,Yes,98.2,5,No,Light,6.1,65.0,Medium,1
+PAT00152,56,Female,138,169,79,102,31.7,Current,Moderate,Pre-diabetic,Typical angina,Normal,No,97.0,8,No,Light,5.4,77.4,High,1
+PAT00153,42,Female,132,219,76,129,28.5,Never,None,No,None,LV hypertrophy,Yes,95.9,8,Yes,Moderate,8.0,57.9,Medium,0
+PAT00154,55,Male,137,234,74,112,24.3,Current,Moderate,Yes,None,LV hypertrophy,Yes,97.6,4,No,Light,5.9,70.8,High,1
+PAT00155,56,Male,142,197,108,82,31.7,Former,Moderate,No,None,Normal,Yes,97.8,4,No,Light,7.2,58.5,Medium,1
+PAT00156,41,Male,116,218,91,101,29.5,Never,Moderate,No,None,LV hypertrophy,No,97.5,8,Yes,Sedentary,7.3,55.3,Medium,1
+PAT00157,78,Male,139,284,85,94,21.9,Former,Heavy,No,Typical angina,Normal,No,99.1,3,Yes,Light,4.1,74.9,High,1
+PAT00158,58,Male,120,157,76,116,25.2,Former,Heavy,No,Typical angina,ST-T abnormality,No,95.3,7,No,Moderate,7.4,62.3,Medium,1
+PAT00159,35,Female,125,213,89,175,31.1,Never,Heavy,No,None,Normal,No,95.0,8,No,Moderate,4.3,43.0,Medium,0
+PAT00160,61,Male,145,152,82,85,27.6,Never,None,Yes,None,LV hypertrophy,No,99.1,8,No,Sedentary,5.4,58.5,Medium,1
+PAT00161,38,Female,127,173,75,83,32.4,Never,None,No,None,Normal,No,100.0,10,No,Sedentary,7.4,34.5,Low,0
+PAT00162,63,Female,157,278,70,105,25.3,Never,None,No,Asymptomatic,Normal,No,98.7,4,No,Light,6.7,46.4,Medium,0
+PAT00163,68,Male,139,217,73,166,22.0,Never,None,No,Atypical angina,Normal,No,99.6,9,No,Moderate,6.1,55.0,Medium,1
+PAT00164,40,Male,131,168,45,87,38.0,Never,Heavy,No,Asymptomatic,Normal,No,96.9,10,No,Moderate,4.2,46.8,Medium,0
+PAT00165,65,Female,125,225,77,152,18.6,Never,Moderate,No,Non-anginal,ST-T abnormality,Yes,97.5,4,No,Sedentary,7.8,61.5,Medium,1
+PAT00166,57,Male,128,284,68,87,24.5,Current,None,No,Typical angina,Normal,No,97.5,8,Yes,Light,7.1,71.1,High,1
+PAT00167,63,Male,145,174,97,202,28.4,Never,None,No,Non-anginal,ST-T abnormality,No,96.9,6,No,Light,5.4,57.7,Medium,1
+PAT00168,78,Female,156,214,75,125,31.9,Current,None,Yes,None,LV hypertrophy,No,99.8,5,No,Active,5.2,81.0,High,1
+PAT00169,48,Male,124,257,58,81,30.2,Former,Moderate,No,Typical angina,ST-T abnormality,No,99.2,4,No,Light,7.8,68.9,High,1
+PAT00170,41,Female,122,261,74,96,38.6,Former,Moderate,No,None,LV hypertrophy,Yes,96.2,5,No,Light,6.9,61.6,Medium,1
+PAT00171,39,Female,104,199,60,85,26.4,Never,Heavy,No,Non-anginal,Normal,No,93.7,1,Yes,Light,4.7,43.1,Medium,0
+PAT00172,40,Male,118,167,81,127,22.6,Current,Heavy,Pre-diabetic,None,Normal,No,96.9,7,No,Light,5.6,48.8,Medium,0
+PAT00173,50,Male,139,278,79,79,25.9,Former,None,No,Non-anginal,Normal,Yes,94.7,8,Yes,Moderate,9.0,72.5,High,1
+PAT00174,56,Male,139,269,88,232,25.4,Current,None,No,None,Normal,No,97.0,9,No,Sedentary,7.8,66.4,High,1
+PAT00175,55,Male,138,241,63,147,26.7,Never,None,No,Asymptomatic,LV hypertrophy,No,94.8,3,Yes,Light,6.5,66.9,High,1
+PAT00176,63,Male,137,205,75,87,22.1,Never,None,No,Atypical angina,Normal,No,99.5,9,No,Moderate,6.5,51.3,Medium,0
+PAT00177,52,Female,130,215,55,96,30.9,Former,Heavy,No,Typical angina,LV hypertrophy,No,98.4,10,No,Light,3.7,67.9,High,1
+PAT00178,72,Male,134,234,84,87,28.9,Never,Moderate,No,Atypical angina,Normal,Yes,98.3,5,No,Moderate,8.2,57.7,Medium,1
+PAT00179,48,Male,136,222,82,90,20.7,Former,Moderate,No,Atypical angina,ST-T abnormality,No,99.1,10,No,Light,5.9,72.4,High,0
+PAT00180,90,Female,158,302,81,77,31.8,Never,Moderate,No,Typical angina,Normal,Yes,97.8,6,No,Moderate,5.4,77.1,High,1
+PAT00181,60,Female,141,252,75,82,22.9,Former,None,No,Asymptomatic,Normal,Yes,98.1,1,No,Sedentary,7.5,54.5,Medium,0
+PAT00182,39,Female,116,170,80,113,21.1,Current,None,Yes,None,ST-T abnormality,No,99.9,9,Yes,Active,5.7,69.1,High,1
+PAT00183,37,Male,95,242,97,78,27.4,Former,Moderate,Pre-diabetic,Asymptomatic,Normal,No,96.7,9,No,Sedentary,4.1,53.4,Medium,0
+PAT00184,58,Female,147,233,71,108,18.2,Current,Moderate,No,Typical angina,ST-T abnormality,No,98.2,6,No,Sedentary,7.0,74.9,High,1
+PAT00185,48,Male,122,233,76,93,29.9,Former,None,Yes,Non-anginal,ST-T abnormality,No,94.9,8,No,Moderate,4.5,68.1,High,1
+PAT00186,61,Male,125,271,59,81,15.0,Former,Moderate,Pre-diabetic,Atypical angina,Normal,No,97.2,4,Yes,Active,6.4,59.0,Medium,1
+PAT00187,58,Male,142,190,62,151,21.9,Current,Moderate,Yes,Atypical angina,LV hypertrophy,No,100.0,5,No,Sedentary,6.9,70.9,High,1
+PAT00188,50,Female,124,214,76,134,34.9,Current,Moderate,No,Asymptomatic,Normal,No,98.6,5,No,Active,6.1,55.2,Medium,1
+PAT00189,40,Male,135,188,90,76,23.6,Current,Moderate,Yes,Atypical angina,ST-T abnormality,Yes,96.8,7,No,Light,6.1,74.8,High,1
+PAT00190,30,Male,124,146,71,70,24.4,Never,Moderate,No,Typical angina,Normal,No,97.5,7,Yes,Moderate,8.5,45.1,Medium,0
+PAT00191,45,Male,134,220,71,94,33.4,Former,Moderate,No,None,ST-T abnormality,Yes,97.0,7,Yes,Sedentary,8.5,82.0,High,1
+PAT00192,63,Male,120,304,69,168,23.0,Never,Moderate,No,None,Normal,Yes,97.5,5,No,Light,5.3,56.0,Medium,1
+PAT00193,54,Female,146,164,67,102,30.8,Never,Heavy,No,Typical angina,Normal,No,96.2,4,No,Light,5.7,55.7,Medium,1
+PAT00194,34,Female,122,196,79,107,32.9,Former,None,No,Non-anginal,Normal,No,98.0,8,No,Moderate,5.8,44.8,Medium,0
+PAT00195,54,Female,127,238,54,86,29.4,Current,Moderate,No,Typical angina,Normal,No,98.1,1,No,Light,6.5,54.4,Medium,0
+PAT00196,57,Male,135,226,92,217,19.8,Current,None,Yes,None,Normal,No,97.0,1,No,Light,6.4,63.1,Medium,1
+PAT00197,39,Male,101,199,65,90,24.0,Never,None,No,Atypical angina,ST-T abnormality,No,97.3,6,No,Active,8.7,38.1,Medium,0
+PAT00198,54,Male,136,180,85,132,40.6,Never,Moderate,No,Atypical angina,ST-T abnormality,No,97.7,2,No,Sedentary,6.3,55.9,Medium,1
+PAT00199,52,Male,118,224,57,88,24.5,Current,Heavy,No,Atypical angina,Normal,No,95.9,3,No,Sedentary,5.2,69.0,High,1
+PAT00200,35,Male,103,175,84,76,41.9,Never,None,No,Asymptomatic,Normal,Yes,98.0,4,No,Moderate,5.7,41.5,Medium,0
+PAT00201,57,Female,115,157,84,71,35.5,Former,None,No,Non-anginal,Normal,No,98.6,2,No,Sedentary,7.0,49.3,Medium,0
+PAT00202,59,Male,147,260,80,87,29.6,Never,None,Pre-diabetic,None,Normal,No,99.9,10,No,Light,6.2,51.8,Medium,0
+PAT00203,67,Male,131,262,61,93,28.5,Never,Moderate,No,Asymptomatic,Normal,No,97.6,7,No,Light,6.9,45.9,Medium,0
+PAT00204,66,Male,157,234,78,102,24.7,Current,None,No,Atypical angina,Normal,No,95.9,10,Yes,Light,6.2,87.0,High,1
+PAT00205,32,Male,111,202,58,119,26.6,Never,None,Pre-diabetic,Non-anginal,LV hypertrophy,No,96.8,1,Yes,Active,7.4,43.0,Medium,0
+PAT00206,38,Male,101,234,71,170,23.6,Never,Moderate,No,None,ST-T abnormality,Yes,94.7,3,No,Light,6.4,39.1,Medium,0
+PAT00207,59,Female,121,231,89,103,26.7,Never,None,Pre-diabetic,Typical angina,Normal,No,98.5,2,No,Light,4.9,56.7,Medium,1
+PAT00208,59,Female,149,252,86,82,20.2,Current,Moderate,No,None,Normal,No,92.9,9,No,Sedentary,6.0,87.2,High,1
+PAT00209,59,Female,132,216,75,91,19.9,Current,Moderate,No,Atypical angina,ST-T abnormality,No,99.0,8,No,Sedentary,9.4,78.6,High,1
+PAT00210,90,Male,146,298,61,82,33.5,Never,None,No,None,Normal,No,99.3,3,Yes,Light,8.1,62.6,Medium,1
+PAT00211,59,Male,136,234,84,154,18.9,Never,Moderate,No,None,ST-T abnormality,No,91.1,5,No,Moderate,5.0,66.6,High,1
+PAT00212,67,Female,145,239,75,197,31.4,Former,Moderate,No,None,LV hypertrophy,No,99.6,3,Yes,Moderate,8.8,56.8,Medium,1
+PAT00213,65,Male,151,193,45,118,17.5,Never,Moderate,Pre-diabetic,None,ST-T abnormality,No,99.1,6,No,Moderate,6.7,52.7,Medium,0
+PAT00214,61,Female,153,235,85,100,30.1,Former,Moderate,Yes,None,Normal,No,96.4,5,Yes,Sedentary,5.9,77.7,High,1
+PAT00215,47,Male,123,186,74,145,26.0,Never,None,Yes,Typical angina,ST-T abnormality,No,94.6,2,Yes,Sedentary,6.1,71.9,High,1
+PAT00216,62,Male,120,209,91,97,33.6,Never,Moderate,Yes,None,LV hypertrophy,No,95.3,10,Yes,Active,6.6,80.5,High,1
+PAT00217,41,Male,118,180,59,242,25.3,Former,Moderate,No,Typical angina,ST-T abnormality,No,95.5,8,No,Sedentary,7.9,67.0,High,1
+PAT00218,48,Male,131,181,45,61,17.0,Never,None,Yes,None,ST-T abnormality,Yes,99.6,6,Yes,Active,6.7,65.4,High,1
+PAT00219,45,Female,114,273,78,88,26.1,Current,None,No,Asymptomatic,Normal,No,96.1,3,No,Moderate,6.9,51.3,Medium,0
+PAT00220,53,Male,119,258,79,88,27.8,Never,None,Yes,Asymptomatic,Normal,Yes,98.8,1,Yes,Active,8.1,58.0,Medium,1
+PAT00221,84,Male,153,310,51,157,26.3,Never,None,No,None,ST-T abnormality,No,96.8,5,Yes,Light,6.0,73.6,High,1
+PAT00222,25,Male,113,151,61,77,29.9,Current,Moderate,Yes,Typical angina,LV hypertrophy,No,97.1,2,No,Sedentary,6.9,63.4,Medium,1
+PAT00223,61,Male,136,229,113,160,24.2,Never,None,Pre-diabetic,None,ST-T abnormality,No,93.9,2,Yes,Moderate,7.1,63.2,Medium,1
+PAT00224,29,Female,107,153,70,104,20.7,Former,None,No,Asymptomatic,ST-T abnormality,No,94.7,9,Yes,Moderate,6.7,50.3,Medium,0
+PAT00225,45,Female,123,188,85,194,22.0,Never,Moderate,No,Typical angina,Normal,No,99.6,10,Yes,Sedentary,7.1,51.7,Medium,0
+PAT00226,67,Female,128,206,65,91,24.4,Former,None,No,None,Normal,No,96.7,7,No,Moderate,5.6,43.7,Medium,0
+PAT00227,52,Female,141,254,45,199,24.4,Former,Moderate,No,Atypical angina,Normal,Yes,97.6,6,Yes,Sedentary,7.8,69.9,High,1
+PAT00228,36,Male,133,187,72,180,39.0,Never,Moderate,Yes,None,Normal,Yes,100.0,1,Yes,Light,5.8,57.9,Medium,1
+PAT00229,41,Female,101,237,71,89,33.3,Current,None,Pre-diabetic,Atypical angina,ST-T abnormality,No,96.7,10,Yes,Active,7.1,77.3,High,1
+PAT00230,61,Male,124,245,69,116,30.4,Former,Moderate,No,Typical angina,Normal,No,96.6,2,Yes,Sedentary,6.8,80.8,High,1
+PAT00231,41,Male,105,274,73,103,29.2,Never,Moderate,No,Atypical angina,ST-T abnormality,Yes,99.4,7,No,Sedentary,5.6,59.1,Medium,1
+PAT00232,55,Female,124,176,78,75,28.5,Former,None,Yes,Atypical angina,ST-T abnormality,Yes,97.0,3,No,Sedentary,8.6,76.2,High,1
+PAT00233,52,Male,129,255,72,89,28.5,Former,None,No,None,Normal,No,97.6,2,No,Sedentary,8.7,47.0,Medium,0
+PAT00234,42,Female,107,240,57,141,27.8,Never,Moderate,No,None,Normal,Yes,99.0,6,No,Sedentary,5.3,41.0,Medium,1
+PAT00235,82,Male,137,221,81,64,27.2,Never,Heavy,Pre-diabetic,None,ST-T abnormality,No,97.0,8,Yes,Sedentary,7.5,80.2,High,1
+PAT00236,60,Female,123,256,47,65,16.5,Never,Moderate,Yes,Non-anginal,LV hypertrophy,No,98.6,8,No,Light,6.3,54.6,Medium,0
+PAT00237,23,Female,115,195,46,82,25.2,Never,None,No,None,ST-T abnormality,No,96.8,2,No,Moderate,5.6,30.5,Low,0
+PAT00238,54,Female,132,212,85,84,25.8,Current,Moderate,No,Typical angina,Normal,Yes,99.0,6,No,Active,7.0,58.0,Medium,1
+PAT00239,42,Female,115,181,82,81,23.3,Former,Moderate,Yes,Atypical angina,Normal,Yes,97.8,5,No,Light,7.6,57.9,Medium,1
+PAT00240,63,Female,139,207,74,100,24.2,Current,Moderate,Yes,None,Normal,Yes,96.5,7,No,Sedentary,6.7,82.3,High,1
+PAT00241,40,Male,116,265,55,87,28.5,Never,Moderate,Yes,Typical angina,Normal,No,97.1,4,No,Sedentary,6.0,62.0,Medium,1
+PAT00242,50,Male,125,215,65,85,30.8,Never,Moderate,No,Atypical angina,ST-T abnormality,Yes,92.1,2,No,Moderate,8.2,59.2,Medium,1
+PAT00243,59,Male,154,248,71,75,28.5,Current,Moderate,Pre-diabetic,Atypical angina,ST-T abnormality,No,99.4,10,Yes,Moderate,8.3,87.7,High,1
+PAT00244,64,Female,153,206,52,141,30.7,Former,Moderate,No,Typical angina,Normal,No,94.5,3,Yes,Active,5.6,80.4,High,1
+PAT00245,35,Male,104,175,64,90,30.8,Former,Moderate,Yes,Atypical angina,Normal,No,94.9,9,No,Sedentary,6.6,60.0,Medium,1
+PAT00246,47,Female,137,244,84,91,25.5,Never,None,No,Atypical angina,Normal,No,96.1,10,No,Moderate,4.4,61.4,Medium,1
+PAT00247,45,Male,135,169,94,91,29.6,Never,Moderate,No,Typical angina,LV hypertrophy,No,93.4,8,No,Light,7.6,64.4,Medium,1
+PAT00248,42,Male,110,193,69,197,18.3,Never,Heavy,Pre-diabetic,Typical angina,Normal,No,97.9,9,No,Active,8.2,46.3,Medium,1
+PAT00249,76,Female,154,244,85,146,25.1,Current,None,No,None,ST-T abnormality,Yes,97.7,5,Yes,Moderate,7.0,89.2,High,0
+PAT00250,57,Male,151,226,48,87,24.5,Never,Moderate,No,Atypical angina,Normal,No,96.0,5,No,Light,5.2,63.5,Medium,1
+PAT00251,34,Male,106,192,84,206,34.7,Current,None,Yes,None,ST-T abnormality,No,95.6,7,No,Moderate,8.6,63.6,Medium,1
+PAT00252,64,Male,126,242,63,70,28.7,Former,Moderate,Yes,None,Normal,Yes,95.6,7,No,Moderate,9.1,69.4,High,1
+PAT00253,81,Female,160,270,79,133,20.3,Never,Moderate,Yes,Typical angina,Normal,No,98.2,1,Yes,Light,5.9,90.8,High,1
+PAT00254,66,Female,142,254,71,169,30.0,Former,None,No,Asymptomatic,ST-T abnormality,No,93.8,5,No,Sedentary,7.1,71.3,High,1
+PAT00255,30,Male,123,163,93,81,31.5,Current,Heavy,No,Asymptomatic,ST-T abnormality,Yes,96.2,8,No,Light,7.6,67.1,High,0
+PAT00256,45,Male,130,201,62,160,26.6,Current,None,Pre-diabetic,None,Normal,No,93.9,7,No,Sedentary,7.5,66.3,High,1
+PAT00257,69,Male,145,271,83,90,30.5,Never,Moderate,No,Atypical angina,Normal,Yes,98.5,2,No,Light,6.6,55.2,Medium,1
+PAT00258,42,Female,108,233,71,87,15.0,Never,Moderate,Pre-diabetic,Typical angina,Normal,No,96.3,8,Yes,Active,8.8,56.8,Medium,1
+PAT00259,58,Female,146,182,72,83,15.0,Never,None,No,None,Normal,Yes,98.1,2,No,Moderate,4.5,51.3,Medium,0
+PAT00260,62,Male,150,238,72,75,21.1,Never,None,Yes,Non-anginal,ST-T abnormality,No,99.5,10,Yes,Moderate,4.5,70.6,High,1
+PAT00261,39,Male,119,143,63,87,27.7,Former,None,No,Non-anginal,LV hypertrophy,No,99.5,1,No,Moderate,6.5,36.0,Medium,0
+PAT00262,51,Male,129,217,74,247,34.7,Current,Moderate,No,Asymptomatic,Normal,No,95.0,3,No,Moderate,8.8,58.7,Medium,1
+PAT00263,18,Female,91,236,74,99,21.4,Never,Moderate,Pre-diabetic,None,Normal,No,97.6,3,No,Active,8.0,15.6,Low,0
+PAT00264,37,Female,127,172,78,99,22.7,Former,None,No,None,Normal,Yes,99.2,6,Yes,Moderate,4.6,44.1,Medium,0
+PAT00265,48,Male,134,187,76,177,27.4,Former,None,Yes,Non-anginal,Normal,Yes,98.4,3,No,Light,10.2,51.2,Medium,0
+PAT00266,34,Male,118,220,86,83,24.5,Never,None,Yes,Typical angina,Normal,Yes,98.6,7,No,Light,7.2,56.8,Medium,1
+PAT00267,74,Male,157,195,87,81,24.3,Never,Moderate,Yes,Asymptomatic,ST-T abnormality,No,93.4,8,No,Light,5.0,76.3,High,1
+PAT00268,31,Female,113,175,60,150,24.9,Former,Moderate,Pre-diabetic,None,Normal,Yes,98.4,3,Yes,Light,6.4,55.1,Medium,1
+PAT00269,45,Male,132,227,87,138,33.6,Current,None,No,Typical angina,ST-T abnormality,No,95.4,9,Yes,Light,7.8,82.4,High,1
+PAT00270,53,Female,118,199,58,93,32.6,Former,Moderate,No,Typical angina,LV hypertrophy,No,98.3,1,Yes,Moderate,8.1,55.3,Medium,1
+PAT00271,72,Female,142,232,83,95,27.1,Never,None,No,None,LV hypertrophy,No,98.3,3,No,Moderate,6.4,57.2,Medium,1
+PAT00272,31,Male,115,216,83,164,35.3,Never,Heavy,No,Typical angina,LV hypertrophy,No,98.2,3,No,Sedentary,7.2,46.8,Medium,0
+PAT00273,68,Male,142,247,48,75,29.5,Never,Heavy,No,Typical angina,ST-T abnormality,Yes,96.8,7,No,Active,6.3,79.0,High,1
+PAT00274,52,Male,125,225,76,183,32.8,Former,Moderate,No,None,LV hypertrophy,No,99.6,5,No,Light,6.4,52.4,Medium,0
+PAT00275,38,Female,120,191,68,105,22.7,Current,Heavy,No,None,Normal,No,98.0,4,Yes,Moderate,7.4,38.4,Medium,0
+PAT00276,58,Female,143,235,64,133,23.7,Never,Moderate,No,Typical angina,Normal,Yes,97.6,2,Yes,Moderate,8.4,67.4,High,1
+PAT00277,54,Female,126,215,93,131,23.7,Current,Moderate,No,Atypical angina,Normal,Yes,95.1,7,Yes,Moderate,5.0,82.0,High,1
+PAT00278,43,Male,105,221,65,83,26.6,Former,Moderate,Yes,Asymptomatic,ST-T abnormality,Yes,97.8,3,No,Light,6.2,65.0,High,1
+PAT00279,52,Male,151,202,63,77,27.3,Former,None,No,Atypical angina,LV hypertrophy,No,100.0,7,Yes,Moderate,5.7,59.6,Medium,1
+PAT00280,46,Female,143,205,76,158,28.6,Current,None,No,None,Normal,No,94.2,10,Yes,Sedentary,5.2,80.1,High,1
+PAT00281,53,Female,115,188,84,130,36.9,Never,None,Pre-diabetic,Asymptomatic,ST-T abnormality,No,98.5,7,No,Moderate,5.1,51.4,Medium,0
+PAT00282,61,Male,144,226,73,97,30.6,Current,Moderate,No,Asymptomatic,ST-T abnormality,No,98.7,2,No,Light,6.5,64.1,Medium,1
+PAT00283,74,Female,137,217,91,177,24.4,Never,None,Pre-diabetic,None,LV hypertrophy,Yes,100.0,7,No,Moderate,5.1,59.0,Medium,0
+PAT00284,34,Female,122,164,82,210,27.0,Never,None,Yes,Non-anginal,ST-T abnormality,Yes,98.5,6,No,Sedentary,5.1,59.4,Medium,1
+PAT00285,81,Female,151,257,45,96,34.5,Current,Moderate,No,None,LV hypertrophy,Yes,97.0,10,Yes,Moderate,6.3,100.0,High,1
+PAT00286,24,Female,110,192,67,148,30.9,Current,None,Yes,None,Normal,No,97.8,4,No,Sedentary,5.2,45.6,Medium,0
+PAT00287,49,Female,119,237,67,81,34.5,Former,Moderate,Yes,None,Normal,Yes,96.5,5,No,Active,7.2,62.1,Medium,1
+PAT00288,60,Female,126,213,81,83,24.6,Former,Heavy,No,None,Normal,Yes,99.4,8,No,Active,5.9,55.3,Medium,1
+PAT00289,55,Male,121,232,45,99,23.4,Former,Moderate,Pre-diabetic,Non-anginal,Normal,No,93.9,5,No,Light,4.9,54.0,Medium,0
+PAT00290,43,Male,115,224,110,68,23.5,Current,Moderate,No,Non-anginal,Normal,No,96.0,3,No,Light,9.5,48.1,Medium,0
+PAT00291,49,Female,127,227,82,144,25.0,Never,Moderate,No,Asymptomatic,ST-T abnormality,Yes,97.9,2,Yes,Moderate,3.7,60.7,Medium,1
+PAT00292,45,Male,117,184,77,99,21.7,Current,Moderate,No,Non-anginal,ST-T abnormality,No,99.3,6,No,Sedentary,7.6,51.2,Medium,0
+PAT00293,43,Male,133,211,91,89,28.5,Former,None,No,Atypical angina,ST-T abnormality,Yes,97.0,6,Yes,Sedentary,6.9,77.8,High,1
+PAT00294,63,Male,154,240,107,129,28.6,Former,Heavy,No,Typical angina,Normal,No,95.4,7,Yes,Sedentary,5.9,92.4,High,1
+PAT00295,56,Male,125,222,87,184,33.7,Never,None,Pre-diabetic,Asymptomatic,Normal,Yes,96.6,8,No,Moderate,5.3,59.2,Medium,1
+PAT00296,42,Female,127,143,88,106,18.2,Former,None,No,Non-anginal,Normal,Yes,96.3,4,Yes,Sedentary,8.7,49.1,Medium,0
+PAT00297,64,Female,143,235,76,82,22.3,Current,Moderate,No,Non-anginal,Normal,No,96.4,8,No,Light,9.3,61.9,Medium,1
+PAT00298,56,Male,138,288,73,75,31.0,Former,None,No,Asymptomatic,ST-T abnormality,Yes,96.1,1,Yes,Moderate,6.1,69.8,High,1
+PAT00299,63,Male,137,218,68,107,27.9,Current,None,Pre-diabetic,None,Normal,No,96.1,6,Yes,Sedentary,5.9,81.5,High,1
+PAT00300,60,Male,144,204,63,192,27.2,Never,None,Pre-diabetic,Non-anginal,Normal,No,93.6,6,No,Sedentary,8.0,60.1,Medium,1
+PAT00301,40,Female,128,215,65,100,33.3,Former,None,Yes,Asymptomatic,ST-T abnormality,No,97.6,3,No,Active,6.2,59.9,Medium,1
+PAT00302,44,Female,110,217,56,171,22.0,Current,None,Pre-diabetic,Asymptomatic,Normal,No,98.3,9,Yes,Moderate,7.3,59.2,Medium,1
+PAT00303,62,Male,146,264,73,78,23.4,Former,None,Yes,None,LV hypertrophy,Yes,100.0,5,No,Light,7.2,67.2,High,1
+PAT00304,60,Female,145,188,51,78,22.8,Former,Moderate,Pre-diabetic,Typical angina,Normal,Yes,98.7,1,No,Sedentary,6.5,62.6,Medium,1
+PAT00305,51,Female,120,238,77,72,16.9,Former,Moderate,Yes,Typical angina,LV hypertrophy,No,98.6,7,Yes,Moderate,6.7,66.6,High,1
+PAT00306,53,Female,131,236,74,187,27.7,Current,None,No,None,Normal,No,97.6,10,Yes,Sedentary,7.0,76.4,High,1
+PAT00307,69,Female,148,231,77,100,24.4,Current,Heavy,No,Typical angina,ST-T abnormality,No,93.5,3,No,Active,5.1,85.7,High,1
+PAT00308,43,Male,122,217,67,103,23.3,Never,None,Yes,None,Normal,Yes,97.6,10,No,Moderate,5.6,55.2,Medium,1
+PAT00309,59,Female,147,255,118,102,22.4,Current,None,No,Atypical angina,ST-T abnormality,Yes,97.2,10,No,Active,6.8,85.2,High,1
+PAT00310,49,Male,156,240,94,94,26.9,Never,None,No,Atypical angina,Normal,No,99.1,4,No,Moderate,5.9,39.3,Medium,0
+PAT00311,48,Female,118,178,57,231,23.0,Never,Moderate,No,Typical angina,Normal,No,98.1,6,No,Light,10.1,38.9,Medium,0
+PAT00312,67,Female,122,258,78,116,28.1,Current,Moderate,Pre-diabetic,Atypical angina,LV hypertrophy,No,96.7,8,Yes,Moderate,6.7,79.6,High,0
+PAT00313,63,Female,140,227,66,143,29.3,Never,Moderate,No,Atypical angina,Normal,No,100.0,4,No,Moderate,4.2,48.3,Medium,0
+PAT00314,63,Female,145,231,60,76,25.5,Current,Moderate,Yes,None,Normal,Yes,98.7,9,No,Moderate,3.0,80.4,High,1
+PAT00315,70,Male,138,239,56,75,25.2,Never,Moderate,Yes,None,Normal,No,97.7,8,Yes,Sedentary,7.6,66.6,High,1
+PAT00316,52,Female,147,212,81,84,27.9,Never,Moderate,Pre-diabetic,None,ST-T abnormality,Yes,97.9,10,No,Light,6.7,69.6,High,1
+PAT00317,61,Female,119,263,65,149,26.9,Former,Heavy,Pre-diabetic,None,Normal,Yes,97.1,10,No,Sedentary,8.4,75.2,High,1
+PAT00318,47,Female,135,209,88,81,33.7,Never,None,Yes,Typical angina,Normal,Yes,97.0,6,Yes,Moderate,5.7,79.0,High,1
+PAT00319,56,Male,125,188,88,183,28.6,Current,None,No,Non-anginal,Normal,Yes,92.7,7,Yes,Moderate,6.3,83.5,High,1
+PAT00320,50,Male,149,203,94,98,32.5,Never,Moderate,No,None,ST-T abnormality,Yes,95.2,8,Yes,Active,6.9,78.1,High,0
+PAT00321,53,Male,154,223,63,110,30.1,Never,Moderate,No,None,ST-T abnormality,Yes,95.9,2,Yes,Moderate,6.3,74.9,High,1
+PAT00322,60,Female,126,263,81,204,20.4,Never,None,Yes,Non-anginal,Normal,No,97.9,5,No,Moderate,6.2,54.7,Medium,0
+PAT00323,40,Female,116,222,83,88,24.2,Never,None,Pre-diabetic,Atypical angina,Normal,No,93.7,7,Yes,Light,7.4,61.7,Medium,1
+PAT00324,81,Male,158,223,68,187,26.8,Current,Moderate,Yes,Asymptomatic,Normal,No,96.0,8,No,Light,5.4,80.9,High,1
+PAT00325,37,Male,116,275,64,107,31.3,Never,Moderate,No,Non-anginal,Normal,Yes,95.7,5,No,Active,7.2,46.2,Medium,0
+PAT00326,35,Female,119,206,97,83,36.6,Former,None,No,Atypical angina,Normal,No,97.2,3,No,Moderate,8.9,38.1,Medium,0
+PAT00327,68,Female,140,273,78,86,24.6,Current,Heavy,No,None,Normal,No,97.9,6,No,Moderate,8.7,54.1,Medium,0
+PAT00328,63,Female,113,224,83,89,27.3,Former,Moderate,No,Typical angina,Normal,No,95.7,5,No,Light,4.2,62.0,Medium,1
+PAT00329,60,Female,135,242,63,64,31.0,Current,Moderate,No,None,LV hypertrophy,Yes,95.9,8,No,Moderate,5.9,71.9,High,1
+PAT00330,60,Male,126,251,57,108,26.7,Never,Moderate,No,None,Normal,No,95.6,9,No,Active,6.9,54.9,Medium,0
+PAT00331,51,Male,123,252,67,83,35.2,Never,Heavy,Yes,None,ST-T abnormality,No,96.2,9,No,Sedentary,8.2,66.2,High,1
+PAT00332,39,Female,139,234,73,86,20.3,Current,None,No,Non-anginal,Normal,No,96.9,6,Yes,Moderate,6.8,60.6,Medium,1
+PAT00333,53,Female,115,244,60,127,30.4,Former,None,No,Typical angina,Normal,Yes,99.6,4,Yes,Light,8.2,75.2,High,1
+PAT00334,42,Female,134,196,74,141,30.3,Former,Moderate,Pre-diabetic,None,LV hypertrophy,No,95.0,4,No,Sedentary,5.6,60.0,Medium,1
+PAT00335,65,Female,134,214,51,91,32.8,Former,Moderate,No,Typical angina,Normal,No,100.0,9,No,Moderate,6.9,58.1,Medium,1
+PAT00336,49,Female,125,224,59,151,27.3,Never,None,No,Atypical angina,Normal,Yes,94.5,4,No,Sedentary,7.0,62.6,Medium,1
+PAT00337,40,Male,132,232,84,103,31.5,Never,Heavy,No,Typical angina,ST-T abnormality,No,98.9,8,No,Light,8.2,56.4,Medium,1
+PAT00338,47,Male,131,205,83,70,25.8,Current,Moderate,No,None,Normal,No,96.0,9,Yes,Moderate,7.7,59.4,Medium,1
+PAT00339,57,Male,140,254,69,85,23.0,Former,None,No,Typical angina,Normal,No,95.2,5,No,Moderate,7.4,63.1,Medium,1
+PAT00340,44,Male,137,252,60,114,22.3,Former,None,No,Asymptomatic,Normal,No,99.6,6,No,Light,7.6,37.4,Medium,0
+PAT00341,40,Female,119,176,60,92,19.8,Current,None,No,None,Normal,Yes,97.2,3,No,Active,4.9,59.6,Medium,1
+PAT00342,55,Female,124,195,69,74,24.8,Never,Moderate,No,None,ST-T abnormality,No,97.1,5,Yes,Sedentary,6.3,60.3,Medium,0
+PAT00343,55,Male,119,216,84,233,28.6,Never,Heavy,No,None,Normal,No,96.4,5,No,Active,5.2,45.1,Medium,0
+PAT00344,44,Male,115,217,87,118,26.0,Current,Moderate,Pre-diabetic,None,Normal,Yes,95.8,2,Yes,Moderate,5.7,66.7,High,1
+PAT00345,45,Female,161,193,68,75,28.0,Current,Heavy,No,Atypical angina,Normal,Yes,96.6,10,No,Light,6.3,85.7,High,1
+PAT00346,55,Male,147,261,58,82,33.2,Former,Moderate,Pre-diabetic,Non-anginal,Normal,No,90.5,6,Yes,Sedentary,3.6,87.8,High,1
+PAT00347,31,Female,101,207,78,98,24.4,Never,Moderate,No,Asymptomatic,LV hypertrophy,No,93.3,9,Yes,Light,6.3,57.0,Medium,1
+PAT00348,32,Female,102,196,63,64,38.7,Never,Moderate,No,None,Normal,Yes,97.8,7,No,Sedentary,5.5,39.2,Medium,0
+PAT00349,41,Female,129,162,67,88,30.8,Former,Moderate,Yes,Typical angina,LV hypertrophy,Yes,99.4,8,Yes,Moderate,5.1,94.0,High,0
+PAT00350,49,Male,135,174,93,103,26.0,Never,Moderate,No,Typical angina,ST-T abnormality,No,99.7,2,Yes,Light,6.6,60.1,Medium,1
+PAT00351,56,Male,139,230,86,195,25.9,Current,None,No,Typical angina,ST-T abnormality,Yes,95.1,9,Yes,Light,6.0,95.9,High,1
+PAT00352,72,Female,139,175,77,98,22.0,Current,Moderate,Yes,Atypical angina,Normal,No,97.4,3,Yes,Moderate,6.9,77.7,High,1
+PAT00353,64,Female,136,260,57,99,26.9,Current,None,No,None,Normal,No,92.6,10,No,Sedentary,5.7,86.4,High,1
+PAT00354,49,Male,132,209,77,76,16.2,Never,Moderate,Yes,Atypical angina,LV hypertrophy,No,96.3,5,No,Moderate,6.3,53.7,Medium,0
+PAT00355,51,Female,130,313,89,188,33.3,Current,Moderate,Pre-diabetic,Atypical angina,LV hypertrophy,No,98.6,7,Yes,Sedentary,9.7,84.5,High,1
+PAT00356,37,Male,94,270,69,99,15.0,Never,None,No,Non-anginal,Normal,No,97.0,4,No,Moderate,7.3,22.0,Low,0
+PAT00357,51,Female,127,210,93,114,27.2,Never,None,No,Non-anginal,Normal,No,96.3,7,Yes,Moderate,5.4,54.2,Medium,0
+PAT00358,47,Male,117,208,93,198,21.3,Never,Moderate,No,None,Normal,No,97.0,8,No,Moderate,8.1,36.9,Medium,0
+PAT00359,56,Female,134,251,98,83,23.5,Never,Moderate,Pre-diabetic,None,LV hypertrophy,No,99.6,10,No,Sedentary,8.5,57.7,Medium,1
+PAT00360,40,Male,159,255,79,91,24.1,Current,None,Yes,Asymptomatic,Normal,No,96.5,10,Yes,Sedentary,7.3,78.7,High,1
+PAT00361,59,Male,139,175,83,99,36.6,Never,Moderate,Pre-diabetic,Typical angina,ST-T abnormality,No,97.1,4,Yes,Sedentary,5.5,79.4,High,1
+PAT00362,73,Male,139,186,94,81,21.5,Never,None,No,Asymptomatic,ST-T abnormality,Yes,100.0,5,No,Sedentary,7.8,55.4,Medium,1
+PAT00363,50,Male,140,196,81,81,31.6,Current,None,Yes,None,ST-T abnormality,No,96.5,3,No,Sedentary,5.7,79.7,High,1
+PAT00364,57,Female,139,240,67,234,32.8,Never,None,No,Typical angina,ST-T abnormality,Yes,93.7,5,Yes,Moderate,8.3,80.7,High,1
+PAT00365,61,Female,140,242,68,134,15.3,Current,None,No,Typical angina,Normal,No,99.7,8,Yes,Moderate,6.2,68.4,High,1
+PAT00366,46,Male,134,242,78,97,23.9,Never,Moderate,Pre-diabetic,Asymptomatic,LV hypertrophy,No,99.0,3,Yes,Moderate,6.1,53.8,Medium,0
+PAT00367,55,Male,156,184,56,89,34.4,Never,Heavy,No,None,ST-T abnormality,No,92.6,5,No,Light,7.2,62.2,Medium,0
+PAT00368,52,Female,116,147,72,104,20.4,Current,Moderate,Pre-diabetic,None,ST-T abnormality,Yes,96.7,10,No,Light,8.3,81.0,High,1
+PAT00369,53,Female,136,244,90,165,33.0,Never,Moderate,No,Atypical angina,Normal,No,97.0,1,Yes,Active,9.6,53.8,Medium,0
+PAT00370,41,Female,112,180,45,202,26.9,Former,None,Yes,Asymptomatic,ST-T abnormality,No,99.7,2,No,Light,6.5,37.6,Medium,0
+PAT00371,52,Male,137,156,96,86,26.7,Never,Moderate,No,Asymptomatic,Normal,No,97.0,3,No,Moderate,6.0,29.3,Low,0
+PAT00372,58,Male,122,228,90,89,27.3,Never,None,No,Asymptomatic,Normal,Yes,97.3,1,No,Active,5.4,42.2,Medium,0
+PAT00373,72,Female,137,263,68,92,28.7,Never,Moderate,No,Asymptomatic,ST-T abnormality,Yes,97.4,9,No,Active,4.6,75.8,High,0
+PAT00374,65,Male,134,228,82,86,22.2,Never,Heavy,No,None,Normal,No,96.1,9,No,Light,5.2,58.1,Medium,1
+PAT00375,82,Female,160,236,75,88,25.7,Never,None,No,None,ST-T abnormality,No,99.6,5,No,Moderate,6.8,55.2,Medium,1
+PAT00376,41,Male,134,200,92,77,28.9,Current,Moderate,Yes,None,Normal,No,95.4,4,Yes,Light,7.9,76.0,High,1
+PAT00377,64,Female,122,219,88,112,27.9,Former,None,No,Atypical angina,ST-T abnormality,No,96.0,5,No,Moderate,5.3,64.9,Medium,1
+PAT00378,54,Male,132,179,55,96,28.7,Never,None,No,Non-anginal,Normal,No,97.0,4,No,Active,7.5,35.0,Medium,0
+PAT00379,82,Female,139,228,83,128,23.4,Never,None,No,Asymptomatic,ST-T abnormality,Yes,94.3,5,No,Light,5.4,81.1,High,1
+PAT00380,40,Male,108,219,72,99,30.2,Current,None,No,None,Normal,Yes,100.0,7,Yes,Moderate,5.5,56.6,Medium,1
+PAT00381,40,Female,120,213,76,78,27.6,Current,None,Yes,Typical angina,ST-T abnormality,No,97.0,8,Yes,Moderate,5.1,88.9,High,1
+PAT00382,43,Male,121,212,64,73,19.1,Former,None,Pre-diabetic,Asymptomatic,ST-T abnormality,No,98.6,2,No,Light,8.2,48.4,Medium,0
+PAT00383,22,Female,141,154,99,82,24.3,Current,Moderate,No,Atypical angina,Normal,No,95.1,4,No,Moderate,8.6,47.6,Medium,0
+PAT00384,44,Female,130,203,89,142,22.5,Never,None,No,None,Normal,No,98.4,8,No,Light,5.6,38.4,Medium,0
+PAT00385,41,Female,107,139,64,137,22.5,Never,Moderate,Yes,Atypical angina,ST-T abnormality,No,98.6,7,Yes,Sedentary,5.4,66.8,High,0
+PAT00386,54,Female,124,224,56,90,24.6,Former,Heavy,No,Atypical angina,ST-T abnormality,No,98.9,9,No,Active,7.3,64.1,Medium,1
+PAT00387,56,Female,145,264,69,81,30.1,Former,Moderate,No,Typical angina,ST-T abnormality,No,100.0,5,No,Light,8.7,66.6,High,1
+PAT00388,78,Female,171,201,81,86,23.9,Former,None,No,Atypical angina,ST-T abnormality,No,95.9,6,Yes,Light,8.6,83.9,High,1
+PAT00389,65,Male,119,214,78,108,28.1,Never,None,No,None,Normal,Yes,96.6,8,Yes,Moderate,6.0,67.8,High,1
+PAT00390,43,Female,102,217,92,81,27.3,Current,Heavy,No,Asymptomatic,Normal,No,95.3,5,No,Active,6.3,46.0,Medium,0
+PAT00391,39,Male,145,240,86,91,23.1,Current,Moderate,No,Typical angina,Normal,No,96.8,9,No,Active,4.9,65.0,High,1
+PAT00392,58,Male,138,210,88,127,25.3,Never,Moderate,Yes,Atypical angina,Normal,No,98.3,4,No,Light,6.0,51.8,Medium,0
+PAT00393,33,Male,108,175,79,94,31.3,Former,None,No,Asymptomatic,ST-T abnormality,No,98.2,8,No,Light,6.6,37.3,Medium,0
+PAT00394,77,Male,151,185,55,176,27.7,Never,Moderate,No,None,Normal,Yes,100.0,3,No,Light,4.7,49.8,Medium,0
+PAT00395,68,Female,108,238,72,92,29.7,Never,None,No,None,LV hypertrophy,Yes,98.0,5,Yes,Light,5.8,69.8,High,1
+PAT00396,45,Female,126,270,89,86,33.4,Never,Heavy,No,Non-anginal,ST-T abnormality,No,97.0,8,No,Active,6.8,47.3,Medium,0
+PAT00397,28,Female,119,199,74,150,29.2,Never,Heavy,No,None,LV hypertrophy,Yes,94.8,10,Yes,Moderate,4.5,65.2,High,1
+PAT00398,70,Male,152,236,82,134,17.4,Never,None,Pre-diabetic,Non-anginal,LV hypertrophy,No,98.7,7,No,Sedentary,7.1,70.3,High,1
+PAT00399,50,Male,117,224,70,72,28.4,Current,Moderate,No,None,Normal,Yes,96.7,1,No,Sedentary,7.8,58.8,Medium,1
+PAT00400,69,Male,141,235,60,100,23.9,Never,None,Yes,None,ST-T abnormality,No,98.8,4,Yes,Active,7.2,61.4,Medium,1
+PAT00401,29,Male,105,167,73,99,36.1,Former,Moderate,No,Typical angina,Normal,No,96.2,2,Yes,Moderate,5.9,48.8,Medium,0
+PAT00402,43,Male,128,232,79,76,29.0,Never,Heavy,Yes,None,Normal,No,99.4,2,Yes,Light,8.0,50.7,Medium,0
+PAT00403,52,Male,119,224,65,114,24.0,Never,Moderate,No,Non-anginal,ST-T abnormality,Yes,97.8,7,No,Moderate,8.3,53.0,Medium,0
+PAT00404,52,Male,125,217,71,96,29.8,Current,None,No,Typical angina,Normal,No,99.0,3,No,Light,6.9,57.3,Medium,1
+PAT00405,45,Female,114,180,61,73,27.5,Former,None,Yes,Asymptomatic,LV hypertrophy,Yes,97.8,3,No,Moderate,6.7,59.2,Medium,1
+PAT00406,60,Female,143,265,90,74,18.4,Current,Moderate,No,Non-anginal,ST-T abnormality,No,95.1,6,No,Moderate,5.7,75.4,High,1
+PAT00407,37,Female,131,220,70,217,31.3,Current,Moderate,Yes,None,ST-T abnormality,Yes,96.3,6,No,Moderate,6.0,75.7,High,1
+PAT00408,50,Female,126,198,95,96,25.0,Never,Moderate,No,Non-anginal,Normal,No,94.4,1,Yes,Light,7.9,52.8,Medium,0
+PAT00409,53,Female,131,248,96,216,34.1,Never,None,Pre-diabetic,Typical angina,ST-T abnormality,Yes,97.4,1,No,Light,8.9,73.1,High,0
+PAT00410,59,Male,117,210,73,74,26.4,Current,None,Yes,Typical angina,Normal,No,94.1,6,Yes,Sedentary,6.0,82.0,High,1
+PAT00411,61,Female,132,203,60,113,34.2,Current,Heavy,Pre-diabetic,Non-anginal,ST-T abnormality,No,97.6,7,No,Active,6.3,69.9,High,1
+PAT00412,36,Female,120,177,45,93,29.1,Former,Moderate,No,Typical angina,Normal,Yes,89.8,9,Yes,Active,5.7,80.7,High,1
+PAT00413,30,Male,148,140,54,159,31.9,Current,Moderate,No,Atypical angina,ST-T abnormality,Yes,98.6,4,No,Moderate,5.9,67.8,High,1
+PAT00414,69,Male,127,250,55,95,24.5,Current,Moderate,Yes,Typical angina,Normal,Yes,94.8,10,No,Active,4.9,94.6,High,1
+PAT00415,56,Female,150,166,94,209,28.8,Never,Moderate,Pre-diabetic,None,Normal,No,95.1,6,Yes,Moderate,7.1,59.7,Medium,1
+PAT00416,41,Male,135,168,76,186,18.4,Former,None,Pre-diabetic,None,Normal,No,99.7,3,No,Sedentary,4.9,35.5,Medium,0
+PAT00417,73,Female,146,178,80,81,26.4,Current,None,No,Typical angina,Normal,No,97.6,4,Yes,Moderate,5.8,72.1,High,1
+PAT00418,53,Female,152,215,45,184,19.6,Former,Moderate,Yes,None,ST-T abnormality,No,98.7,9,No,Light,6.4,72.2,High,1
+PAT00419,68,Male,144,230,58,149,21.3,Never,Moderate,No,None,Normal,No,95.0,1,Yes,Light,4.8,52.9,Medium,0
+PAT00420,52,Male,135,207,87,91,22.5,Never,Moderate,No,None,Normal,No,98.9,5,Yes,Light,5.5,51.4,Medium,0
+PAT00421,80,Male,146,216,79,171,30.3,Never,Heavy,No,Typical angina,ST-T abnormality,Yes,96.7,7,No,Light,5.0,94.0,High,1
+PAT00422,76,Male,159,208,72,218,26.3,Never,None,No,Atypical angina,Normal,Yes,97.2,3,No,Moderate,7.9,68.1,High,1
+PAT00423,48,Male,141,226,82,82,27.2,Current,None,Pre-diabetic,Non-anginal,Normal,No,100.0,2,No,Sedentary,8.4,61.0,Medium,1
+PAT00424,65,Female,130,215,97,179,26.1,Never,Heavy,No,Atypical angina,ST-T abnormality,No,94.7,2,No,Sedentary,5.5,68.4,High,1
+PAT00425,61,Male,119,236,71,174,32.4,Never,Moderate,Yes,Atypical angina,Normal,No,98.8,1,No,Moderate,10.1,52.8,Medium,0
+PAT00426,71,Male,139,211,75,90,27.0,Never,Moderate,No,Atypical angina,Normal,Yes,97.8,5,No,Moderate,5.3,63.7,Medium,1
+PAT00427,38,Male,112,207,77,144,28.2,Former,Moderate,No,Typical angina,Normal,No,96.6,3,No,Moderate,5.9,45.7,Medium,0
+PAT00428,61,Female,135,266,108,101,24.1,Former,Moderate,No,Atypical angina,Normal,No,94.8,7,Yes,Sedentary,7.1,72.4,High,1
+PAT00429,66,Male,153,250,45,104,32.7,Never,None,No,Asymptomatic,Normal,No,96.6,1,No,Light,7.3,55.3,Medium,1
+PAT00430,27,Male,109,177,84,103,33.1,Never,Moderate,No,Asymptomatic,Normal,No,95.4,9,Yes,Moderate,6.1,46.9,Medium,0
+PAT00431,35,Female,119,206,73,175,26.8,Never,Moderate,Yes,Non-anginal,ST-T abnormality,Yes,99.4,2,No,Moderate,7.9,51.4,Medium,0
+PAT00432,23,Female,113,178,82,188,24.1,Former,Moderate,Pre-diabetic,Asymptomatic,Normal,Yes,97.2,8,Yes,Sedentary,8.1,55.9,Medium,1
+PAT00433,48,Male,138,213,65,71,18.9,Never,Moderate,No,Atypical angina,Normal,No,95.6,10,No,Active,6.5,50.6,Medium,0
+PAT00434,62,Female,109,218,74,201,22.7,Current,None,No,Typical angina,Normal,No,94.1,4,No,Sedentary,6.3,71.4,High,1
+PAT00435,73,Male,135,235,84,116,16.2,Former,None,No,Non-anginal,ST-T abnormality,Yes,96.1,6,Yes,Sedentary,5.7,84.3,High,1
+PAT00436,53,Male,133,224,118,81,22.4,Never,None,Yes,Typical angina,LV hypertrophy,No,99.5,9,Yes,Light,5.1,90.9,High,1
+PAT00437,74,Male,158,211,86,89,28.8,Former,None,No,Asymptomatic,Normal,Yes,97.2,7,No,Light,5.5,80.9,High,1
+PAT00438,32,Male,112,164,63,88,26.7,Never,Heavy,No,Non-anginal,LV hypertrophy,Yes,96.6,8,Yes,Active,7.2,51.3,Medium,0
+PAT00439,28,Female,93,149,69,104,38.6,Former,Moderate,No,Asymptomatic,Normal,Yes,100.0,7,Yes,Sedentary,6.5,46.9,Medium,0
+PAT00440,51,Male,137,168,68,114,25.1,Never,Moderate,Pre-diabetic,Atypical angina,Normal,No,96.2,2,Yes,Light,6.2,59.5,Medium,1
+PAT00441,57,Male,125,186,49,77,24.8,Former,Moderate,No,Non-anginal,Normal,No,95.4,9,No,Light,5.8,51.7,Medium,0
+PAT00442,51,Female,115,221,70,163,32.3,Current,None,No,Typical angina,Normal,Yes,97.8,1,Yes,Light,5.8,73.3,High,1
+PAT00443,23,Female,105,158,85,116,17.4,Current,Heavy,Pre-diabetic,Typical angina,Normal,No,97.8,2,Yes,Sedentary,6.4,56.2,Medium,1
+PAT00444,50,Male,126,230,57,147,19.6,Never,None,Yes,Atypical angina,Normal,No,95.8,3,No,Sedentary,6.3,56.3,Medium,1
+PAT00445,33,Female,111,197,89,76,30.3,Never,None,Yes,Non-anginal,Normal,No,95.4,3,No,Light,6.5,46.3,Medium,0
+PAT00446,61,Male,109,168,81,89,26.0,Former,Moderate,No,Asymptomatic,Normal,No,99.9,10,No,Moderate,5.9,44.4,Medium,0
+PAT00447,57,Female,144,242,64,162,26.1,Current,Heavy,Pre-diabetic,None,Normal,Yes,96.1,4,No,Moderate,5.6,56.1,Medium,1
+PAT00448,38,Female,137,226,73,94,22.3,Current,Heavy,Yes,Typical angina,Normal,No,94.1,5,Yes,Moderate,6.5,70.6,High,1
+PAT00449,44,Female,133,178,97,219,28.2,Never,None,Pre-diabetic,Atypical angina,LV hypertrophy,Yes,97.4,6,Yes,Moderate,7.3,61.6,Medium,1
+PAT00450,37,Male,107,213,85,75,23.0,Never,Heavy,Yes,Asymptomatic,Normal,Yes,98.8,1,Yes,Light,5.8,51.2,Medium,0
+PAT00451,51,Male,127,190,75,153,27.4,Former,None,Yes,Atypical angina,ST-T abnormality,No,96.6,8,No,Active,3.4,69.5,High,1
+PAT00452,65,Male,138,234,71,90,21.2,Never,None,No,None,ST-T abnormality,No,98.1,6,No,Light,4.7,67.6,High,1
+PAT00453,38,Male,129,164,76,111,26.1,Never,Moderate,No,Atypical angina,Normal,Yes,94.9,10,No,Light,7.9,61.6,Medium,1
+PAT00454,59,Male,142,171,67,92,37.1,Never,Heavy,Yes,Typical angina,Normal,No,98.3,9,Yes,Moderate,7.8,83.9,High,1
+PAT00455,44,Female,116,197,45,78,24.9,Former,Moderate,No,None,Normal,Yes,95.1,5,No,Moderate,7.3,51.8,Medium,0
+PAT00456,40,Male,124,200,103,81,26.3,Current,Moderate,No,Typical angina,ST-T abnormality,Yes,97.6,7,No,Light,7.2,66.0,High,1
+PAT00457,50,Male,134,203,77,157,26.0,Current,Moderate,No,Asymptomatic,Normal,No,98.5,4,No,Sedentary,7.8,46.1,Medium,0
+PAT00458,37,Female,138,165,80,133,27.9,Never,Moderate,Yes,Asymptomatic,Normal,Yes,97.2,6,No,Sedentary,6.1,55.8,Medium,1
+PAT00459,44,Male,134,196,74,194,29.3,Former,Heavy,No,None,Normal,No,94.5,6,No,Moderate,6.7,41.3,Medium,0
+PAT00460,35,Female,129,206,64,97,28.3,Current,Moderate,Yes,Asymptomatic,LV hypertrophy,No,94.6,4,No,Sedentary,5.5,76.4,High,1
+PAT00461,79,Male,147,245,72,215,28.4,Never,Heavy,Yes,Typical angina,Normal,Yes,100.0,6,Yes,Moderate,6.3,84.1,High,1
+PAT00462,52,Male,147,222,52,101,26.1,Former,Heavy,No,None,ST-T abnormality,Yes,95.5,8,No,Sedentary,9.0,75.7,High,1
+PAT00463,42,Male,129,186,106,125,27.5,Never,None,No,None,Normal,No,98.5,5,Yes,Sedentary,5.4,53.8,Medium,0
+PAT00464,54,Male,121,254,57,173,25.9,Never,Moderate,No,None,LV hypertrophy,No,97.2,2,No,Light,5.0,56.6,Medium,0
+PAT00465,50,Female,146,179,60,94,17.9,Never,Moderate,No,Non-anginal,Normal,No,95.0,9,Yes,Sedentary,6.2,59.5,Medium,1
+PAT00466,48,Male,136,227,68,90,40.2,Never,None,No,None,Normal,No,95.9,4,No,Sedentary,6.0,43.7,Medium,0
+PAT00467,60,Male,129,261,93,141,30.6,Former,Moderate,No,None,LV hypertrophy,No,100.0,4,Yes,Moderate,6.8,51.9,Medium,0
+PAT00468,62,Male,130,242,75,177,22.1,Never,None,Pre-diabetic,Non-anginal,ST-T abnormality,No,100.0,7,Yes,Light,7.5,66.8,High,1
+PAT00469,44,Male,129,202,57,101,28.2,Never,Moderate,No,Typical angina,Normal,No,96.4,10,No,Moderate,6.0,55.1,Medium,1
+PAT00470,43,Female,130,191,92,84,20.3,Never,Heavy,Yes,Non-anginal,Normal,Yes,96.2,10,Yes,Sedentary,9.2,67.5,High,1
+PAT00471,48,Male,130,244,85,169,24.5,Current,None,No,Non-anginal,ST-T abnormality,No,93.7,6,No,Active,8.1,67.2,High,1
+PAT00472,19,Female,114,138,82,203,19.6,Former,Moderate,Yes,None,ST-T abnormality,No,93.7,4,Yes,Active,5.5,50.6,Medium,0
+PAT00473,30,Female,137,164,85,69,26.7,Former,Heavy,No,Asymptomatic,Normal,Yes,95.3,6,No,Sedentary,6.4,45.2,Medium,0
+PAT00474,71,Female,154,226,108,91,19.1,Former,Moderate,Yes,None,ST-T abnormality,Yes,96.1,3,Yes,Active,7.2,75.4,High,1
+PAT00475,75,Female,146,279,105,90,28.9,Never,None,Yes,Typical angina,ST-T abnormality,Yes,96.9,7,Yes,Sedentary,5.4,99.7,High,1
+PAT00476,48,Male,139,224,65,167,30.4,Never,Moderate,Yes,Typical angina,Normal,No,98.4,6,No,Moderate,3.8,71.4,High,1
+PAT00477,60,Male,122,197,97,152,22.9,Former,Moderate,No,None,ST-T abnormality,No,97.4,3,No,Light,9.0,47.9,Medium,0
+PAT00478,56,Male,137,212,80,198,27.8,Never,Moderate,Yes,Asymptomatic,Normal,No,98.4,1,Yes,Light,5.1,57.2,Medium,1
+PAT00479,90,Female,174,240,81,117,22.6,Never,Moderate,No,Atypical angina,LV hypertrophy,No,95.8,10,Yes,Light,7.6,89.2,High,1
+PAT00480,67,Female,136,212,51,92,29.6,Former,Moderate,No,None,ST-T abnormality,No,96.9,5,Yes,Light,7.4,63.0,Medium,1
+PAT00481,50,Male,119,244,72,85,23.6,Never,Moderate,No,Asymptomatic,ST-T abnormality,No,96.3,10,No,Moderate,5.4,50.1,Medium,0
+PAT00482,38,Female,114,160,63,86,30.9,Never,Moderate,No,Typical angina,Normal,No,94.5,2,No,Moderate,9.0,40.6,Medium,0
+PAT00483,29,Male,103,240,86,103,17.9,Former,None,No,Typical angina,Normal,No,93.1,7,No,Light,6.6,49.5,Medium,0
+PAT00484,54,Female,122,244,89,152,22.0,Never,Moderate,Yes,Typical angina,Normal,Yes,95.7,7,No,Active,6.7,68.6,High,1
+PAT00485,41,Male,119,238,45,77,21.5,Former,Moderate,No,Non-anginal,ST-T abnormality,No,92.0,4,No,Active,4.5,56.2,Medium,1
+PAT00486,32,Female,101,181,74,103,28.0,Former,Moderate,No,None,ST-T abnormality,Yes,94.7,6,No,Active,3.8,54.3,Medium,0
+PAT00487,42,Female,124,201,90,133,29.8,Former,None,No,None,Normal,No,98.1,1,No,Active,6.2,34.8,Low,0
+PAT00488,36,Male,131,156,72,90,28.4,Former,None,Yes,Atypical angina,ST-T abnormality,No,97.4,2,No,Light,8.2,53.4,Medium,0
+PAT00489,75,Male,133,226,85,81,24.5,Never,None,No,None,ST-T abnormality,No,97.0,6,No,Light,4.1,69.1,High,1
+PAT00490,64,Male,155,245,79,168,15.0,Never,None,No,Non-anginal,Normal,No,99.4,2,Yes,Sedentary,6.7,47.7,Medium,0
+PAT00491,51,Male,135,255,79,98,27.2,Never,Moderate,Yes,Atypical angina,Normal,No,95.5,4,No,Active,6.6,56.1,Medium,1
+PAT00492,72,Male,154,206,71,147,30.9,Never,None,No,None,ST-T abnormality,Yes,98.4,4,No,Sedentary,8.1,71.3,High,1
+PAT00493,53,Female,123,207,57,138,40.4,Current,Moderate,No,None,Normal,Yes,95.4,10,No,Light,7.8,75.7,High,1
+PAT00494,39,Female,132,198,59,81,24.9,Current,None,No,Non-anginal,ST-T abnormality,No,97.6,9,No,Sedentary,6.7,54.7,Medium,0
+PAT00495,73,Male,129,198,84,148,23.7,Never,None,Yes,Non-anginal,Normal,No,97.3,10,Yes,Sedentary,6.4,72.7,High,1
+PAT00496,59,Male,145,242,75,78,28.6,Never,Moderate,Yes,Atypical angina,LV hypertrophy,Yes,97.4,7,No,Sedentary,5.6,86.9,High,1
+PAT00497,37,Female,123,179,73,88,25.7,Never,None,No,Typical angina,Normal,No,96.2,7,Yes,Moderate,5.0,47.4,Medium,0
+PAT00498,49,Female,135,208,69,106,33.4,Never,Heavy,No,None,Normal,No,97.6,1,No,Sedentary,5.7,42.7,Medium,0
+PAT00499,39,Male,108,189,70,96,23.0,Never,None,No,Typical angina,Normal,No,97.8,5,Yes,Moderate,5.1,38.8,Medium,0
+PAT00500,32,Female,107,171,89,89,25.8,Former,Moderate,Yes,None,Normal,Yes,94.1,3,No,Moderate,6.4,48.7,Medium,0
+PAT00501,64,Female,144,230,70,86,31.4,Current,Moderate,Pre-diabetic,Atypical angina,Normal,No,98.7,3,No,Moderate,6.5,66.5,High,1
+PAT00502,78,Male,134,239,56,95,28.5,Former,Moderate,No,Typical angina,Normal,No,94.5,6,Yes,Sedentary,6.1,85.2,High,1
+PAT00503,32,Male,123,184,85,62,32.8,Never,None,No,Asymptomatic,LV hypertrophy,No,95.2,4,No,Active,6.6,34.2,Low,0
+PAT00504,59,Male,118,203,72,175,24.8,Never,Moderate,Yes,Atypical angina,LV hypertrophy,No,97.5,8,Yes,Moderate,5.9,74.8,High,1
+PAT00505,42,Male,134,215,75,194,33.3,Former,Moderate,Yes,Non-anginal,Normal,No,98.2,4,No,Sedentary,7.6,54.7,Medium,0
+PAT00506,45,Female,111,259,97,150,18.7,Current,Heavy,Pre-diabetic,Typical angina,ST-T abnormality,Yes,97.4,8,Yes,Moderate,6.8,89.2,High,1
+PAT00507,43,Female,131,211,74,82,18.9,Current,Heavy,Yes,Asymptomatic,Normal,No,97.7,4,Yes,Moderate,5.9,70.1,High,1
+PAT00508,39,Female,130,232,79,73,33.4,Current,None,Pre-diabetic,Atypical angina,ST-T abnormality,No,94.7,3,Yes,Light,5.0,79.9,High,1
+PAT00509,52,Male,122,175,58,80,27.0,Former,Heavy,No,Atypical angina,ST-T abnormality,No,96.0,5,No,Sedentary,6.4,64.2,Medium,1
+PAT00510,40,Male,130,208,71,97,31.6,Former,None,No,Asymptomatic,Normal,No,92.9,5,No,Moderate,8.0,52.5,Medium,0
+PAT00511,55,Female,135,187,83,108,27.5,Never,None,No,None,ST-T abnormality,Yes,95.2,10,Yes,Moderate,7.3,64.8,Medium,1
+PAT00512,51,Female,123,171,53,199,27.0,Former,Moderate,Yes,None,ST-T abnormality,No,94.3,10,Yes,Light,7.5,85.2,High,1
+PAT00513,48,Male,115,190,77,63,20.4,Never,None,No,None,Normal,No,97.0,1,No,Moderate,7.4,27.1,Low,0
+PAT00514,39,Male,99,238,76,88,26.9,Never,None,No,Non-anginal,LV hypertrophy,No,100.0,8,No,Light,8.1,33.0,Low,0
+PAT00515,43,Female,129,236,75,135,33.8,Former,None,No,None,LV hypertrophy,No,98.5,8,No,Moderate,7.6,42.0,Medium,0
+PAT00516,62,Male,117,235,89,166,27.3,Never,Moderate,No,Asymptomatic,Normal,No,92.5,8,Yes,Light,6.7,58.7,Medium,1
+PAT00517,59,Male,135,179,79,223,30.4,Never,Moderate,Pre-diabetic,Atypical angina,ST-T abnormality,Yes,94.0,10,No,Light,6.0,84.0,High,1
+PAT00518,38,Female,118,196,95,192,30.3,Never,Moderate,No,None,LV hypertrophy,No,94.4,4,No,Active,7.6,36.1,Medium,0
+PAT00519,53,Male,139,227,61,86,21.9,Never,None,No,Atypical angina,Normal,Yes,93.5,9,Yes,Moderate,3.4,80.6,High,1
+PAT00520,62,Male,132,233,76,123,31.3,Never,Moderate,Yes,None,Normal,Yes,96.4,10,Yes,Light,8.1,80.8,High,1
+PAT00521,28,Male,112,135,76,90,25.4,Never,Heavy,No,Typical angina,Normal,Yes,97.5,3,Yes,Light,7.4,40.8,Medium,0
+PAT00522,59,Male,143,198,60,129,25.7,Never,Moderate,Yes,Typical angina,LV hypertrophy,No,94.4,7,No,Moderate,8.6,71.8,High,1
+PAT00523,42,Female,128,204,88,87,37.5,Never,None,Yes,Atypical angina,ST-T abnormality,No,96.6,6,No,Moderate,5.0,59.0,Medium,1
+PAT00524,59,Male,138,241,107,138,30.0,Current,Heavy,Pre-diabetic,None,Normal,Yes,97.4,9,Yes,Moderate,8.0,74.8,High,1
+PAT00525,41,Male,129,139,74,91,23.8,Never,Moderate,Pre-diabetic,Typical angina,LV hypertrophy,Yes,98.4,4,Yes,Light,7.4,52.6,Medium,0
+PAT00526,26,Female,96,183,82,94,27.3,Never,None,No,Non-anginal,ST-T abnormality,Yes,97.3,4,Yes,Active,5.7,45.7,Medium,0
+PAT00527,29,Female,125,196,76,76,27.2,Former,None,No,Non-anginal,LV hypertrophy,No,97.7,6,Yes,Moderate,6.3,42.9,Medium,0
+PAT00528,52,Female,137,242,65,91,35.4,Current,None,No,Non-anginal,Normal,No,96.9,8,No,Sedentary,6.2,76.8,High,1
+PAT00529,55,Male,119,241,49,90,27.2,Former,Moderate,No,None,Normal,Yes,95.0,3,Yes,Moderate,6.0,68.3,High,1
+PAT00530,39,Male,119,220,65,200,38.0,Never,None,No,Asymptomatic,ST-T abnormality,No,95.4,8,No,Light,4.7,64.0,Medium,1
+PAT00531,60,Female,134,202,55,161,20.5,Former,Moderate,No,Atypical angina,Normal,No,94.4,8,No,Moderate,8.0,61.9,Medium,1
+PAT00532,28,Female,114,133,98,198,26.8,Former,None,Pre-diabetic,None,ST-T abnormality,No,100.0,7,Yes,Sedentary,5.3,50.2,Medium,0
+PAT00533,51,Male,133,204,73,88,23.2,Former,Heavy,No,Non-anginal,ST-T abnormality,No,94.1,7,No,Light,5.1,64.0,Medium,1
+PAT00534,35,Male,137,228,70,81,24.5,Former,None,No,Asymptomatic,Normal,No,98.9,5,No,Light,8.1,35.4,Medium,0
+PAT00535,42,Male,137,248,87,170,24.6,Current,Heavy,No,Typical angina,ST-T abnormality,No,94.1,2,No,Sedentary,4.7,78.6,High,1
+PAT00536,52,Female,114,238,59,109,23.4,Current,Heavy,No,None,Normal,No,98.5,2,No,Light,6.1,49.4,Medium,0
+PAT00537,39,Male,130,215,64,83,35.7,Former,None,Pre-diabetic,None,Normal,No,98.9,10,Yes,Moderate,5.2,63.1,Medium,1
+PAT00538,46,Male,142,222,75,159,34.1,Never,Moderate,No,Atypical angina,Normal,No,99.3,8,Yes,Light,8.6,57.1,Medium,1
+PAT00539,66,Male,143,216,89,127,29.0,Former,None,Yes,Asymptomatic,Normal,No,94.9,6,No,Moderate,8.0,66.6,High,0
+PAT00540,43,Female,138,203,82,152,24.6,Current,Heavy,No,None,Normal,Yes,97.3,8,No,Moderate,5.4,60.8,Medium,0
+PAT00541,63,Female,161,279,78,139,23.6,Never,Moderate,No,Non-anginal,ST-T abnormality,No,95.8,3,No,Moderate,5.2,64.6,Medium,1
+PAT00542,36,Male,133,171,76,93,30.7,Current,None,No,None,ST-T abnormality,No,95.2,1,No,Light,7.5,52.7,Medium,0
+PAT00543,59,Female,137,273,80,109,28.5,Never,None,Yes,Non-anginal,Normal,Yes,97.1,6,Yes,Sedentary,7.1,77.2,High,1
+PAT00544,72,Female,154,229,77,100,26.3,Former,None,No,Asymptomatic,ST-T abnormality,Yes,98.6,2,No,Sedentary,6.0,68.8,High,1
+PAT00545,18,Male,111,219,60,103,29.7,Current,Heavy,No,Atypical angina,Normal,No,95.8,9,Yes,Moderate,5.9,58.4,Medium,1
+PAT00546,40,Male,123,161,75,93,31.5,Never,Moderate,No,Atypical angina,Normal,No,97.7,5,No,Light,6.2,44.4,Medium,0
+PAT00547,60,Male,130,243,59,157,26.2,Former,Heavy,Yes,Non-anginal,ST-T abnormality,No,95.2,5,No,Moderate,7.7,70.1,High,1
+PAT00548,49,Female,147,191,76,80,23.1,Never,None,Yes,Typical angina,ST-T abnormality,No,94.9,10,No,Moderate,8.5,74.3,High,1
+PAT00549,57,Female,123,180,68,146,20.4,Never,None,No,Typical angina,ST-T abnormality,Yes,96.4,8,No,Sedentary,8.9,76.5,High,1
+PAT00550,43,Female,143,214,110,81,28.3,Never,Heavy,No,Typical angina,Normal,Yes,96.5,6,Yes,Moderate,5.5,64.3,Medium,1
+PAT00551,53,Female,136,248,74,96,37.8,Never,None,Pre-diabetic,None,ST-T abnormality,Yes,98.3,3,No,Sedentary,6.6,59.0,Medium,1
+PAT00552,49,Male,111,188,55,98,21.4,Never,Heavy,Yes,Non-anginal,ST-T abnormality,No,94.5,9,No,Active,8.2,59.3,Medium,1
+PAT00553,68,Female,144,190,73,231,32.5,Current,None,Yes,None,LV hypertrophy,No,100.0,10,Yes,Sedentary,5.4,91.6,High,1
+PAT00554,55,Male,106,217,82,73,23.6,Current,None,Yes,Asymptomatic,Normal,Yes,93.4,4,Yes,Light,5.6,82.0,High,1
+PAT00555,56,Male,140,219,98,92,24.6,Never,Moderate,Yes,None,ST-T abnormality,No,97.5,10,No,Sedentary,7.5,61.5,Medium,1
+PAT00556,46,Female,137,227,66,101,31.6,Former,Heavy,No,Non-anginal,ST-T abnormality,No,96.4,4,Yes,Active,5.9,64.1,Medium,1
+PAT00557,45,Female,119,238,52,97,25.7,Never,Heavy,Pre-diabetic,None,LV hypertrophy,Yes,95.7,2,No,Active,4.6,65.2,High,1
+PAT00558,45,Male,127,207,86,85,28.2,Never,None,Pre-diabetic,Atypical angina,Normal,No,96.6,3,Yes,Sedentary,5.4,53.5,Medium,0
+PAT00559,57,Female,156,278,55,88,28.1,Never,None,No,Atypical angina,Normal,No,98.3,4,No,Light,7.8,51.8,Medium,0
+PAT00560,46,Female,120,217,68,203,23.6,Current,Moderate,No,Non-anginal,Normal,Yes,98.7,7,Yes,Sedentary,6.8,66.7,High,1
+PAT00561,56,Male,120,211,71,257,31.5,Current,Moderate,Pre-diabetic,Typical angina,Normal,No,96.6,3,No,Moderate,4.5,68.1,High,1
+PAT00562,81,Female,165,200,74,171,26.7,Never,Moderate,No,Asymptomatic,Normal,No,97.7,8,No,Light,5.7,62.0,Medium,1
+PAT00563,64,Male,161,222,84,87,20.1,Never,None,Pre-diabetic,Atypical angina,Normal,No,94.3,8,Yes,Moderate,8.9,71.4,High,1
+PAT00564,47,Male,127,201,65,98,22.5,Never,Heavy,No,Typical angina,ST-T abnormality,No,96.6,10,Yes,Sedentary,6.4,73.2,High,1
+PAT00565,68,Male,152,263,71,87,15.0,Former,Moderate,No,Non-anginal,Normal,No,97.8,2,Yes,Moderate,6.2,56.4,Medium,1
+PAT00566,46,Female,142,224,74,91,27.3,Former,Moderate,No,None,Normal,No,92.4,4,Yes,Light,6.5,61.3,Medium,1
+PAT00567,23,Female,104,150,77,134,33.5,Never,Moderate,No,Atypical angina,Normal,No,97.2,8,No,Moderate,6.8,31.8,Low,0
+PAT00568,37,Male,115,206,76,87,21.8,Current,Moderate,No,Atypical angina,Normal,Yes,96.7,1,No,Moderate,6.0,53.1,Medium,0
+PAT00569,25,Male,128,207,81,84,29.9,Never,Heavy,No,Atypical angina,LV hypertrophy,No,99.5,1,Yes,Sedentary,8.2,35.0,Low,0
+PAT00570,47,Female,147,257,86,86,29.2,Current,Moderate,Yes,Atypical angina,ST-T abnormality,Yes,97.3,4,Yes,Moderate,5.9,95.5,High,0
+PAT00571,52,Male,137,244,80,87,23.2,Former,Heavy,Pre-diabetic,Typical angina,ST-T abnormality,No,98.0,2,No,Moderate,7.8,57.3,Medium,1
+PAT00572,75,Female,133,265,81,218,34.7,Never,Heavy,No,None,Normal,Yes,96.5,1,No,Light,8.9,63.2,Medium,1
+PAT00573,56,Female,156,223,52,95,25.6,Current,Moderate,No,Non-anginal,LV hypertrophy,No,98.3,8,No,Sedentary,7.0,65.7,High,1
+PAT00574,48,Male,121,224,75,123,37.1,Current,Moderate,No,Asymptomatic,Normal,No,98.1,2,Yes,Moderate,5.1,59.9,Medium,1
+PAT00575,63,Female,132,266,81,105,18.8,Never,None,No,Typical angina,ST-T abnormality,Yes,94.4,4,No,Active,6.7,72.8,High,1
+PAT00576,21,Male,115,143,85,90,25.7,Never,None,No,Typical angina,Normal,No,97.6,3,No,Active,5.8,25.0,Low,0
+PAT00577,55,Female,150,210,65,66,26.2,Current,None,No,None,ST-T abnormality,No,99.4,2,No,Moderate,7.7,51.4,Medium,0
+PAT00578,62,Female,146,205,65,188,26.8,Never,None,No,Asymptomatic,ST-T abnormality,No,99.0,8,Yes,Light,6.8,68.3,High,1
+PAT00579,31,Female,122,205,66,91,30.6,Never,None,No,None,Normal,Yes,97.1,3,Yes,Light,6.3,50.2,Medium,0
+PAT00580,68,Male,145,271,82,143,44.0,Former,None,No,Typical angina,Normal,No,97.6,9,Yes,Sedentary,5.2,85.9,High,1
+PAT00581,56,Female,133,203,89,86,29.3,Current,None,Yes,Asymptomatic,ST-T abnormality,No,98.8,10,Yes,Light,4.1,92.4,High,1
+PAT00582,46,Male,133,139,69,99,27.1,Current,Moderate,No,Typical angina,Normal,No,94.7,5,No,Sedentary,5.4,72.4,High,1
+PAT00583,60,Male,104,213,87,112,21.5,Current,None,Pre-diabetic,Non-anginal,Normal,No,97.9,9,No,Light,7.3,53.7,Medium,0
+PAT00584,83,Male,145,278,76,173,17.5,Former,None,Pre-diabetic,Atypical angina,Normal,No,93.1,3,Yes,Active,8.0,80.8,High,1
+PAT00585,54,Female,134,235,73,176,32.9,Never,Moderate,Pre-diabetic,None,Normal,No,98.7,5,No,Active,6.1,38.3,Medium,0
+PAT00586,55,Male,118,233,72,100,24.3,Former,Moderate,Pre-diabetic,Non-anginal,ST-T abnormality,No,96.2,10,No,Active,5.3,68.1,High,1
+PAT00587,45,Female,130,201,85,93,40.0,Current,Moderate,No,None,Normal,No,96.8,6,Yes,Sedentary,6.7,66.6,High,1
+PAT00588,40,Female,120,165,79,178,31.3,Never,Moderate,No,Non-anginal,Normal,Yes,95.9,9,Yes,Active,7.4,59.5,Medium,1
+PAT00589,63,Male,158,244,106,245,28.7,Never,Moderate,No,None,ST-T abnormality,Yes,96.9,8,Yes,Sedentary,7.5,72.1,High,1
+PAT00590,40,Female,142,179,63,79,29.0,Never,Moderate,Yes,Asymptomatic,ST-T abnormality,Yes,97.5,2,Yes,Light,6.8,65.0,High,1
+PAT00591,53,Male,125,284,82,80,29.0,Former,Moderate,Pre-diabetic,None,Normal,No,98.5,2,No,Moderate,9.2,46.1,Medium,0
+PAT00592,45,Female,124,226,67,109,23.5,Current,Heavy,Pre-diabetic,Typical angina,ST-T abnormality,Yes,99.6,5,Yes,Light,8.1,71.0,High,1
+PAT00593,58,Female,133,206,62,154,18.2,Former,Moderate,No,Typical angina,Normal,No,97.1,5,No,Active,4.9,60.1,Medium,1
+PAT00594,56,Female,127,203,74,239,24.2,Current,Moderate,Yes,Atypical angina,Normal,Yes,93.7,5,Yes,Light,4.6,91.5,High,1
+PAT00595,66,Female,141,230,76,91,26.9,Never,Moderate,No,Atypical angina,LV hypertrophy,No,99.6,4,No,Light,5.0,47.1,Medium,0
+PAT00596,44,Male,116,201,115,86,23.8,Current,None,No,Atypical angina,LV hypertrophy,No,94.1,8,No,Sedentary,8.0,65.6,High,1
+PAT00597,48,Male,114,246,72,175,20.6,Current,Moderate,Yes,Atypical angina,Normal,No,96.2,5,Yes,Active,4.3,77.1,High,1
+PAT00598,38,Female,129,207,59,133,23.3,Never,Heavy,No,Atypical angina,Normal,No,96.0,1,No,Light,7.1,31.9,Low,0
+PAT00599,45,Male,133,187,78,87,32.2,Current,Moderate,Pre-diabetic,Atypical angina,Normal,Yes,97.0,10,Yes,Moderate,6.3,83.1,High,1
+PAT00600,57,Male,123,279,45,98,30.7,Never,Heavy,No,Typical angina,Normal,Yes,94.5,5,No,Moderate,4.9,69.7,High,1
+PAT00601,62,Male,147,229,73,88,27.9,Current,Moderate,Pre-diabetic,None,Normal,Yes,94.4,1,No,Moderate,6.8,61.6,Medium,1
+PAT00602,39,Female,115,226,75,87,29.9,Current,Heavy,No,Asymptomatic,Normal,No,97.0,4,No,Light,6.3,50.2,Medium,0
+PAT00603,64,Male,140,212,86,160,21.3,Current,Moderate,Yes,Typical angina,LV hypertrophy,No,95.4,1,Yes,Light,7.5,92.9,High,1
+PAT00604,70,Male,151,248,88,95,23.0,Former,None,Yes,None,LV hypertrophy,No,99.7,6,No,Moderate,4.4,73.8,High,1
+PAT00605,57,Female,132,232,67,95,28.6,Never,Moderate,Pre-diabetic,Atypical angina,Normal,Yes,95.9,6,No,Active,5.3,65.7,High,1
+PAT00606,78,Female,151,189,72,165,22.0,Former,None,No,Asymptomatic,ST-T abnormality,No,94.9,1,Yes,Moderate,5.4,72.2,High,1
+PAT00607,41,Male,117,265,64,100,27.5,Never,None,Pre-diabetic,None,Normal,Yes,100.0,8,No,Sedentary,7.4,43.8,Medium,0
+PAT00608,34,Male,117,236,59,195,20.7,Current,Moderate,No,Typical angina,Normal,No,97.9,4,No,Sedentary,6.2,56.7,Medium,1
+PAT00609,27,Male,112,177,79,150,18.8,Current,None,No,Typical angina,Normal,No,100.0,2,Yes,Light,8.0,44.7,Medium,0
+PAT00610,72,Male,133,206,57,89,30.7,Current,Moderate,No,None,ST-T abnormality,Yes,93.2,1,No,Moderate,6.0,79.6,High,1
+PAT00611,61,Male,133,237,69,74,32.1,Never,None,Yes,Non-anginal,Normal,No,97.4,3,No,Light,6.8,51.1,Medium,0
+PAT00612,51,Female,111,218,61,171,23.8,Current,None,No,Atypical angina,LV hypertrophy,No,98.0,7,Yes,Moderate,8.4,69.2,High,1
+PAT00613,55,Female,126,231,82,84,19.4,Current,Heavy,Yes,None,ST-T abnormality,No,97.1,10,Yes,Active,4.2,76.7,High,1
+PAT00614,36,Female,117,205,100,144,16.0,Current,None,Yes,Non-anginal,Normal,Yes,96.3,10,Yes,Light,6.5,78.9,High,1
+PAT00615,86,Male,147,269,56,95,36.2,Never,Moderate,No,Typical angina,Normal,No,99.5,8,Yes,Sedentary,6.5,78.1,High,1
+PAT00616,53,Female,128,261,49,82,27.6,Never,Moderate,Pre-diabetic,Asymptomatic,ST-T abnormality,No,97.9,5,No,Active,5.5,64.2,Medium,1
+PAT00617,53,Male,130,235,73,87,24.0,Never,Moderate,No,Typical angina,LV hypertrophy,No,93.6,7,Yes,Light,6.3,77.9,High,1
+PAT00618,62,Female,142,196,75,90,25.2,Former,Heavy,Pre-diabetic,Non-anginal,ST-T abnormality,No,95.3,2,Yes,Light,6.9,71.1,High,1
+PAT00619,58,Female,144,264,78,104,17.4,Former,Moderate,No,Non-anginal,Normal,No,94.7,4,Yes,Light,5.5,60.4,Medium,1
+PAT00620,55,Male,124,269,68,167,30.1,Current,Moderate,No,None,ST-T abnormality,No,96.8,6,No,Light,6.6,73.3,High,1
+PAT00621,40,Female,108,298,72,129,37.0,Never,Heavy,No,Non-anginal,Normal,Yes,98.9,5,Yes,Moderate,5.2,36.8,Medium,0
+PAT00622,58,Male,121,190,80,124,23.1,Never,None,No,Typical angina,LV hypertrophy,Yes,96.2,6,No,Light,6.2,67.8,High,1
+PAT00623,78,Female,140,253,89,83,38.9,Former,Moderate,No,None,ST-T abnormality,No,96.5,2,Yes,Light,7.7,77.5,High,1
+PAT00624,70,Male,136,174,47,84,26.4,Current,Heavy,No,Typical angina,ST-T abnormality,Yes,95.0,7,No,Moderate,7.8,89.5,High,1
+PAT00625,74,Male,134,258,69,86,35.3,Current,Moderate,No,None,Normal,No,98.5,8,Yes,Sedentary,8.0,83.1,High,1
+PAT00626,44,Female,110,192,77,134,28.5,Current,Moderate,No,Non-anginal,ST-T abnormality,No,99.5,9,Yes,Sedentary,6.4,62.1,Medium,1
+PAT00627,38,Male,116,259,62,195,28.5,Never,Moderate,No,Typical angina,Normal,No,96.9,6,No,Moderate,6.1,49.3,Medium,0
+PAT00628,50,Female,131,191,99,158,36.2,Former,Moderate,Yes,Asymptomatic,Normal,No,100.0,7,Yes,Active,7.5,56.0,Medium,1
+PAT00629,52,Male,137,166,66,94,30.9,Current,Heavy,No,None,Normal,No,95.9,1,No,Sedentary,8.0,51.6,Medium,0
+PAT00630,67,Female,132,219,74,106,28.9,Former,None,Pre-diabetic,Typical angina,LV hypertrophy,No,94.2,9,Yes,Sedentary,6.6,89.3,High,0
+PAT00631,28,Female,111,131,82,90,17.3,Never,None,Yes,None,ST-T abnormality,Yes,98.6,6,No,Moderate,8.5,42.3,Medium,0
+PAT00632,73,Male,131,263,66,96,19.5,Never,Moderate,Yes,Typical angina,Normal,No,96.8,4,Yes,Moderate,7.4,79.5,High,1
+PAT00633,49,Male,128,152,49,213,29.3,Never,Moderate,Yes,Non-anginal,LV hypertrophy,Yes,95.8,10,No,Light,5.8,78.7,High,0
+PAT00634,46,Male,116,211,68,87,34.3,Former,None,No,Non-anginal,Normal,No,97.2,9,No,Sedentary,5.9,52.7,Medium,0
+PAT00635,37,Male,128,138,89,111,27.6,Never,None,Yes,Non-anginal,Normal,No,93.8,1,No,Sedentary,6.4,44.3,Medium,0
+PAT00636,28,Male,94,181,70,102,24.0,Never,None,No,Asymptomatic,Normal,No,93.5,2,Yes,Moderate,4.5,42.1,Medium,0
+PAT00637,63,Female,132,278,63,68,17.8,Never,Heavy,Pre-diabetic,None,ST-T abnormality,No,97.2,3,Yes,Light,5.8,68.4,High,1
+PAT00638,53,Female,134,229,87,85,23.1,Former,Moderate,Yes,Atypical angina,Normal,Yes,97.9,1,No,Active,8.0,60.1,Medium,1
+PAT00639,33,Female,121,170,70,73,27.7,Never,Moderate,No,Typical angina,Normal,Yes,99.8,2,No,Moderate,8.2,31.4,Low,0
+PAT00640,33,Female,151,195,67,101,22.7,Former,None,Yes,Atypical angina,ST-T abnormality,No,98.8,2,No,Moderate,6.9,59.8,Medium,1
+PAT00641,47,Female,131,212,77,83,22.2,Never,None,No,None,Normal,Yes,98.3,7,Yes,Active,7.1,51.3,Medium,0
+PAT00642,75,Female,132,256,85,93,26.7,Never,None,No,Typical angina,ST-T abnormality,Yes,99.5,10,Yes,Sedentary,6.1,90.6,High,1
+PAT00643,48,Male,126,171,108,93,34.2,Former,None,No,Atypical angina,Normal,No,98.0,6,No,Light,5.7,54.1,Medium,0
+PAT00644,30,Female,95,210,86,87,30.4,Never,Heavy,Yes,Atypical angina,ST-T abnormality,No,96.3,9,No,Sedentary,7.2,62.0,Medium,1
+PAT00645,48,Female,127,131,91,99,28.4,Never,Heavy,Yes,Non-anginal,ST-T abnormality,Yes,98.8,5,No,Light,5.9,65.7,High,1
+PAT00646,48,Female,118,194,67,77,27.9,Never,None,Yes,Atypical angina,ST-T abnormality,No,98.8,9,Yes,Sedentary,8.7,76.4,High,1
+PAT00647,18,Male,120,165,60,95,29.8,Current,None,No,None,Normal,Yes,97.0,10,No,Sedentary,7.0,51.7,Medium,0
+PAT00648,51,Male,123,235,75,141,26.4,Former,None,No,None,ST-T abnormality,No,94.6,9,Yes,Active,7.1,68.3,High,1
+PAT00649,48,Male,126,213,76,88,24.9,Never,Moderate,Yes,Asymptomatic,Normal,No,93.4,2,No,Moderate,5.1,48.1,Medium,0
+PAT00650,61,Female,128,185,59,162,30.7,Never,None,No,Asymptomatic,LV hypertrophy,No,98.7,9,No,Active,3.5,64.0,Medium,1
+PAT00651,77,Female,166,215,72,94,25.9,Current,None,Yes,Typical angina,Normal,No,98.0,3,No,Light,7.1,80.6,High,1
+PAT00652,67,Male,135,239,80,102,21.1,Former,None,No,Atypical angina,Normal,Yes,98.2,3,Yes,Moderate,5.9,66.3,High,0
+PAT00653,48,Female,149,210,80,67,34.2,Never,Moderate,No,Asymptomatic,ST-T abnormality,No,98.8,9,Yes,Sedentary,7.8,67.4,High,1
+PAT00654,36,Male,130,182,82,101,17.7,Former,Moderate,No,Typical angina,ST-T abnormality,No,95.2,7,No,Light,5.3,65.5,High,1
+PAT00655,88,Male,157,242,79,88,34.6,Current,Moderate,Yes,Non-anginal,Normal,Yes,93.2,8,No,Moderate,5.8,100.0,High,1
+PAT00656,52,Male,134,238,67,83,29.5,Current,None,No,Non-anginal,LV hypertrophy,No,98.0,7,No,Sedentary,8.0,68.1,High,1
+PAT00657,52,Female,135,201,67,119,22.2,Former,Heavy,No,Atypical angina,LV hypertrophy,No,99.4,9,Yes,Moderate,7.1,63.3,Medium,1
+PAT00658,51,Female,106,213,58,120,27.1,Never,Heavy,No,Atypical angina,ST-T abnormality,No,97.7,8,Yes,Light,5.2,59.8,Medium,1
+PAT00659,54,Male,128,284,99,93,24.9,Never,None,No,None,Normal,No,94.0,4,No,Light,6.5,46.6,Medium,0
+PAT00660,49,Female,138,171,75,147,31.0,Current,None,No,None,ST-T abnormality,No,97.5,2,No,Light,9.0,57.3,Medium,0
+PAT00661,43,Male,124,151,71,163,30.9,Former,Moderate,No,Non-anginal,Normal,No,94.8,5,Yes,Active,6.7,49.2,Medium,0
+PAT00662,44,Female,108,232,61,125,29.3,Never,None,Yes,Asymptomatic,Normal,No,93.9,2,Yes,Sedentary,6.3,57.4,Medium,0
+PAT00663,51,Female,129,195,116,89,30.7,Current,Moderate,No,Non-anginal,LV hypertrophy,Yes,97.0,4,No,Moderate,7.7,61.8,Medium,1
+PAT00664,44,Female,146,199,59,151,26.4,Current,Moderate,Yes,Atypical angina,LV hypertrophy,No,97.3,2,Yes,Light,7.0,87.2,High,1
+PAT00665,42,Male,139,182,68,82,35.8,Current,Moderate,Yes,None,LV hypertrophy,No,96.8,5,Yes,Sedentary,8.4,87.2,High,1
+PAT00666,53,Female,130,210,80,110,33.1,Current,None,No,None,Normal,No,97.9,6,No,Moderate,7.5,52.0,Medium,0
+PAT00667,48,Female,139,260,83,65,24.6,Current,Moderate,No,Atypical angina,Normal,Yes,95.4,1,No,Light,7.7,55.4,Medium,1
+PAT00668,73,Male,138,264,88,86,31.1,Never,Heavy,Pre-diabetic,Atypical angina,Normal,No,97.2,8,No,Sedentary,8.4,69.3,High,1
+PAT00669,18,Female,89,205,100,179,30.6,Current,None,No,Typical angina,Normal,Yes,96.0,2,Yes,Sedentary,6.1,70.4,High,1
+PAT00670,67,Male,128,191,82,71,25.7,Current,Moderate,No,None,Normal,No,96.5,5,Yes,Moderate,5.7,57.4,Medium,1
+PAT00671,69,Female,159,201,60,115,25.3,Never,None,No,Asymptomatic,Normal,Yes,97.5,8,Yes,Sedentary,4.8,79.8,High,1
+PAT00672,22,Male,109,120,71,111,33.1,Never,None,Yes,Atypical angina,ST-T abnormality,No,99.1,5,No,Light,6.2,47.3,Medium,0
+PAT00673,47,Female,124,187,79,92,26.9,Current,Moderate,No,Non-anginal,ST-T abnormality,Yes,97.6,3,Yes,Sedentary,4.8,75.2,High,1
+PAT00674,46,Female,123,239,103,158,28.3,Never,None,Pre-diabetic,Typical angina,ST-T abnormality,No,98.2,6,No,Sedentary,7.0,63.3,Medium,1
+PAT00675,32,Male,141,210,55,81,34.0,Current,None,Pre-diabetic,None,ST-T abnormality,Yes,97.0,1,No,Sedentary,5.7,67.0,High,1
+PAT00676,41,Male,143,198,91,144,39.7,Never,None,No,Non-anginal,Normal,No,98.0,1,Yes,Light,7.8,46.9,Medium,0
+PAT00677,36,Male,147,199,77,91,24.4,Never,Moderate,No,Non-anginal,Normal,No,99.1,8,Yes,Sedentary,7.5,48.2,Medium,0
+PAT00678,76,Male,142,223,86,177,25.9,Former,Moderate,No,Typical angina,ST-T abnormality,No,100.0,7,No,Sedentary,6.0,73.1,High,1
+PAT00679,65,Male,141,237,73,159,27.4,Never,None,No,Typical angina,Normal,Yes,99.4,10,Yes,Moderate,7.8,69.6,High,1
+PAT00680,69,Female,122,259,63,78,27.5,Former,Moderate,No,None,ST-T abnormality,Yes,96.9,10,No,Light,6.7,69.3,High,1
+PAT00681,62,Male,154,179,85,81,28.9,Former,None,No,Typical angina,Normal,No,99.3,3,No,Sedentary,4.2,64.5,Medium,1
+PAT00682,36,Male,106,208,84,245,24.5,Never,Moderate,No,Asymptomatic,Normal,No,98.1,8,No,Light,5.2,32.7,Low,0
+PAT00683,44,Female,128,236,88,74,20.7,Never,Moderate,No,None,ST-T abnormality,No,95.8,8,Yes,Sedentary,5.6,62.9,Medium,1
+PAT00684,58,Male,120,211,74,86,35.8,Never,Moderate,No,None,LV hypertrophy,Yes,98.1,1,No,Moderate,6.5,40.8,Medium,0
+PAT00685,34,Female,112,218,66,102,30.1,Never,Heavy,Pre-diabetic,Asymptomatic,LV hypertrophy,Yes,94.7,10,No,Light,5.9,60.3,Medium,1
+PAT00686,61,Female,125,311,53,110,24.9,Current,Heavy,No,None,Normal,Yes,98.1,7,No,Sedentary,5.8,66.1,High,1
+PAT00687,48,Female,120,209,86,217,29.2,Never,None,Pre-diabetic,Typical angina,Normal,No,100.0,2,Yes,Sedentary,7.3,58.5,Medium,1
+PAT00688,46,Female,120,222,80,86,36.2,Never,Heavy,No,Typical angina,ST-T abnormality,Yes,98.6,2,No,Light,7.5,60.3,Medium,1
+PAT00689,61,Female,129,205,61,78,23.1,Former,None,No,Typical angina,Normal,Yes,99.4,2,No,Moderate,5.7,54.3,Medium,0
+PAT00690,58,Male,144,229,67,181,28.1,Never,Heavy,No,Atypical angina,Normal,No,96.2,5,Yes,Sedentary,5.4,72.5,High,1
+PAT00691,46,Male,113,224,68,101,20.1,Never,None,No,None,LV hypertrophy,No,98.0,7,Yes,Sedentary,8.1,56.4,Medium,1
+PAT00692,68,Male,142,240,54,81,26.4,Never,None,No,None,ST-T abnormality,No,98.4,4,No,Light,10.0,59.2,Medium,1
+PAT00693,36,Female,135,169,63,98,30.1,Current,None,Pre-diabetic,Non-anginal,LV hypertrophy,No,96.4,4,No,Moderate,5.3,57.9,Medium,0
+PAT00694,60,Male,129,232,59,122,21.4,Current,None,Pre-diabetic,Non-anginal,Normal,No,98.4,9,Yes,Sedentary,7.7,66.2,High,1
+PAT00695,60,Female,126,270,69,84,26.1,Current,Moderate,No,Typical angina,Normal,No,97.9,10,No,Light,6.3,82.5,High,1
+PAT00696,47,Female,124,225,64,188,31.0,Never,Heavy,No,Typical angina,ST-T abnormality,No,98.4,9,Yes,Light,7.4,72.1,High,1
+PAT00697,56,Female,146,250,52,86,29.9,Never,Moderate,No,None,Normal,No,94.9,7,No,Sedentary,5.3,62.6,Medium,1
+PAT00698,34,Male,121,190,103,209,21.2,Former,Moderate,No,None,ST-T abnormality,No,99.6,10,No,Light,4.9,49.9,Medium,0
+PAT00699,64,Male,131,253,92,80,28.9,Former,Moderate,No,Non-anginal,Normal,No,97.9,4,No,Sedentary,5.0,69.9,High,1
+PAT00700,49,Female,134,222,64,96,29.8,Current,None,No,Atypical angina,ST-T abnormality,Yes,96.8,8,Yes,Moderate,5.8,84.0,High,1
+PAT00701,44,Female,112,180,78,80,27.5,Never,None,No,Atypical angina,ST-T abnormality,No,96.8,10,Yes,Active,6.2,65.7,High,1
+PAT00702,66,Male,146,242,80,155,32.4,Never,None,No,None,Normal,No,96.9,3,Yes,Moderate,7.7,52.3,Medium,0
+PAT00703,42,Male,129,176,91,88,24.1,Former,None,No,None,Normal,No,95.3,3,No,Light,5.4,46.5,Medium,0
+PAT00704,32,Female,114,176,63,88,29.1,Current,None,No,Atypical angina,ST-T abnormality,Yes,99.4,7,Yes,Moderate,5.7,75.4,High,1
+PAT00705,30,Female,107,198,90,261,21.2,Current,None,No,Non-anginal,ST-T abnormality,Yes,98.9,9,No,Moderate,9.2,51.9,Medium,0
+PAT00706,60,Female,124,235,67,95,19.0,Former,None,Pre-diabetic,Asymptomatic,Normal,No,99.1,4,Yes,Moderate,6.6,43.1,Medium,0
+PAT00707,34,Female,126,161,56,226,30.9,Current,None,No,Asymptomatic,LV hypertrophy,Yes,100.0,4,No,Moderate,6.9,52.7,Medium,0
+PAT00708,76,Female,159,275,85,74,27.1,Former,Heavy,Pre-diabetic,Asymptomatic,Normal,No,97.4,1,Yes,Moderate,7.5,66.6,High,1
+PAT00709,22,Male,104,201,93,81,24.7,Current,None,Yes,Asymptomatic,Normal,Yes,93.7,1,Yes,Sedentary,5.8,72.9,High,1
+PAT00710,75,Male,149,221,111,187,21.7,Current,Moderate,Pre-diabetic,Typical angina,Normal,No,98.3,3,No,Light,6.5,71.8,High,1
+PAT00711,54,Male,106,173,58,102,31.1,Current,Moderate,Yes,None,LV hypertrophy,No,98.2,7,No,Light,6.1,79.3,High,1
+PAT00712,50,Male,122,210,84,85,19.5,Never,Moderate,Yes,Non-anginal,Normal,No,100.0,9,No,Sedentary,6.4,50.6,Medium,0
+PAT00713,44,Female,125,195,69,74,32.0,Never,None,Pre-diabetic,None,Normal,No,99.2,4,No,Light,7.6,43.4,Medium,0
+PAT00714,57,Female,122,226,85,85,29.3,Former,None,No,None,ST-T abnormality,No,97.3,2,No,Light,7.4,45.5,Medium,0
+PAT00715,51,Female,118,205,54,186,19.7,Former,None,No,None,Normal,Yes,96.7,6,Yes,Moderate,3.5,55.9,Medium,1
+PAT00716,67,Male,131,173,57,93,27.6,Current,None,Pre-diabetic,Typical angina,Normal,Yes,99.0,6,No,Active,7.8,67.6,High,1
+PAT00717,53,Female,134,206,64,81,40.3,Never,None,Yes,Atypical angina,Normal,No,91.7,9,Yes,Sedentary,6.1,81.6,High,1
+PAT00718,54,Female,129,210,76,103,32.9,Never,Moderate,Pre-diabetic,None,ST-T abnormality,No,97.5,4,No,Sedentary,7.0,61.2,Medium,1
+PAT00719,46,Female,99,229,66,100,22.9,Current,Moderate,Yes,Atypical angina,ST-T abnormality,No,98.9,8,No,Active,6.0,62.3,Medium,1
+PAT00720,51,Female,104,195,84,107,30.6,Never,Moderate,Pre-diabetic,Asymptomatic,LV hypertrophy,No,96.8,3,No,Active,6.4,38.3,Medium,0
+PAT00721,56,Male,125,272,89,102,19.9,Never,Moderate,Yes,Typical angina,LV hypertrophy,No,96.2,2,No,Light,8.2,62.8,Medium,1
+PAT00722,28,Male,121,133,83,85,20.1,Never,None,Yes,Asymptomatic,ST-T abnormality,No,97.6,9,Yes,Sedentary,6.9,60.7,Medium,1
+PAT00723,33,Male,86,235,97,161,26.7,Former,Moderate,No,None,ST-T abnormality,Yes,99.7,6,No,Light,8.1,47.7,Medium,0
+PAT00724,62,Male,130,221,80,83,29.8,Never,None,Pre-diabetic,None,Normal,No,97.9,8,Yes,Sedentary,6.4,69.2,High,1
+PAT00725,54,Male,125,245,57,117,31.1,Current,Moderate,Yes,Typical angina,Normal,No,95.6,10,No,Active,6.3,83.6,High,1
+PAT00726,49,Female,145,216,94,79,31.1,Never,Moderate,Yes,Atypical angina,ST-T abnormality,No,99.4,9,Yes,Moderate,6.5,84.1,High,1
+PAT00727,52,Female,125,251,66,92,29.5,Current,Moderate,Yes,Typical angina,LV hypertrophy,No,99.8,1,Yes,Sedentary,4.8,89.1,High,1
+PAT00728,56,Female,137,210,87,204,18.9,Former,None,No,Non-anginal,Normal,No,95.4,1,No,Active,3.0,42.6,Medium,0
+PAT00729,44,Female,127,175,97,79,26.7,Never,Moderate,No,Non-anginal,Normal,Yes,100.0,5,No,Moderate,5.5,41.6,Medium,0
+PAT00730,41,Male,98,247,81,98,31.8,Never,None,Pre-diabetic,Asymptomatic,Normal,No,97.0,9,No,Active,7.8,43.9,Medium,0
+PAT00731,54,Female,140,216,54,136,29.2,Never,None,No,Atypical angina,Normal,No,98.9,7,Yes,Active,8.3,52.0,Medium,0
+PAT00732,38,Male,124,208,62,103,27.9,Former,None,No,None,Normal,Yes,98.5,7,No,Sedentary,3.9,55.5,Medium,0
+PAT00733,57,Male,139,259,93,94,28.6,Never,None,No,Typical angina,Normal,No,95.6,2,Yes,Sedentary,8.2,64.2,Medium,1
+PAT00734,28,Male,163,160,72,182,28.6,Never,Moderate,Yes,None,Normal,Yes,96.1,3,No,Light,5.7,60.6,Medium,1
+PAT00735,66,Male,113,250,76,147,17.2,Former,Moderate,Yes,None,ST-T abnormality,No,97.1,4,No,Active,4.6,61.8,Medium,1
+PAT00736,58,Male,154,206,85,105,32.8,Never,None,Yes,None,Normal,No,93.3,2,No,Active,7.9,58.5,Medium,1
+PAT00737,55,Male,128,216,84,130,26.4,Never,Heavy,Yes,Atypical angina,ST-T abnormality,Yes,98.6,10,No,Moderate,5.8,77.9,High,1
+PAT00738,65,Male,141,233,78,88,30.5,Current,Heavy,No,None,LV hypertrophy,Yes,93.2,9,Yes,Sedentary,9.9,100.0,High,1
+PAT00739,75,Female,143,197,72,85,15.5,Current,Heavy,No,None,LV hypertrophy,No,97.0,5,No,Sedentary,5.6,68.6,High,1
+PAT00740,66,Male,133,209,70,95,35.3,Never,Moderate,No,Typical angina,ST-T abnormality,No,95.7,7,Yes,Moderate,6.1,71.9,High,1
+PAT00741,26,Male,107,229,87,99,21.2,Never,None,Yes,Typical angina,Normal,Yes,98.2,9,Yes,Moderate,5.2,71.2,High,1
+PAT00742,34,Male,123,224,82,100,39.7,Current,None,No,Non-anginal,LV hypertrophy,No,92.6,5,No,Light,6.7,65.0,Medium,1
+PAT00743,43,Female,106,205,71,177,37.6,Never,Moderate,Yes,Typical angina,ST-T abnormality,No,93.7,6,No,Light,7.5,74.2,High,1
+PAT00744,52,Male,139,224,90,98,20.4,Current,Moderate,No,None,Normal,Yes,95.8,4,No,Moderate,4.3,64.2,Medium,1
+PAT00745,59,Male,129,216,73,123,31.1,Never,Moderate,No,None,Normal,No,98.0,8,Yes,Active,7.4,56.6,Medium,1
+PAT00746,41,Male,110,245,63,72,21.9,Current,Heavy,Pre-diabetic,None,Normal,Yes,97.4,1,No,Light,6.0,56.7,Medium,1
+PAT00747,54,Male,126,213,64,195,23.8,Never,Moderate,No,Non-anginal,Normal,Yes,99.1,1,No,Sedentary,5.4,41.4,Medium,0
+PAT00748,41,Male,138,212,61,83,23.9,Current,None,Yes,Non-anginal,Normal,Yes,97.2,5,No,Moderate,4.7,70.7,High,0
+PAT00749,43,Male,118,241,71,159,29.2,Never,None,No,None,LV hypertrophy,Yes,97.0,10,No,Active,7.8,56.4,Medium,1
+PAT00750,32,Male,122,172,92,152,28.6,Former,None,No,Atypical angina,Normal,No,94.9,9,Yes,Light,6.9,56.4,Medium,1
+PAT00751,39,Male,113,249,63,138,21.0,Never,Moderate,No,Asymptomatic,ST-T abnormality,No,96.6,2,Yes,Light,5.7,47.4,Medium,0
+PAT00752,33,Male,128,150,77,196,29.2,Never,Moderate,No,Typical angina,ST-T abnormality,No,97.0,3,No,Sedentary,7.5,45.0,Medium,0
+PAT00753,38,Female,130,250,65,75,26.0,Current,Moderate,Yes,Non-anginal,ST-T abnormality,Yes,92.9,8,Yes,Light,7.2,97.8,High,1
+PAT00754,66,Female,160,221,71,95,17.9,Former,Moderate,No,None,LV hypertrophy,Yes,95.2,5,Yes,Sedentary,7.6,85.1,High,1
+PAT00755,38,Male,119,194,53,85,24.8,Current,Heavy,No,None,LV hypertrophy,No,97.9,3,No,Moderate,8.6,41.4,Medium,0
+PAT00756,88,Male,160,200,71,94,35.3,Never,Moderate,No,Non-anginal,Normal,No,97.4,6,Yes,Light,6.8,64.6,Medium,1
+PAT00757,58,Female,135,210,72,254,25.0,Current,Moderate,Yes,Typical angina,LV hypertrophy,Yes,96.5,6,No,Moderate,9.0,76.5,High,1
+PAT00758,54,Male,147,188,82,88,17.8,Never,None,Yes,Typical angina,ST-T abnormality,No,95.8,5,Yes,Sedentary,8.4,81.2,High,1
+PAT00759,39,Male,113,184,78,89,31.1,Current,Heavy,No,Typical angina,Normal,No,93.5,5,Yes,Sedentary,7.5,76.8,High,1
+PAT00760,61,Female,144,223,58,83,22.4,Current,Moderate,No,Typical angina,ST-T abnormality,Yes,92.6,6,Yes,Light,4.3,100.0,High,1
+PAT00761,43,Male,122,236,90,85,28.1,Never,None,Yes,Non-anginal,ST-T abnormality,Yes,96.4,2,No,Light,6.6,67.2,High,0
+PAT00762,53,Male,130,224,77,75,26.1,Current,None,Yes,None,LV hypertrophy,Yes,100.0,6,Yes,Light,6.8,79.3,High,1
+PAT00763,87,Male,152,265,77,158,35.8,Current,Heavy,No,Atypical angina,Normal,Yes,97.1,2,No,Moderate,6.8,74.0,High,1
+PAT00764,50,Female,132,182,74,128,26.1,Never,None,Yes,Asymptomatic,ST-T abnormality,No,99.0,3,No,Sedentary,6.4,51.5,Medium,0
+PAT00765,68,Male,138,208,67,160,21.3,Former,Moderate,Yes,Atypical angina,Normal,Yes,94.6,2,Yes,Light,7.3,94.4,High,1
+PAT00766,42,Female,126,260,78,75,24.7,Never,None,Yes,Typical angina,Normal,No,97.6,1,Yes,Moderate,7.5,65.2,High,1
+PAT00767,51,Female,148,194,81,159,20.9,Current,Moderate,Yes,Non-anginal,Normal,Yes,95.6,1,No,Active,4.3,72.6,High,1
+PAT00768,76,Male,156,293,50,102,26.0,Never,Moderate,Pre-diabetic,Asymptomatic,Normal,No,95.5,9,Yes,Light,8.3,77.4,High,1
+PAT00769,43,Male,135,200,67,98,35.8,Never,None,No,Atypical angina,ST-T abnormality,No,98.5,4,No,Light,4.6,52.6,Medium,0
+PAT00770,77,Male,139,244,71,217,33.2,Never,Moderate,Pre-diabetic,Atypical angina,Normal,No,96.8,5,No,Moderate,6.0,74.0,High,0
+PAT00771,61,Male,125,259,78,230,37.2,Former,Heavy,No,Non-anginal,Normal,No,94.2,10,Yes,Light,5.3,77.5,High,1
+PAT00772,44,Male,137,246,91,73,29.4,Current,Moderate,Yes,Non-anginal,Normal,Yes,97.2,7,No,Moderate,5.6,71.0,High,1
+PAT00773,60,Female,145,222,64,81,27.7,Current,Heavy,No,Non-anginal,Normal,Yes,95.6,2,No,Sedentary,7.9,76.3,High,1
+PAT00774,65,Female,155,220,68,123,22.0,Never,Moderate,No,Atypical angina,Normal,Yes,94.1,10,Yes,Moderate,6.7,69.4,High,1
+PAT00775,60,Female,127,224,67,120,28.3,Never,None,Yes,Atypical angina,Normal,Yes,95.0,9,No,Light,7.4,71.2,High,1
+PAT00776,30,Male,114,203,63,167,26.3,Former,Moderate,Yes,Typical angina,ST-T abnormality,No,100.0,4,No,Active,7.3,48.4,Medium,0
+PAT00777,41,Female,104,232,70,114,30.9,Former,Moderate,No,Asymptomatic,Normal,Yes,99.4,10,No,Light,4.0,61.0,Medium,1
+PAT00778,48,Female,123,213,85,102,21.4,Never,None,No,Asymptomatic,Normal,Yes,93.0,10,Yes,Active,5.8,63.0,Medium,1
+PAT00779,50,Female,141,233,60,99,27.3,Never,None,No,None,Normal,Yes,96.6,1,Yes,Light,7.5,47.0,Medium,0
+PAT00780,60,Male,129,275,80,98,19.1,Former,None,Pre-diabetic,Atypical angina,ST-T abnormality,No,96.8,8,No,Sedentary,7.4,71.1,High,1
+PAT00781,54,Female,139,231,51,159,28.7,Never,Moderate,Pre-diabetic,Atypical angina,Normal,No,96.5,4,No,Sedentary,4.2,59.5,Medium,1
+PAT00782,33,Male,116,205,67,170,30.4,Current,Moderate,No,Asymptomatic,ST-T abnormality,Yes,95.7,7,Yes,Active,7.8,71.8,High,1
+PAT00783,57,Male,137,177,70,123,18.9,Former,None,Pre-diabetic,Typical angina,ST-T abnormality,No,98.5,3,Yes,Light,7.3,70.9,High,1
+PAT00784,60,Male,121,147,98,97,20.3,Current,Moderate,Pre-diabetic,Atypical angina,ST-T abnormality,Yes,98.9,9,No,Light,5.2,82.8,High,1
+PAT00785,59,Female,135,236,71,177,20.5,Former,Heavy,No,None,Normal,Yes,99.1,5,No,Sedentary,7.0,54.4,Medium,0
+PAT00786,67,Female,103,231,45,126,26.1,Never,None,Yes,Typical angina,ST-T abnormality,No,97.7,5,Yes,Active,6.2,72.0,High,1
+PAT00787,63,Male,134,214,47,213,20.0,Current,Moderate,No,None,ST-T abnormality,Yes,98.2,3,No,Sedentary,7.1,69.6,High,1
+PAT00788,58,Male,114,231,75,113,33.9,Former,Heavy,Yes,Non-anginal,Normal,Yes,96.3,9,No,Sedentary,4.2,82.5,High,1
+PAT00789,51,Male,144,214,83,95,29.2,Never,Heavy,No,Non-anginal,LV hypertrophy,Yes,93.8,3,Yes,Active,6.0,64.2,Medium,1
+PAT00790,28,Male,125,224,80,91,30.0,Former,None,No,Atypical angina,LV hypertrophy,No,93.8,2,No,Active,8.0,39.3,Medium,0
+PAT00791,58,Male,139,226,77,113,19.1,Never,None,No,Atypical angina,LV hypertrophy,Yes,95.3,9,No,Sedentary,7.2,70.7,High,1
+PAT00792,54,Male,149,197,91,72,33.5,Current,None,No,Asymptomatic,ST-T abnormality,No,96.6,9,Yes,Active,7.5,81.4,High,1
+PAT00793,55,Female,120,250,67,94,30.2,Former,Moderate,Yes,None,ST-T abnormality,No,94.4,10,No,Sedentary,6.2,82.9,High,1
+PAT00794,34,Male,140,191,87,122,23.6,Former,Moderate,No,None,ST-T abnormality,Yes,94.7,4,No,Sedentary,7.2,66.5,High,1
+PAT00795,36,Male,131,215,52,138,19.3,Never,Moderate,No,Asymptomatic,ST-T abnormality,Yes,96.2,4,No,Moderate,6.3,50.3,Medium,0
+PAT00796,66,Male,135,218,62,190,26.6,Never,None,Pre-diabetic,Non-anginal,ST-T abnormality,Yes,98.7,10,Yes,Moderate,5.3,75.1,High,1
+PAT00797,51,Female,143,196,49,106,24.7,Current,None,No,Non-anginal,ST-T abnormality,No,97.7,6,Yes,Light,6.2,76.0,High,1
+PAT00798,61,Female,122,229,71,76,24.9,Current,Moderate,No,None,Normal,No,95.3,9,No,Sedentary,8.4,61.1,Medium,1
+PAT00799,52,Female,120,217,74,92,23.5,Never,Moderate,Pre-diabetic,None,Normal,Yes,97.1,8,Yes,Sedentary,8.0,57.1,Medium,1
+PAT00800,52,Male,123,231,76,144,30.6,Never,Moderate,Pre-diabetic,None,LV hypertrophy,No,94.3,10,No,Moderate,5.2,67.2,High,1
+PAT00801,65,Female,131,223,75,74,15.0,Never,Moderate,No,None,Normal,Yes,95.3,3,No,Active,6.0,48.4,Medium,0
+PAT00802,44,Male,112,153,62,72,34.1,Former,None,No,Non-anginal,ST-T abnormality,Yes,93.7,6,Yes,Light,5.3,73.6,High,1
+PAT00803,53,Female,145,205,72,90,32.0,Current,None,Pre-diabetic,None,LV hypertrophy,Yes,97.9,7,No,Moderate,6.7,69.8,High,1
+PAT00804,45,Female,123,233,54,87,28.1,Former,None,No,Non-anginal,ST-T abnormality,No,96.4,6,Yes,Sedentary,7.8,64.5,Medium,1
+PAT00805,45,Female,130,200,94,84,26.3,Former,None,No,None,LV hypertrophy,Yes,96.7,3,Yes,Moderate,9.1,62.1,Medium,1
+PAT00806,47,Female,120,204,70,201,32.4,Current,None,No,Atypical angina,ST-T abnormality,Yes,98.6,9,No,Sedentary,4.6,84.0,High,1
+PAT00807,55,Female,110,250,68,81,26.8,Never,None,No,Asymptomatic,Normal,No,95.0,4,Yes,Moderate,7.6,43.3,Medium,0
+PAT00808,45,Male,129,188,97,97,25.6,Never,None,Yes,None,ST-T abnormality,No,97.9,2,No,Light,6.5,43.2,Medium,0
+PAT00809,69,Female,117,189,57,262,32.7,Former,None,Yes,Atypical angina,Normal,No,100.0,9,Yes,Active,6.0,74.3,High,1
+PAT00810,39,Male,121,198,59,76,37.5,Current,Moderate,Pre-diabetic,Atypical angina,Normal,No,95.0,3,No,Light,5.3,62.0,Medium,1
+PAT00811,49,Male,112,199,59,94,22.1,Current,None,Yes,None,Normal,Yes,93.9,6,No,Light,8.8,69.3,High,0
+PAT00812,45,Male,150,180,74,153,29.1,Former,Moderate,No,Atypical angina,Normal,Yes,94.5,5,Yes,Moderate,4.4,72.2,High,1
+PAT00813,72,Male,153,234,81,85,21.6,Former,Moderate,No,Atypical angina,Normal,Yes,97.8,2,Yes,Light,5.9,73.3,High,1
+PAT00814,54,Male,132,234,85,148,29.5,Current,Moderate,Pre-diabetic,Typical angina,Normal,No,100.0,1,No,Sedentary,7.0,64.9,Medium,1
+PAT00815,66,Male,153,232,111,129,23.1,Never,Heavy,No,Non-anginal,ST-T abnormality,Yes,100.0,9,No,Light,7.1,65.7,High,1
+PAT00816,31,Male,107,203,45,90,33.1,Never,None,No,Typical angina,ST-T abnormality,No,98.7,3,No,Moderate,8.1,45.9,Medium,0
+PAT00817,55,Female,138,275,83,113,26.5,Current,Moderate,Pre-diabetic,None,Normal,Yes,98.8,7,No,Light,5.4,72.3,High,1
+PAT00818,64,Male,139,220,67,90,27.2,Current,Heavy,No,Typical angina,Normal,No,97.9,9,No,Sedentary,7.3,80.7,High,1
+PAT00819,53,Male,134,226,66,124,35.2,Never,Heavy,No,None,ST-T abnormality,Yes,98.5,9,Yes,Light,6.4,75.0,High,1
+PAT00820,66,Female,154,217,66,89,23.3,Former,None,Pre-diabetic,Typical angina,ST-T abnormality,Yes,97.6,10,No,Active,6.6,90.6,High,1
+PAT00821,44,Male,134,183,62,176,30.4,Never,None,Pre-diabetic,Typical angina,LV hypertrophy,Yes,95.4,6,Yes,Sedentary,5.9,80.4,High,1
+PAT00822,71,Female,145,220,98,78,23.8,Never,None,No,None,Normal,Yes,100.0,8,No,Light,6.7,54.7,Medium,0
+PAT00823,84,Female,129,238,86,75,33.0,Current,Moderate,Pre-diabetic,Non-anginal,LV hypertrophy,Yes,99.7,9,Yes,Moderate,6.3,100.0,High,1
+PAT00824,46,Female,115,221,75,229,35.9,Never,Moderate,No,Asymptomatic,Normal,No,95.4,3,No,Sedentary,6.0,38.8,Medium,1
+PAT00825,45,Female,124,280,93,70,25.7,Current,None,No,Non-anginal,ST-T abnormality,Yes,98.3,6,Yes,Light,5.8,86.1,High,1
+PAT00826,72,Male,143,217,53,98,16.0,Never,Moderate,Pre-diabetic,Atypical angina,Normal,No,99.9,5,No,Active,7.0,59.0,Medium,1
+PAT00827,74,Female,130,229,56,91,23.6,Former,Moderate,Pre-diabetic,Typical angina,Normal,No,97.8,7,Yes,Sedentary,4.8,86.9,High,1
+PAT00828,44,Male,154,206,45,91,39.2,Never,Moderate,No,Asymptomatic,Normal,No,96.6,7,No,Moderate,6.2,40.3,Medium,0
+PAT00829,46,Male,144,222,65,71,24.0,Current,Heavy,No,Atypical angina,Normal,Yes,99.9,9,No,Moderate,5.5,62.6,Medium,1
+PAT00830,48,Female,135,220,77,126,35.9,Former,Moderate,No,Non-anginal,Normal,No,97.5,1,No,Light,6.3,48.7,Medium,0
+PAT00831,33,Male,119,235,76,169,24.0,Former,None,No,None,ST-T abnormality,No,95.7,6,No,Sedentary,6.4,45.4,Medium,0
+PAT00832,39,Female,120,130,77,175,23.8,Never,Moderate,No,None,ST-T abnormality,Yes,94.7,5,Yes,Active,7.6,56.9,Medium,1
+PAT00833,37,Female,109,129,55,94,30.9,Never,None,No,Non-anginal,ST-T abnormality,Yes,91.1,4,No,Moderate,7.4,54.4,Medium,0
+PAT00834,41,Female,124,190,86,178,30.3,Never,Moderate,No,Non-anginal,Normal,Yes,100.0,10,Yes,Sedentary,6.9,54.8,Medium,0
+PAT00835,51,Female,132,249,78,109,31.3,Never,Heavy,No,Non-anginal,Normal,No,95.3,1,No,Sedentary,6.7,43.0,Medium,0
+PAT00836,55,Male,117,173,85,165,27.0,Former,Heavy,No,Asymptomatic,LV hypertrophy,No,98.9,4,No,Moderate,6.3,48.6,Medium,0
+PAT00837,73,Male,147,150,48,103,32.2,Former,Moderate,Yes,None,ST-T abnormality,No,95.2,10,Yes,Light,6.2,96.2,High,1
+PAT00838,38,Female,120,219,79,110,31.8,Former,None,No,None,Normal,No,97.3,7,Yes,Light,4.2,56.5,Medium,1
+PAT00839,65,Male,115,239,58,172,32.7,Former,None,No,Asymptomatic,Normal,No,97.9,4,No,Active,7.5,47.1,Medium,0
+PAT00840,49,Female,118,181,69,97,23.9,Never,Moderate,Pre-diabetic,None,ST-T abnormality,Yes,94.5,1,Yes,Light,6.8,61.9,Medium,1
+PAT00841,51,Female,124,186,82,149,32.2,Never,None,Yes,Typical angina,Normal,No,98.9,10,Yes,Active,8.1,59.9,Medium,1
+PAT00842,61,Female,158,198,76,156,24.4,Never,Moderate,No,Typical angina,Normal,No,96.6,1,Yes,Moderate,5.8,66.0,High,1
+PAT00843,36,Male,127,203,63,189,26.2,Current,None,No,None,ST-T abnormality,No,98.1,1,No,Sedentary,8.1,51.1,Medium,0
+PAT00844,57,Male,117,204,75,102,26.1,Former,None,Yes,None,ST-T abnormality,No,99.9,10,Yes,Moderate,6.3,73.6,High,1
+PAT00845,54,Male,137,234,53,93,22.0,Never,None,No,Typical angina,ST-T abnormality,No,98.5,5,No,Light,5.8,56.2,Medium,1
+PAT00846,58,Male,115,138,91,188,18.3,Never,Heavy,Yes,Asymptomatic,Normal,No,96.8,7,Yes,Sedentary,8.5,59.3,Medium,1
+PAT00847,56,Female,145,196,72,76,33.1,Current,Moderate,No,Non-anginal,Normal,Yes,100.0,9,No,Light,7.0,68.1,High,1
+PAT00848,86,Male,145,221,90,88,23.5,Former,None,No,Typical angina,LV hypertrophy,No,96.9,8,Yes,Moderate,8.7,88.4,High,1
+PAT00849,43,Male,123,199,67,101,25.7,Former,None,No,Atypical angina,LV hypertrophy,No,97.2,2,Yes,Moderate,6.7,61.9,Medium,1
+PAT00850,44,Male,141,192,67,170,23.3,Never,Moderate,Yes,None,Normal,No,96.7,9,No,Active,7.5,48.3,Medium,0
+PAT00851,43,Female,109,231,64,65,25.7,Never,None,Pre-diabetic,None,Normal,No,94.5,4,No,Active,7.8,39.9,Medium,0
+PAT00852,44,Female,108,152,87,80,24.5,Current,Moderate,No,Atypical angina,Normal,No,94.3,10,Yes,Sedentary,6.1,69.3,High,1
+PAT00853,43,Male,117,208,65,88,33.4,Current,Moderate,No,None,Normal,No,95.9,5,No,Moderate,6.9,47.3,Medium,0
+PAT00854,68,Male,152,251,84,74,24.0,Never,Moderate,No,None,ST-T abnormality,No,95.0,5,No,Sedentary,6.7,78.7,High,1
+PAT00855,71,Male,123,293,69,91,35.6,Current,Moderate,No,Atypical angina,LV hypertrophy,No,96.4,4,No,Sedentary,7.6,70.9,High,1
+PAT00856,44,Male,91,194,47,101,32.7,Current,Moderate,Pre-diabetic,Atypical angina,Normal,No,98.7,6,Yes,Sedentary,5.1,81.1,High,1
+PAT00857,40,Female,117,213,67,77,24.6,Never,Heavy,No,None,Normal,No,96.2,1,Yes,Moderate,7.3,38.2,Medium,0
+PAT00858,58,Female,140,169,58,158,28.6,Never,Heavy,Pre-diabetic,Typical angina,LV hypertrophy,No,97.4,2,Yes,Sedentary,7.7,69.3,High,1
+PAT00859,44,Male,140,136,75,90,29.6,Never,Moderate,Yes,Typical angina,Normal,No,96.0,4,No,Light,5.6,55.2,Medium,1
+PAT00860,60,Male,129,251,58,132,31.2,Never,None,Pre-diabetic,None,LV hypertrophy,No,100.0,4,No,Sedentary,5.4,57.3,Medium,1
+PAT00861,54,Female,126,219,87,84,31.7,Former,Moderate,Yes,Asymptomatic,ST-T abnormality,No,100.0,8,No,Light,4.3,65.8,High,1
+PAT00862,30,Male,131,228,73,107,27.9,Never,None,No,None,LV hypertrophy,No,96.5,9,Yes,Active,9.2,57.7,Medium,1
+PAT00863,73,Female,120,199,72,101,22.2,Current,Moderate,No,Asymptomatic,Normal,No,97.5,4,No,Active,5.5,56.6,Medium,1
+PAT00864,77,Male,140,260,84,102,30.2,Current,Moderate,No,None,Normal,No,94.3,6,No,Moderate,8.3,81.5,High,1
+PAT00865,43,Male,127,263,88,161,25.8,Never,None,No,Asymptomatic,Normal,No,96.6,4,Yes,Moderate,6.2,45.0,Medium,0
+PAT00866,46,Male,132,223,74,88,15.0,Former,None,No,None,Normal,No,95.8,4,Yes,Moderate,7.9,50.3,Medium,1
+PAT00867,56,Male,126,230,64,103,29.0,Current,Moderate,No,Non-anginal,Normal,Yes,98.5,9,No,Moderate,7.3,61.5,Medium,1
+PAT00868,56,Female,133,222,50,90,23.3,Current,Heavy,Pre-diabetic,Atypical angina,LV hypertrophy,Yes,95.1,4,No,Moderate,9.2,74.7,High,0
+PAT00869,61,Male,105,180,65,76,24.7,Current,Moderate,No,Non-anginal,ST-T abnormality,Yes,100.0,6,No,Sedentary,8.4,56.7,Medium,1
+PAT00870,80,Male,139,288,66,142,27.0,Never,Moderate,Yes,Atypical angina,ST-T abnormality,Yes,96.9,9,Yes,Light,6.8,100.0,High,1
+PAT00871,49,Male,134,195,76,91,19.2,Former,None,Pre-diabetic,None,Normal,Yes,95.3,3,No,Light,6.9,59.2,Medium,0
+PAT00872,40,Male,111,219,70,226,27.7,Former,Moderate,Pre-diabetic,Non-anginal,ST-T abnormality,Yes,97.1,7,Yes,Light,7.4,69.4,High,1
+PAT00873,32,Male,119,148,84,77,25.4,Current,Moderate,No,None,ST-T abnormality,No,98.5,7,No,Light,10.0,50.2,Medium,0
+PAT00874,41,Male,129,169,66,97,22.6,Never,Moderate,No,Asymptomatic,Normal,No,98.0,1,Yes,Moderate,6.6,30.0,Low,0
+PAT00875,51,Female,125,259,74,207,27.2,Current,None,No,None,LV hypertrophy,No,97.3,2,No,Moderate,4.8,56.0,Medium,1
+PAT00876,77,Male,147,234,91,94,18.5,Never,Moderate,No,Atypical angina,Normal,Yes,98.8,5,No,Sedentary,6.8,69.4,High,1
+PAT00877,44,Male,114,252,79,131,27.4,Current,None,No,Non-anginal,Normal,Yes,98.6,8,Yes,Light,5.7,73.5,High,1
+PAT00878,55,Female,129,218,74,182,29.4,Former,None,Yes,Atypical angina,Normal,No,98.6,6,Yes,Moderate,6.8,73.7,High,1
+PAT00879,51,Male,137,161,66,94,28.5,Former,Heavy,No,None,ST-T abnormality,Yes,96.4,7,Yes,Sedentary,8.0,68.8,High,1
+PAT00880,68,Female,141,261,66,151,30.9,Former,None,No,Non-anginal,ST-T abnormality,No,96.4,3,Yes,Sedentary,7.2,71.6,High,1
+PAT00881,87,Male,144,238,63,98,32.8,Never,None,Pre-diabetic,Non-anginal,Normal,No,96.6,6,No,Moderate,5.7,60.7,Medium,1
+PAT00882,44,Female,128,229,67,87,26.6,Never,Moderate,No,Asymptomatic,Normal,No,96.0,9,No,Light,6.2,44.1,Medium,0
+PAT00883,45,Female,134,210,85,106,32.5,Never,Heavy,No,Atypical angina,Normal,No,97.2,3,No,Active,5.1,43.1,Medium,0
+PAT00884,66,Female,114,186,71,81,26.6,Never,Moderate,Yes,Typical angina,Normal,No,97.0,6,Yes,Moderate,8.2,70.6,High,1
+PAT00885,61,Female,149,232,56,205,23.5,Never,Moderate,No,Atypical angina,Normal,Yes,100.0,7,No,Active,7.6,59.3,Medium,1
+PAT00886,77,Male,141,310,99,78,25.0,Current,Heavy,Yes,None,Normal,Yes,96.0,5,No,Sedentary,5.1,91.3,High,1
+PAT00887,60,Female,140,240,79,227,28.3,Former,None,No,Non-anginal,Normal,Yes,95.0,10,No,Sedentary,9.8,76.4,High,1
+PAT00888,46,Male,141,209,55,81,32.4,Never,None,Pre-diabetic,Atypical angina,LV hypertrophy,No,98.3,8,Yes,Light,6.2,75.8,High,1
+PAT00889,60,Male,118,258,68,105,27.0,Current,None,No,Atypical angina,Normal,Yes,97.1,8,Yes,Sedentary,6.9,82.0,High,1
+PAT00890,67,Male,130,240,76,96,23.6,Former,Moderate,No,Atypical angina,ST-T abnormality,No,95.6,6,Yes,Light,6.1,75.2,High,1
+PAT00891,63,Female,133,235,98,93,34.2,Current,None,No,Non-anginal,Normal,No,98.6,7,No,Moderate,7.0,58.7,Medium,1
+PAT00892,59,Male,125,192,59,131,19.8,Former,None,No,Asymptomatic,Normal,Yes,96.4,3,Yes,Active,6.6,49.1,Medium,0
+PAT00893,66,Female,159,239,88,108,23.7,Never,Moderate,No,Typical angina,Normal,No,100.0,7,No,Active,4.7,60.3,Medium,1
+PAT00894,68,Female,129,266,94,149,31.5,Former,Moderate,No,Atypical angina,Normal,No,95.1,7,No,Light,8.0,63.0,Medium,1
+PAT00895,71,Female,135,213,66,78,35.8,Former,Moderate,No,Non-anginal,Normal,No,95.8,4,No,Moderate,5.4,61.6,Medium,1
+PAT00896,61,Female,138,270,71,126,29.4,Never,Moderate,No,Typical angina,LV hypertrophy,Yes,97.3,10,No,Sedentary,7.7,78.4,High,1
+PAT00897,49,Male,114,211,60,94,28.2,Never,None,No,None,LV hypertrophy,No,99.7,4,Yes,Light,6.2,42.7,Medium,0
+PAT00898,54,Male,126,192,72,84,25.5,Never,Moderate,No,None,Normal,No,95.6,3,Yes,Active,6.6,41.6,Medium,0
+PAT00899,68,Male,143,264,74,85,29.7,Never,Moderate,Yes,None,Normal,Yes,97.8,10,No,Sedentary,7.1,80.3,High,1
+PAT00900,40,Male,119,195,84,86,27.6,Never,Heavy,No,Atypical angina,LV hypertrophy,Yes,94.7,7,Yes,Light,6.7,70.7,High,1
+PAT00901,57,Male,132,245,90,123,23.2,Former,None,No,Non-anginal,Normal,Yes,98.8,5,No,Active,7.5,47.5,Medium,0
+PAT00902,46,Male,120,202,64,93,25.5,Never,Heavy,Yes,Atypical angina,ST-T abnormality,No,95.7,3,No,Sedentary,5.6,73.5,High,1
+PAT00903,52,Male,112,215,47,90,22.7,Former,Moderate,Pre-diabetic,Atypical angina,LV hypertrophy,No,98.2,6,No,Active,7.8,52.6,Medium,0
+PAT00904,69,Female,144,250,74,87,27.1,Former,None,No,Asymptomatic,LV hypertrophy,No,98.3,6,No,Sedentary,5.2,66.2,High,1
+PAT00905,54,Female,152,228,79,111,27.8,Never,Moderate,No,Non-anginal,Normal,No,93.4,6,No,Active,5.3,55.2,Medium,1
+PAT00906,52,Male,130,157,78,221,35.2,Never,None,No,Typical angina,Normal,Yes,97.4,2,Yes,Light,7.3,59.8,Medium,1
+PAT00907,32,Female,121,161,70,102,24.0,Never,Heavy,No,None,Normal,No,96.0,10,Yes,Sedentary,7.9,42.3,Medium,0
+PAT00908,62,Male,144,256,76,84,26.1,Never,Heavy,Yes,None,LV hypertrophy,No,98.0,7,Yes,Sedentary,6.9,74.5,High,1
+PAT00909,61,Male,120,223,96,99,33.3,Never,None,No,None,LV hypertrophy,Yes,95.3,7,No,Moderate,8.4,65.5,High,1
+PAT00910,82,Female,168,234,80,170,36.0,Never,None,Yes,None,ST-T abnormality,Yes,95.8,10,Yes,Active,5.4,94.3,High,1
+PAT00911,47,Male,129,171,69,95,29.4,Former,None,No,None,ST-T abnormality,Yes,99.4,4,Yes,Moderate,5.0,52.0,Medium,0
+PAT00912,55,Male,151,188,67,135,25.7,Former,None,No,Typical angina,ST-T abnormality,Yes,99.2,6,Yes,Active,7.6,73.7,High,1
+PAT00913,55,Female,123,160,72,131,24.6,Never,None,Yes,None,ST-T abnormality,Yes,95.0,4,No,Moderate,6.7,52.9,Medium,0
+PAT00914,74,Female,165,238,97,159,17.8,Never,None,No,None,ST-T abnormality,Yes,100.0,4,Yes,Sedentary,7.5,66.4,High,1
+PAT00915,50,Female,138,197,72,89,22.4,Former,Moderate,No,None,ST-T abnormality,No,91.8,6,Yes,Moderate,5.2,74.8,High,1
+PAT00916,55,Female,138,191,74,95,27.5,Current,None,Pre-diabetic,Typical angina,Normal,Yes,97.4,9,Yes,Light,5.9,89.3,High,1
+PAT00917,60,Female,138,224,68,93,26.1,Current,Moderate,Pre-diabetic,Typical angina,Normal,No,94.4,7,No,Light,8.8,76.7,High,0
+PAT00918,54,Male,128,230,90,83,30.1,Former,Moderate,Yes,Typical angina,ST-T abnormality,No,97.7,2,No,Sedentary,6.2,77.8,High,1
+PAT00919,45,Male,140,272,102,99,26.0,Never,Moderate,No,None,Normal,No,96.5,6,No,Light,8.4,46.9,Medium,0
+PAT00920,54,Male,133,174,81,100,23.4,Never,Heavy,No,Atypical angina,Normal,Yes,95.0,5,No,Moderate,7.5,58.6,Medium,1
+PAT00921,67,Male,115,268,76,89,28.7,Current,None,Pre-diabetic,None,ST-T abnormality,Yes,95.5,6,No,Sedentary,6.1,78.8,High,1
+PAT00922,37,Female,107,230,75,177,39.5,Never,None,No,None,ST-T abnormality,No,95.4,8,Yes,Moderate,8.3,50.5,Medium,0
+PAT00923,53,Male,128,195,45,135,25.4,Current,Moderate,Pre-diabetic,Asymptomatic,LV hypertrophy,No,97.2,8,No,Active,6.9,60.0,Medium,1
+PAT00924,42,Female,128,212,85,213,27.7,Former,Moderate,No,Asymptomatic,Normal,Yes,98.9,3,No,Sedentary,6.5,50.2,Medium,0
+PAT00925,68,Female,139,221,76,88,31.2,Former,Moderate,No,Typical angina,ST-T abnormality,Yes,100.0,9,No,Moderate,6.4,93.3,High,1
+PAT00926,30,Female,131,198,80,89,24.1,Never,Heavy,Pre-diabetic,Asymptomatic,Normal,No,96.7,6,No,Moderate,7.1,38.1,Medium,0
+PAT00927,44,Male,102,253,65,165,33.4,Former,Heavy,No,Typical angina,LV hypertrophy,No,97.6,7,No,Sedentary,5.0,65.0,Medium,1
+PAT00928,57,Female,135,241,69,229,19.1,Former,Moderate,No,None,Normal,Yes,99.4,9,No,Moderate,7.7,47.7,Medium,0
+PAT00929,73,Male,121,255,69,73,25.0,Never,Moderate,No,Asymptomatic,ST-T abnormality,No,96.1,7,No,Sedentary,7.1,55.1,Medium,1
+PAT00930,51,Female,138,203,89,91,25.4,Never,None,No,None,ST-T abnormality,Yes,95.4,10,Yes,Light,5.8,80.6,High,1
+PAT00931,44,Male,124,164,69,116,27.8,Current,None,No,Typical angina,Normal,No,100.0,9,No,Sedentary,4.9,58.1,Medium,1
+PAT00932,78,Female,151,239,104,97,17.1,Former,Moderate,No,None,LV hypertrophy,No,96.6,1,Yes,Light,6.2,67.1,High,1
+PAT00933,31,Male,107,230,81,60,33.8,Never,Moderate,No,Atypical angina,LV hypertrophy,No,97.4,1,Yes,Light,6.8,55.2,Medium,1
+PAT00934,21,Female,127,137,57,192,29.1,Never,Moderate,Yes,Typical angina,Normal,No,93.8,3,No,Light,6.7,42.1,Medium,0
+PAT00935,58,Female,146,192,73,65,32.6,Former,None,No,Atypical angina,Normal,No,96.0,9,Yes,Sedentary,6.7,78.0,High,1
+PAT00936,44,Male,132,212,65,174,35.1,Former,Moderate,Pre-diabetic,None,Normal,No,100.0,1,No,Moderate,7.4,33.8,Low,0
+PAT00937,37,Male,119,171,45,168,23.3,Former,None,No,Atypical angina,Normal,Yes,97.9,1,No,Active,5.0,49.8,Medium,0
+PAT00938,61,Female,142,203,97,101,15.0,Former,Moderate,No,Atypical angina,LV hypertrophy,No,96.9,5,No,Light,6.4,55.7,Medium,1
+PAT00939,55,Male,123,207,84,98,32.7,Never,None,No,Asymptomatic,LV hypertrophy,Yes,99.8,8,No,Sedentary,6.9,61.6,Medium,1
+PAT00940,44,Female,135,167,82,145,25.6,Former,None,Yes,Non-anginal,Normal,No,93.7,2,Yes,Sedentary,7.1,57.2,Medium,1
+PAT00941,34,Female,139,168,77,90,21.3,Never,None,Pre-diabetic,Atypical angina,Normal,Yes,96.2,4,No,Active,7.7,55.7,Medium,1
+PAT00942,64,Male,150,251,55,208,29.9,Current,None,Yes,None,Normal,No,100.0,6,No,Sedentary,6.2,77.3,High,1
+PAT00943,61,Male,127,188,68,178,39.3,Former,Heavy,No,Non-anginal,Normal,No,96.9,1,No,Sedentary,6.6,47.1,Medium,0
+PAT00944,50,Male,133,167,86,78,26.5,Never,None,No,None,Normal,No,96.9,4,No,Light,5.5,42.2,Medium,0
+PAT00945,77,Female,129,225,60,191,31.8,Never,None,Yes,None,Normal,No,99.4,4,Yes,Moderate,7.0,67.5,High,1
+PAT00946,37,Male,128,222,45,60,22.1,Current,Moderate,Pre-diabetic,Atypical angina,Normal,Yes,99.5,9,No,Light,5.4,67.5,High,1
+PAT00947,30,Male,122,187,71,119,18.6,Never,Moderate,Pre-diabetic,Asymptomatic,ST-T abnormality,Yes,94.4,9,No,Sedentary,7.2,60.2,Medium,1
+PAT00948,42,Male,101,192,73,77,31.6,Never,None,No,None,ST-T abnormality,Yes,97.9,6,No,Moderate,8.0,45.9,Medium,0
+PAT00949,51,Female,115,217,76,74,29.7,Former,None,Pre-diabetic,None,Normal,No,100.0,8,No,Moderate,7.1,44.0,Medium,0
+PAT00950,55,Female,128,168,85,94,24.7,Never,Heavy,No,Atypical angina,ST-T abnormality,Yes,95.7,10,No,Moderate,8.2,63.8,Medium,1
+PAT00951,48,Female,124,227,83,108,35.5,Current,Moderate,No,None,ST-T abnormality,No,96.3,4,No,Sedentary,5.9,69.0,High,1
+PAT00952,56,Male,118,233,78,96,18.2,Never,None,No,Typical angina,LV hypertrophy,Yes,97.1,10,No,Moderate,4.9,63.8,Medium,1
+PAT00953,34,Female,124,185,91,131,20.8,Current,Moderate,No,Atypical angina,Normal,Yes,98.4,8,Yes,Light,6.3,62.4,Medium,1
+PAT00954,72,Female,145,269,53,133,24.3,Never,None,Yes,Atypical angina,LV hypertrophy,No,94.1,3,No,Light,5.7,75.6,High,1
+PAT00955,50,Female,126,181,82,78,25.2,Never,None,Pre-diabetic,None,LV hypertrophy,No,90.8,2,Yes,Light,5.9,69.3,High,1
+PAT00956,67,Female,130,267,83,119,34.3,Current,Moderate,Yes,None,Normal,No,97.4,6,Yes,Light,3.6,80.6,High,1
+PAT00957,56,Male,145,226,57,100,27.2,Former,Heavy,Yes,Non-anginal,Normal,Yes,99.3,5,Yes,Light,6.7,73.9,High,1
+PAT00958,58,Male,153,213,53,192,26.0,Never,None,No,Asymptomatic,LV hypertrophy,No,96.4,8,No,Sedentary,6.5,65.2,High,1
+PAT00959,59,Female,128,224,64,88,20.6,Never,Moderate,Yes,None,ST-T abnormality,Yes,95.8,1,Yes,Light,7.6,73.1,High,1
+PAT00960,58,Male,126,220,65,127,32.4,Former,None,No,None,LV hypertrophy,No,96.7,10,Yes,Light,7.2,71.4,High,1
+PAT00961,60,Female,141,262,85,81,21.3,Former,None,Yes,None,ST-T abnormality,No,100.0,3,Yes,Moderate,6.3,65.1,High,1
+PAT00962,70,Female,136,204,66,192,20.6,Current,None,Yes,Typical angina,ST-T abnormality,No,95.7,7,No,Sedentary,7.7,93.7,High,1
+PAT00963,54,Male,129,196,63,158,25.0,Current,None,Yes,Non-anginal,Normal,No,98.1,10,No,Active,7.7,59.8,Medium,1
+PAT00964,61,Female,144,258,66,92,27.8,Former,Heavy,No,Atypical angina,Normal,Yes,94.7,4,Yes,Light,5.9,79.8,High,1
+PAT00965,50,Male,106,197,90,173,23.4,Never,Moderate,Pre-diabetic,Typical angina,LV hypertrophy,No,94.8,10,No,Light,6.8,62.4,Medium,1
+PAT00966,72,Male,158,266,75,182,30.5,Former,None,No,Non-anginal,Normal,No,98.7,5,No,Sedentary,8.5,63.0,Medium,1
+PAT00967,42,Female,125,257,72,140,25.6,Former,Heavy,No,Asymptomatic,Normal,No,100.0,8,No,Moderate,6.9,37.8,Medium,0
+PAT00968,77,Female,140,232,73,100,32.3,Never,Heavy,Yes,None,ST-T abnormality,No,98.8,1,Yes,Moderate,5.4,66.1,High,0
+PAT00969,51,Male,128,236,93,66,29.5,Never,Moderate,No,None,ST-T abnormality,Yes,92.9,1,No,Active,5.0,53.0,Medium,0
+PAT00970,31,Male,117,159,64,113,36.0,Never,Heavy,Pre-diabetic,None,Normal,No,96.2,7,Yes,Light,4.6,53.2,Medium,0
+PAT00971,53,Female,110,241,93,266,24.8,Never,None,No,Asymptomatic,Normal,Yes,97.5,9,No,Light,3.8,57.6,Medium,1
+PAT00972,42,Female,142,212,77,90,31.2,Never,Moderate,No,Non-anginal,Normal,Yes,97.1,4,No,Moderate,5.9,56.2,Medium,1
+PAT00973,63,Female,137,243,72,206,18.1,Former,Moderate,Pre-diabetic,Typical angina,Normal,Yes,93.2,8,No,Moderate,6.3,89.0,High,1
+PAT00974,42,Male,129,187,110,101,41.5,Current,Heavy,No,None,ST-T abnormality,No,94.4,10,Yes,Active,5.2,82.0,High,1
+PAT00975,45,Male,137,159,60,91,31.0,Former,Moderate,No,None,Normal,No,95.4,7,No,Sedentary,5.6,57.4,Medium,1
+PAT00976,25,Male,101,202,70,122,25.5,Never,None,No,None,LV hypertrophy,Yes,96.9,2,No,Moderate,5.3,36.4,Medium,0
+PAT00977,45,Female,131,147,57,207,25.7,Never,Moderate,No,Typical angina,ST-T abnormality,Yes,93.1,5,No,Sedentary,4.4,71.6,High,1
+PAT00978,18,Male,106,170,88,86,25.8,Former,None,Yes,None,ST-T abnormality,Yes,98.2,9,No,Light,6.3,52.3,Medium,0
+PAT00979,29,Male,126,220,98,100,36.2,Never,None,No,None,Normal,No,96.8,9,Yes,Sedentary,7.4,53.5,Medium,0
+PAT00980,62,Female,110,234,98,80,31.5,Former,None,Pre-diabetic,Non-anginal,Normal,No,94.9,3,No,Moderate,5.8,52.2,Medium,0
+PAT00981,63,Male,135,287,92,169,24.8,Current,Heavy,Yes,None,Normal,No,97.4,3,No,Moderate,8.0,63.6,Medium,1
+PAT00982,57,Female,126,253,72,91,20.8,Never,None,No,Atypical angina,Normal,Yes,94.1,2,No,Sedentary,6.7,49.0,Medium,0
+PAT00983,38,Female,127,182,69,75,33.0,Never,Moderate,Yes,None,ST-T abnormality,No,96.9,7,No,Light,7.7,59.5,Medium,1
+PAT00984,51,Female,135,217,51,74,31.2,Former,None,Yes,Non-anginal,Normal,No,93.4,6,Yes,Light,6.5,72.3,High,1
+PAT00985,51,Male,121,214,103,86,30.5,Current,Heavy,No,Typical angina,ST-T abnormality,Yes,93.7,5,No,Sedentary,7.4,82.2,High,1
+PAT00986,35,Male,111,151,81,107,26.6,Current,None,No,Asymptomatic,Normal,No,96.1,7,No,Sedentary,4.7,55.3,Medium,0
+PAT00987,73,Female,141,212,68,222,25.5,Current,Moderate,No,Atypical angina,Normal,No,95.6,4,No,Light,7.6,74.2,High,1
+PAT00988,64,Female,126,213,93,83,35.4,Never,Heavy,Yes,Asymptomatic,LV hypertrophy,No,97.8,5,Yes,Moderate,6.5,66.8,High,1
+PAT00989,48,Female,138,151,61,206,35.9,Current,Moderate,Yes,Asymptomatic,ST-T abnormality,No,97.0,9,No,Light,7.9,71.5,High,1
+PAT00990,52,Male,125,218,80,76,30.2,Never,None,No,Typical angina,Normal,No,100.0,9,No,Light,6.2,57.6,Medium,1
+PAT00991,54,Female,96,212,72,139,31.8,Never,Moderate,Yes,Asymptomatic,Normal,No,96.5,4,Yes,Active,8.8,50.3,Medium,0
+PAT00992,23,Female,108,135,83,232,28.2,Current,Heavy,Yes,Atypical angina,Normal,No,90.4,6,Yes,Sedentary,7.2,75.2,High,1
+PAT00993,48,Female,115,225,74,173,20.2,Current,Moderate,Yes,Atypical angina,ST-T abnormality,No,92.9,2,No,Moderate,5.3,81.2,High,1
+PAT00994,42,Female,104,227,54,91,22.1,Never,None,Yes,None,Normal,No,94.6,3,No,Light,8.0,46.6,Medium,0
+PAT00995,37,Female,106,207,76,109,32.7,Never,Heavy,No,Typical angina,ST-T abnormality,Yes,100.0,9,No,Active,5.1,58.3,Medium,1
+PAT00996,48,Female,129,203,89,148,33.4,Never,None,Pre-diabetic,Non-anginal,ST-T abnormality,No,96.9,6,Yes,Light,5.1,65.4,High,1
+PAT00997,77,Male,161,262,74,112,32.3,Never,Moderate,Yes,Non-anginal,LV hypertrophy,No,99.2,8,Yes,Moderate,8.2,80.7,High,1
+PAT00998,60,Male,138,246,85,165,28.7,Never,Moderate,Yes,None,Normal,No,99.0,5,No,Sedentary,6.9,58.0,Medium,1
+PAT00999,44,Male,118,217,60,146,32.5,Current,None,No,Atypical angina,Normal,No,94.5,2,Yes,Active,6.6,58.3,Medium,1
+PAT01000,60,Male,140,201,74,80,26.7,Former,Moderate,No,None,ST-T abnormality,No,93.4,7,No,Light,5.8,74.9,High,1
+PAT01001,71,Male,136,246,66,86,30.1,Current,Moderate,No,Typical angina,Normal,No,98.3,6,Yes,Light,7.6,80.3,High,1
+PAT01002,64,Male,129,266,85,101,26.0,Current,Heavy,No,None,Normal,Yes,92.6,2,Yes,Sedentary,6.1,85.0,High,1
+PAT01003,52,Male,116,199,75,95,21.7,Former,None,Yes,Asymptomatic,Normal,No,99.0,6,Yes,Active,6.8,58.0,Medium,1
+PAT01004,42,Male,103,269,84,157,31.3,Current,Moderate,No,None,Normal,Yes,96.8,8,No,Moderate,5.0,62.7,Medium,1
+PAT01005,61,Female,131,211,90,125,33.4,Former,Moderate,Yes,None,Normal,No,98.2,1,No,Sedentary,6.4,63.9,Medium,1
+PAT01006,57,Female,135,223,84,145,39.4,Never,None,Yes,Asymptomatic,Normal,No,97.6,4,Yes,Sedentary,6.7,66.6,High,1
+PAT01007,64,Male,136,210,78,77,28.3,Former,None,Yes,Atypical angina,LV hypertrophy,No,97.7,1,No,Light,7.2,66.0,High,1
+PAT01008,60,Female,130,232,61,198,21.8,Former,Heavy,No,None,ST-T abnormality,Yes,97.2,2,No,Sedentary,6.9,63.6,Medium,1
+PAT01009,66,Male,127,180,74,108,25.4,Current,None,Pre-diabetic,Atypical angina,Normal,No,97.6,1,No,Light,6.1,63.4,Medium,1
+PAT01010,44,Male,132,192,67,91,26.3,Current,Heavy,Yes,None,Normal,No,97.1,6,No,Active,6.9,61.0,Medium,1
+PAT01011,70,Male,125,204,70,74,27.7,Never,None,Yes,Asymptomatic,ST-T abnormality,No,94.2,6,Yes,Moderate,7.8,80.6,High,0
+PAT01012,54,Male,140,223,69,103,29.4,Current,None,No,Typical angina,LV hypertrophy,No,96.2,1,No,Active,4.6,73.9,High,1
+PAT01013,81,Female,135,279,61,80,28.8,Never,Moderate,No,None,Normal,Yes,100.0,4,No,Light,6.3,54.0,Medium,0
+PAT01014,42,Female,115,225,47,90,30.9,Current,Moderate,No,Typical angina,ST-T abnormality,No,97.6,4,No,Moderate,6.8,70.3,High,1
+PAT01015,76,Male,127,172,65,85,28.0,Never,Moderate,No,None,ST-T abnormality,Yes,99.3,8,Yes,Light,5.3,63.3,Medium,1
+PAT01016,54,Male,125,280,77,105,15.9,Never,Moderate,No,Non-anginal,Normal,Yes,95.0,6,Yes,Light,7.7,61.1,Medium,0
+PAT01017,42,Male,136,215,56,92,28.1,Never,Moderate,No,Asymptomatic,LV hypertrophy,No,95.0,2,No,Light,7.3,44.0,Medium,0
+PAT01018,45,Male,132,186,75,89,27.4,Former,None,Yes,Asymptomatic,ST-T abnormality,No,94.6,5,No,Light,7.8,59.1,Medium,1
+PAT01019,47,Male,139,216,101,88,29.8,Never,Moderate,No,Atypical angina,LV hypertrophy,No,94.3,4,No,Active,9.3,54.2,Medium,0
+PAT01020,57,Male,139,228,89,135,25.2,Current,None,No,Atypical angina,Normal,No,93.8,10,No,Light,6.9,79.0,High,1
+PAT01021,59,Female,121,205,98,92,28.1,Never,Moderate,Pre-diabetic,None,ST-T abnormality,No,97.5,4,Yes,Moderate,6.1,54.6,Medium,0
+PAT01022,43,Female,121,213,80,77,29.8,Current,None,No,Typical angina,ST-T abnormality,No,96.3,8,No,Moderate,7.7,70.2,High,1
+PAT01023,51,Male,120,198,91,174,26.2,Former,None,Yes,Typical angina,Normal,Yes,98.8,5,No,Light,5.7,74.3,High,1
+PAT01024,81,Female,163,237,64,90,30.4,Never,Moderate,No,Atypical angina,ST-T abnormality,Yes,96.4,3,No,Light,7.1,70.8,High,1
+PAT01025,76,Male,130,223,65,86,27.4,Never,None,No,Asymptomatic,Normal,Yes,92.2,10,Yes,Light,7.8,83.0,High,1
+PAT01026,58,Male,144,181,45,73,27.8,Former,None,No,None,Normal,No,97.9,4,Yes,Sedentary,7.6,59.3,Medium,1
+PAT01027,52,Male,141,221,91,120,15.0,Former,Moderate,Yes,None,Normal,No,92.9,1,Yes,Moderate,8.3,60.8,Medium,1
+PAT01028,53,Female,152,236,96,171,21.3,Former,Moderate,No,None,ST-T abnormality,No,97.4,6,No,Active,6.1,49.8,Medium,0
+PAT01029,60,Female,130,241,67,96,21.3,Never,Heavy,Pre-diabetic,None,LV hypertrophy,Yes,95.5,10,No,Sedentary,7.4,70.5,High,1
+PAT01030,37,Female,129,225,71,227,28.1,Former,Moderate,No,None,Normal,Yes,97.5,4,Yes,Active,6.6,52.3,Medium,0
+PAT01031,48,Male,155,222,64,90,33.4,Current,None,No,Typical angina,ST-T abnormality,No,94.1,6,No,Sedentary,6.8,83.6,High,1
+PAT01032,28,Female,108,175,80,79,26.4,Never,Moderate,Yes,Atypical angina,Normal,No,98.6,2,Yes,Light,6.8,46.7,Medium,0
+PAT01033,57,Male,114,248,90,76,31.2,Never,None,No,None,LV hypertrophy,No,97.1,5,No,Light,7.2,52.4,Medium,0
+PAT01034,61,Female,113,186,50,233,30.2,Never,Moderate,Yes,Non-anginal,ST-T abnormality,Yes,96.3,9,No,Sedentary,6.5,80.2,High,1
+PAT01035,45,Male,134,182,80,187,27.7,Current,Heavy,No,None,ST-T abnormality,No,93.6,8,No,Sedentary,4.7,80.4,High,1
+PAT01036,74,Male,121,212,71,93,29.9,Current,Moderate,No,Typical angina,ST-T abnormality,No,100.0,3,Yes,Light,6.7,79.9,High,1
+PAT01037,34,Female,115,230,76,78,28.2,Never,Moderate,Yes,Atypical angina,Normal,Yes,95.2,1,No,Sedentary,7.0,59.9,Medium,1
+PAT01038,31,Female,123,222,81,89,26.3,Never,None,Pre-diabetic,Typical angina,Normal,Yes,97.5,10,Yes,Sedentary,6.4,67.4,High,1
+PAT01039,55,Male,134,235,72,90,29.0,Never,Moderate,No,Asymptomatic,LV hypertrophy,No,95.1,3,Yes,Sedentary,7.1,67.7,High,1
+PAT01040,66,Female,143,264,73,96,34.2,Never,Heavy,Yes,None,Normal,Yes,100.0,8,Yes,Sedentary,6.3,88.5,High,1
+PAT01041,75,Male,146,216,72,84,29.4,Never,None,No,Typical angina,ST-T abnormality,No,97.3,3,No,Sedentary,6.1,69.2,High,1
+PAT01042,45,Female,141,220,88,91,28.1,Current,None,Yes,Asymptomatic,LV hypertrophy,No,95.8,5,No,Moderate,8.3,63.8,Medium,1
+PAT01043,67,Female,127,230,80,105,22.6,Former,Moderate,Yes,Typical angina,Normal,No,98.2,2,Yes,Moderate,9.4,73.0,High,1
+PAT01044,51,Female,121,241,78,145,34.1,Never,Moderate,No,None,LV hypertrophy,Yes,98.5,1,No,Sedentary,7.6,43.3,Medium,0
+PAT01045,49,Female,119,210,57,136,20.0,Current,None,No,Atypical angina,LV hypertrophy,Yes,97.8,10,No,Sedentary,5.8,77.7,High,1
+PAT01046,64,Male,147,219,69,79,18.5,Former,Heavy,No,Typical angina,ST-T abnormality,No,96.4,5,No,Moderate,6.8,75.0,High,1
+PAT01047,61,Male,146,243,87,150,28.9,Former,None,No,Asymptomatic,Normal,Yes,97.9,5,No,Sedentary,6.7,61.9,Medium,1
+PAT01048,29,Female,122,218,75,88,22.6,Never,None,No,None,Normal,No,96.7,6,No,Moderate,7.4,30.5,Low,0
+PAT01049,72,Male,156,219,84,75,32.4,Never,Moderate,Yes,None,Normal,Yes,96.9,2,Yes,Sedentary,6.7,83.0,High,1
+PAT01050,71,Male,127,236,99,173,18.6,Current,None,Pre-diabetic,Atypical angina,ST-T abnormality,No,95.4,9,Yes,Sedentary,7.3,100.0,High,1
+PAT01051,43,Male,145,175,89,222,31.8,Former,Moderate,No,None,ST-T abnormality,No,94.1,2,No,Sedentary,8.8,59.8,Medium,1
+PAT01052,57,Male,151,147,76,96,31.1,Never,None,No,None,ST-T abnormality,No,98.1,2,Yes,Sedentary,4.1,61.3,Medium,1
+PAT01053,58,Female,142,230,67,202,27.6,Former,None,No,None,Normal,Yes,98.2,5,No,Moderate,5.8,48.5,Medium,0
+PAT01054,55,Male,153,238,45,92,16.5,Current,None,Pre-diabetic,None,Normal,No,99.6,9,No,Sedentary,7.7,66.1,High,1
+PAT01055,44,Female,105,216,72,90,18.4,Never,Heavy,No,None,ST-T abnormality,Yes,97.1,4,Yes,Active,6.4,51.8,Medium,0
+PAT01056,42,Male,118,147,70,153,28.2,Former,Moderate,No,Asymptomatic,ST-T abnormality,No,96.6,6,No,Light,7.3,36.3,Medium,0
+PAT01057,51,Male,120,205,80,106,25.8,Current,Moderate,No,None,LV hypertrophy,Yes,94.2,2,Yes,Active,6.3,67.1,High,1
+PAT01058,68,Male,148,168,72,100,30.6,Never,None,No,None,ST-T abnormality,No,96.9,4,No,Sedentary,8.5,56.9,Medium,0
+PAT01059,59,Male,121,266,70,102,26.7,Former,Moderate,No,None,ST-T abnormality,No,97.7,9,Yes,Sedentary,8.0,68.7,High,1
+PAT01060,46,Male,135,178,50,93,26.2,Former,Moderate,No,Asymptomatic,ST-T abnormality,No,93.4,2,No,Moderate,6.9,51.1,Medium,0
+PAT01061,62,Female,152,266,61,94,15.0,Former,Heavy,No,Non-anginal,ST-T abnormality,Yes,99.1,1,No,Sedentary,8.7,63.2,Medium,1
+PAT01062,18,Male,118,208,81,98,31.1,Never,Moderate,No,Non-anginal,Normal,No,95.6,4,No,Moderate,6.9,28.9,Low,0
+PAT01063,68,Female,143,207,99,102,23.8,Never,Moderate,No,None,LV hypertrophy,No,96.6,4,No,Light,6.6,63.6,Medium,0
+PAT01064,27,Male,103,155,73,163,25.0,Former,None,No,Non-anginal,ST-T abnormality,Yes,98.2,1,No,Moderate,8.4,30.7,Low,0
+PAT01065,46,Male,116,221,79,88,21.7,Never,Moderate,No,Atypical angina,Normal,Yes,97.0,4,Yes,Sedentary,4.7,57.4,Medium,1
+PAT01066,36,Female,135,174,88,163,19.3,Never,Moderate,Pre-diabetic,None,Normal,No,99.8,3,No,Moderate,6.7,35.1,Medium,0
+PAT01067,33,Male,128,199,63,175,34.4,Never,Heavy,Pre-diabetic,Typical angina,Normal,Yes,98.3,2,Yes,Moderate,7.0,66.0,High,1
+PAT01068,68,Male,139,220,80,89,31.0,Never,None,No,Non-anginal,Normal,Yes,96.7,10,No,Moderate,6.2,59.5,Medium,1
+PAT01069,45,Male,121,156,64,97,31.1,Current,None,No,Non-anginal,Normal,No,90.8,4,No,Light,5.5,69.1,High,1
+PAT01070,56,Male,108,154,87,170,25.9,Never,Moderate,Yes,Asymptomatic,Normal,No,99.0,8,Yes,Active,6.4,42.3,Medium,0
+PAT01071,51,Female,116,223,77,204,18.3,Current,None,No,Asymptomatic,Normal,Yes,94.6,7,Yes,Active,4.5,87.7,High,1
+PAT01072,58,Male,156,207,79,130,37.5,Never,None,No,None,Normal,Yes,98.7,9,No,Active,8.5,66.2,High,1
+PAT01073,53,Female,115,201,64,94,29.1,Former,Heavy,No,Atypical angina,ST-T abnormality,No,98.0,8,Yes,Moderate,8.6,65.0,Medium,1
+PAT01074,34,Female,121,218,84,199,27.7,Never,Moderate,Pre-diabetic,None,Normal,No,96.6,1,No,Light,6.6,40.0,Medium,0
+PAT01075,65,Male,150,266,104,171,25.2,Current,Heavy,Pre-diabetic,Asymptomatic,ST-T abnormality,No,98.9,2,No,Sedentary,6.1,75.6,High,1
+PAT01076,45,Female,111,201,60,93,16.8,Current,Moderate,No,None,Normal,No,98.0,2,No,Active,4.6,36.9,Medium,0
+PAT01077,30,Male,119,182,70,194,32.7,Never,None,No,Asymptomatic,Normal,No,97.7,8,Yes,Active,5.7,48.5,Medium,0
+PAT01078,46,Female,138,225,78,226,21.7,Current,Moderate,Pre-diabetic,Atypical angina,Normal,No,93.6,4,Yes,Sedentary,8.4,84.9,High,1
+PAT01079,73,Male,143,199,86,99,29.7,Never,None,Pre-diabetic,Atypical angina,ST-T abnormality,Yes,97.1,9,No,Light,6.5,77.1,High,1
+PAT01080,63,Female,171,236,67,83,30.9,Former,Heavy,Pre-diabetic,None,ST-T abnormality,Yes,94.5,2,Yes,Active,5.8,89.8,High,1
+PAT01081,47,Male,107,228,45,89,28.7,Current,Moderate,No,Atypical angina,Normal,No,94.8,4,Yes,Sedentary,6.6,62.3,Medium,1
+PAT01082,47,Male,140,232,94,75,29.3,Current,None,No,Asymptomatic,ST-T abnormality,No,96.3,1,No,Sedentary,5.8,62.8,Medium,1
+PAT01083,47,Female,125,153,85,124,33.7,Current,None,Yes,None,Normal,No,99.9,3,Yes,Active,4.5,60.0,Medium,0
+PAT01084,81,Female,157,226,50,218,23.0,Never,Moderate,No,Atypical angina,LV hypertrophy,No,97.7,6,No,Moderate,6.1,69.5,High,1
+PAT01085,57,Male,138,196,66,227,27.8,Never,None,No,None,LV hypertrophy,Yes,97.9,9,No,Active,5.1,67.7,High,1
+PAT01086,58,Male,125,226,96,174,25.9,Never,None,No,Atypical angina,ST-T abnormality,Yes,98.5,1,Yes,Sedentary,7.1,61.4,Medium,1
+PAT01087,66,Female,141,247,95,112,17.8,Former,Moderate,Pre-diabetic,None,ST-T abnormality,No,95.3,5,No,Sedentary,7.7,75.5,High,1
+PAT01088,55,Female,109,265,88,82,28.4,Current,Moderate,Pre-diabetic,None,ST-T abnormality,No,93.8,2,No,Moderate,5.6,72.1,High,1
+PAT01089,48,Female,135,198,72,84,33.3,Never,None,No,Asymptomatic,ST-T abnormality,No,93.5,7,No,Light,6.8,51.3,Medium,0
+PAT01090,49,Female,132,199,76,99,33.9,Former,Moderate,Pre-diabetic,Atypical angina,ST-T abnormality,No,97.5,4,Yes,Light,6.5,76.5,High,1
+PAT01091,50,Female,136,249,73,94,36.3,Never,Heavy,No,None,LV hypertrophy,No,99.0,5,No,Active,5.5,39.8,Medium,0
+PAT01092,51,Female,142,225,90,94,18.1,Never,None,Yes,Typical angina,ST-T abnormality,Yes,98.8,8,No,Active,3.5,76.7,High,1
+PAT01093,62,Male,140,266,62,136,35.1,Former,Heavy,No,None,ST-T abnormality,Yes,95.3,2,Yes,Light,5.2,78.7,High,1
+PAT01094,52,Male,132,226,63,81,27.9,Former,None,No,None,ST-T abnormality,No,99.7,3,No,Sedentary,5.5,44.3,Medium,0
+PAT01095,62,Female,125,193,89,187,35.0,Current,Moderate,No,Typical angina,ST-T abnormality,Yes,100.0,5,Yes,Sedentary,6.7,94.1,High,1
+PAT01096,50,Female,120,175,74,79,25.0,Never,Moderate,No,None,ST-T abnormality,Yes,98.2,10,No,Light,6.8,49.3,Medium,0
+PAT01097,53,Male,145,171,94,83,24.3,Current,Moderate,No,Typical angina,Normal,Yes,100.0,4,No,Sedentary,8.1,64.1,Medium,1
+PAT01098,24,Male,130,206,65,95,20.9,Never,Heavy,No,Atypical angina,Normal,Yes,98.7,5,No,Light,5.2,41.8,Medium,0
+PAT01099,64,Female,134,266,74,77,30.9,Never,None,Pre-diabetic,Non-anginal,Normal,No,96.5,3,No,Light,5.4,62.0,Medium,1
+PAT01100,56,Male,133,277,62,98,29.6,Former,None,No,Asymptomatic,Normal,No,95.7,9,Yes,Active,5.7,61.5,Medium,1
+PAT01101,65,Male,127,256,75,91,21.4,Current,Moderate,No,None,Normal,Yes,93.8,8,No,Light,6.3,79.4,High,1
+PAT01102,18,Male,124,214,54,187,16.2,Never,Moderate,No,Atypical angina,LV hypertrophy,Yes,96.1,6,Yes,Moderate,6.8,52.0,Medium,0
+PAT01103,81,Male,155,231,68,87,29.1,Never,None,No,Atypical angina,ST-T abnormality,Yes,96.5,1,No,Moderate,7.1,65.2,High,1
+PAT01104,50,Male,152,180,54,221,29.6,Former,Moderate,No,None,ST-T abnormality,No,96.6,4,Yes,Moderate,4.1,69.0,High,1
+PAT01105,67,Male,128,259,84,105,22.1,Never,None,Yes,Non-anginal,Normal,No,96.8,7,Yes,Active,8.1,75.1,High,1
+PAT01106,37,Male,116,213,85,96,21.1,Current,None,No,Non-anginal,ST-T abnormality,No,92.4,10,No,Moderate,7.1,64.2,Medium,1
+PAT01107,60,Female,137,229,50,116,30.3,Current,Moderate,Yes,Atypical angina,ST-T abnormality,No,98.6,5,No,Active,7.6,74.2,High,1
+PAT01108,37,Male,129,212,93,75,36.3,Never,None,Yes,Typical angina,ST-T abnormality,No,98.8,4,Yes,Sedentary,3.4,74.1,High,1
+PAT01109,43,Female,122,217,109,121,24.5,Former,Moderate,No,None,Normal,No,97.7,9,Yes,Moderate,7.6,52.7,Medium,0
+PAT01110,78,Female,135,284,75,83,22.6,Current,None,No,Typical angina,Normal,No,94.7,8,No,Light,5.2,86.3,High,1
+PAT01111,49,Male,139,252,66,211,28.5,Never,None,Pre-diabetic,Non-anginal,ST-T abnormality,No,97.7,3,No,Active,5.9,45.8,Medium,1
+PAT01112,55,Female,140,237,114,207,30.2,Former,Moderate,No,Typical angina,ST-T abnormality,No,97.0,6,No,Sedentary,8.4,66.4,High,1
+PAT01113,64,Male,126,255,56,88,25.2,Never,Moderate,No,None,LV hypertrophy,No,97.9,4,Yes,Sedentary,7.4,62.2,Medium,1
+PAT01114,58,Female,150,239,75,93,37.1,Former,Moderate,Pre-diabetic,Typical angina,LV hypertrophy,No,100.0,7,Yes,Moderate,5.6,73.7,High,1
+PAT01115,54,Male,145,205,77,130,31.5,Never,Moderate,No,Atypical angina,LV hypertrophy,No,96.6,1,Yes,Sedentary,7.5,62.5,Medium,1
+PAT01116,57,Female,135,245,93,84,25.1,Current,None,No,Typical angina,ST-T abnormality,Yes,97.4,1,No,Moderate,7.0,82.5,High,1
+PAT01117,85,Female,151,211,80,93,19.0,Never,Moderate,Pre-diabetic,Atypical angina,LV hypertrophy,No,95.3,6,No,Active,6.0,68.6,High,1
+PAT01118,51,Male,136,247,68,60,33.6,Never,Heavy,No,Atypical angina,ST-T abnormality,No,98.8,10,No,Active,7.1,63.8,Medium,1
+PAT01119,54,Male,121,183,61,80,33.0,Current,Heavy,No,Non-anginal,Normal,Yes,98.4,7,No,Sedentary,6.0,61.1,Medium,1
+PAT01120,66,Female,139,241,70,164,25.5,Never,None,Pre-diabetic,Asymptomatic,Normal,No,97.4,9,No,Sedentary,7.0,65.9,High,1
+PAT01121,67,Female,113,208,60,67,28.8,Never,None,Pre-diabetic,None,Normal,Yes,94.9,7,No,Moderate,7.0,63.1,Medium,1
+PAT01122,68,Male,150,251,75,158,26.2,Never,Heavy,No,Asymptomatic,Normal,No,95.6,9,Yes,Moderate,7.2,67.7,High,1
+PAT01123,60,Female,116,225,67,84,29.6,Never,Moderate,No,Typical angina,Normal,Yes,93.3,10,No,Moderate,9.0,68.0,High,1
+PAT01124,35,Male,138,150,54,179,21.9,Current,Moderate,Yes,Non-anginal,Normal,No,95.6,9,No,Moderate,7.7,61.5,Medium,1
+PAT01125,74,Female,139,254,92,85,21.2,Current,Moderate,Yes,Asymptomatic,ST-T abnormality,Yes,98.4,8,Yes,Moderate,7.8,95.7,High,1
+PAT01126,35,Male,117,181,68,79,31.1,Never,None,No,Atypical angina,Normal,Yes,97.8,7,Yes,Sedentary,5.8,70.8,High,1
+PAT01127,56,Female,125,248,57,86,31.7,Former,Moderate,No,Non-anginal,Normal,No,97.3,3,No,Moderate,4.5,46.7,Medium,0
+PAT01128,41,Male,120,205,72,166,24.5,Former,Heavy,No,None,ST-T abnormality,Yes,100.0,3,Yes,Sedentary,6.3,63.7,Medium,1
+PAT01129,51,Male,146,228,75,101,23.3,Current,Moderate,Pre-diabetic,None,ST-T abnormality,No,97.6,5,No,Sedentary,5.9,65.8,High,1
+PAT01130,56,Male,102,193,50,64,32.7,Never,None,Pre-diabetic,Typical angina,LV hypertrophy,No,95.8,7,No,Moderate,7.3,60.7,Medium,1
+PAT01131,56,Male,148,204,79,91,23.4,Former,None,Pre-diabetic,Asymptomatic,ST-T abnormality,No,95.6,10,Yes,Light,6.2,75.5,High,1
+PAT01132,57,Male,137,209,60,84,27.3,Former,None,Pre-diabetic,Asymptomatic,Normal,Yes,96.5,7,Yes,Moderate,8.2,68.3,High,1
+PAT01133,74,Male,129,267,98,108,26.6,Former,Moderate,No,Typical angina,Normal,No,96.1,1,Yes,Light,4.2,75.4,High,0
+PAT01134,58,Female,121,274,82,171,19.7,Former,None,No,Typical angina,Normal,No,98.9,8,Yes,Sedentary,6.1,77.8,High,1
+PAT01135,48,Male,148,188,69,82,28.0,Never,None,Yes,Atypical angina,Normal,Yes,97.8,1,No,Light,7.0,60.9,Medium,1
+PAT01136,65,Male,126,264,64,94,27.5,Current,Heavy,Yes,Asymptomatic,Normal,No,96.4,4,No,Moderate,5.2,76.0,High,0
+PAT01137,68,Male,126,169,73,91,28.8,Former,None,No,Atypical angina,LV hypertrophy,No,96.4,2,No,Sedentary,7.7,59.8,Medium,1
+PAT01138,34,Male,133,161,83,167,27.8,Current,None,No,Non-anginal,Normal,Yes,98.4,5,No,Moderate,7.6,53.7,Medium,0
+PAT01139,60,Male,139,197,74,111,37.7,Never,None,Pre-diabetic,Typical angina,Normal,Yes,99.0,6,No,Moderate,5.9,68.1,High,1
+PAT01140,61,Male,124,186,71,99,32.8,Former,None,No,Typical angina,Normal,No,93.3,4,No,Light,9.9,62.5,Medium,1
+PAT01141,47,Male,129,164,75,231,27.2,Current,Moderate,No,Atypical angina,ST-T abnormality,Yes,96.7,4,Yes,Active,5.0,81.8,High,1
+PAT01142,71,Male,129,250,66,80,27.7,Former,Heavy,Yes,Asymptomatic,Normal,No,97.2,7,Yes,Active,4.7,82.9,High,1
+PAT01143,49,Male,141,207,70,99,35.8,Current,Heavy,Yes,Typical angina,Normal,No,98.1,4,Yes,Active,5.9,83.6,High,1
+PAT01144,53,Female,143,229,45,91,31.3,Current,Moderate,No,Asymptomatic,Normal,No,97.2,2,No,Moderate,6.7,57.7,Medium,1
+PAT01145,49,Male,134,234,88,131,20.9,Never,Moderate,Yes,None,Normal,No,97.8,4,Yes,Light,4.4,65.9,High,0
+PAT01146,52,Male,134,225,79,98,31.7,Former,Moderate,No,Typical angina,Normal,No,96.5,7,Yes,Light,7.3,71.0,High,1
+PAT01147,36,Female,141,219,64,96,33.2,Never,None,No,Non-anginal,Normal,No,95.4,1,Yes,Moderate,9.7,41.1,Medium,0
+PAT01148,31,Male,117,192,101,93,35.1,Former,None,No,Non-anginal,Normal,Yes,98.6,4,No,Sedentary,4.7,50.8,Medium,0
+PAT01149,74,Female,129,205,76,164,25.0,Never,Heavy,Yes,Asymptomatic,ST-T abnormality,No,98.6,6,No,Moderate,6.8,67.6,High,1
+PAT01150,40,Male,128,235,60,75,24.6,Former,None,Pre-diabetic,None,ST-T abnormality,Yes,98.3,8,Yes,Light,7.7,71.8,High,1
+PAT01151,38,Female,147,184,86,81,22.3,Former,None,Yes,None,ST-T abnormality,No,98.7,8,Yes,Sedentary,7.5,72.5,High,1
+PAT01152,21,Female,99,155,80,105,28.5,Never,Moderate,Pre-diabetic,Atypical angina,Normal,Yes,95.1,9,No,Moderate,9.3,46.3,Medium,0
+PAT01153,43,Male,120,202,80,84,30.7,Never,Moderate,No,None,Normal,No,96.0,5,No,Sedentary,5.9,47.3,Medium,0
+PAT01154,33,Female,123,169,69,84,24.4,Current,None,No,Asymptomatic,Normal,No,99.2,2,Yes,Sedentary,9.1,41.8,Medium,1
+PAT01155,74,Male,142,229,81,86,26.3,Never,None,No,None,Normal,No,97.7,3,No,Active,6.4,49.0,Medium,0
+PAT01156,66,Male,127,243,71,86,16.7,Never,None,No,Atypical angina,Normal,Yes,97.1,2,Yes,Light,5.8,68.9,High,1
+PAT01157,42,Female,137,216,82,152,34.5,Never,Moderate,Yes,None,Normal,Yes,96.5,9,No,Light,8.9,58.8,Medium,1
+PAT01158,83,Female,176,224,48,92,19.2,Current,None,Yes,Typical angina,ST-T abnormality,No,99.5,6,No,Light,6.0,88.2,High,1
+PAT01159,65,Male,140,217,68,102,28.9,Current,Moderate,Pre-diabetic,Atypical angina,ST-T abnormality,No,93.5,1,No,Light,7.9,70.5,High,1
+PAT01160,47,Male,116,244,99,97,28.2,Former,Moderate,No,None,ST-T abnormality,No,97.6,3,No,Sedentary,5.9,59.5,Medium,1
+PAT01161,18,Male,91,194,64,149,27.2,Current,Heavy,No,Atypical angina,Normal,Yes,96.9,7,No,Moderate,4.8,45.3,Medium,0
+PAT01162,84,Male,152,314,66,81,27.3,Never,None,No,Atypical angina,ST-T abnormality,Yes,94.5,7,No,Moderate,4.8,91.4,High,1
+PAT01163,32,Female,131,230,68,91,21.9,Current,None,No,Asymptomatic,Normal,Yes,100.0,5,No,Active,7.4,53.7,Medium,0
+PAT01164,28,Male,121,225,57,78,25.4,Never,Moderate,No,None,ST-T abnormality,Yes,91.6,3,No,Sedentary,5.1,63.3,Medium,1
+PAT01165,66,Male,138,191,45,201,31.8,Never,Moderate,No,Typical angina,Normal,Yes,97.2,7,No,Moderate,6.2,70.5,High,1
+PAT01166,86,Male,143,277,71,85,33.3,Never,None,No,Asymptomatic,Normal,No,98.1,5,No,Moderate,5.7,54.6,Medium,0
+PAT01167,71,Male,128,236,76,101,24.9,Former,Moderate,No,Non-anginal,LV hypertrophy,Yes,95.0,6,Yes,Sedentary,5.4,85.4,High,1
+PAT01168,59,Male,144,208,74,67,19.2,Current,None,No,Asymptomatic,ST-T abnormality,Yes,97.6,3,No,Sedentary,5.5,67.9,High,1
+PAT01169,60,Female,146,231,72,89,23.1,Never,None,No,Asymptomatic,Normal,Yes,96.6,6,No,Moderate,6.8,43.9,Medium,0
+PAT01170,63,Female,118,257,75,203,36.3,Current,Moderate,No,Atypical angina,Normal,No,99.0,7,No,Moderate,3.0,67.4,High,1
+PAT01171,62,Female,155,243,89,96,23.4,Never,None,No,Typical angina,Normal,No,100.0,8,Yes,Light,7.6,66.2,High,1
+PAT01172,55,Male,139,194,72,75,26.5,Never,Moderate,No,None,LV hypertrophy,No,97.7,2,No,Sedentary,4.8,46.9,Medium,0
+PAT01173,53,Female,147,240,66,91,34.1,Former,Moderate,No,Atypical angina,ST-T abnormality,Yes,98.2,2,No,Light,5.0,67.6,High,1
+PAT01174,51,Female,113,197,71,162,24.4,Former,Moderate,No,Non-anginal,LV hypertrophy,No,95.0,6,No,Light,4.6,53.2,Medium,0
+PAT01175,41,Female,107,211,83,70,26.2,Current,Moderate,No,Typical angina,Normal,No,97.4,8,Yes,Light,6.8,63.2,Medium,1
+PAT01176,48,Male,126,203,94,96,31.0,Former,Moderate,No,Non-anginal,ST-T abnormality,No,96.3,5,Yes,Light,8.4,67.1,High,1
+PAT01177,28,Male,122,184,66,88,35.6,Former,None,Yes,Non-anginal,ST-T abnormality,No,98.6,1,No,Moderate,6.3,47.6,Medium,0
+PAT01178,50,Male,150,238,76,129,23.8,Never,Heavy,Yes,None,Normal,No,94.1,1,No,Moderate,7.1,59.9,Medium,1
+PAT01179,38,Male,130,170,79,149,34.0,Former,Heavy,Yes,Asymptomatic,Normal,No,94.9,10,No,Moderate,7.2,57.9,Medium,1
+PAT01180,36,Male,117,258,61,103,25.6,Current,None,No,Atypical angina,ST-T abnormality,Yes,99.4,9,No,Moderate,7.5,65.6,High,1
+PAT01181,54,Male,119,164,75,192,22.6,Never,None,No,None,ST-T abnormality,Yes,97.4,4,Yes,Sedentary,5.2,63.3,Medium,1
+PAT01182,71,Male,156,220,54,204,28.2,Current,None,Yes,Asymptomatic,ST-T abnormality,No,99.6,10,No,Light,8.6,81.0,High,1
+PAT01183,64,Female,126,241,50,118,21.2,Former,Moderate,No,Atypical angina,ST-T abnormality,Yes,97.7,1,No,Sedentary,6.1,57.8,Medium,1
+PAT01184,30,Male,136,210,80,210,29.4,Never,Moderate,Yes,Non-anginal,ST-T abnormality,Yes,98.0,8,No,Light,6.9,63.8,Medium,1
+PAT01185,38,Male,118,198,69,180,42.7,Current,Moderate,No,Typical angina,ST-T abnormality,No,96.4,2,Yes,Active,6.3,81.2,High,1
+PAT01186,65,Female,157,229,77,145,32.5,Former,Moderate,No,Atypical angina,Normal,No,96.6,2,Yes,Moderate,5.9,73.5,High,1
+PAT01187,38,Female,130,214,74,86,26.5,Never,Moderate,Yes,Non-anginal,Normal,No,98.9,1,Yes,Sedentary,7.7,59.0,Medium,1
+PAT01188,48,Female,126,206,61,84,32.3,Never,Moderate,No,Typical angina,ST-T abnormality,No,96.7,1,No,Light,7.3,59.4,Medium,1
+PAT01189,59,Female,128,266,74,148,22.3,Never,Moderate,No,Atypical angina,LV hypertrophy,Yes,99.4,9,No,Sedentary,3.7,69.7,High,1
+PAT01190,38,Female,117,227,57,125,23.2,Current,Moderate,No,None,Normal,No,96.8,1,No,Sedentary,7.0,46.8,Medium,0
+PAT01191,53,Female,136,244,94,103,26.6,Former,Moderate,No,Asymptomatic,Normal,No,94.6,6,No,Light,9.2,61.0,Medium,1
+PAT01192,33,Male,119,167,56,100,27.4,Current,Moderate,No,None,Normal,Yes,94.5,7,No,Light,6.7,50.5,Medium,0
+PAT01193,43,Male,117,205,72,96,20.5,Never,Moderate,No,Asymptomatic,Normal,No,96.7,4,No,Sedentary,5.8,40.2,Medium,0
+PAT01194,56,Male,130,212,60,81,25.5,Never,Moderate,Yes,Atypical angina,Normal,Yes,98.8,5,No,Sedentary,6.0,66.4,High,1
+PAT01195,29,Male,117,161,82,127,26.3,Never,Moderate,Yes,Typical angina,ST-T abnormality,No,95.7,4,Yes,Moderate,5.8,71.2,High,1
+PAT01196,58,Male,108,234,70,95,34.7,Former,Moderate,No,Asymptomatic,Normal,No,98.5,4,Yes,Moderate,5.0,54.7,Medium,0
+PAT01197,51,Female,135,200,67,140,20.5,Current,Moderate,Pre-diabetic,None,ST-T abnormality,No,97.2,10,No,Moderate,6.3,54.8,Medium,0
+PAT01198,59,Female,122,244,86,86,20.1,Former,Moderate,No,Typical angina,ST-T abnormality,No,98.2,1,No,Sedentary,6.3,63.4,Medium,1
+PAT01199,55,Female,118,188,75,82,27.9,Never,Moderate,No,Non-anginal,LV hypertrophy,No,96.4,6,No,Moderate,7.3,33.3,Low,0
+PAT01200,71,Male,121,289,82,93,32.8,Current,Moderate,Yes,Non-anginal,Normal,No,97.4,10,No,Moderate,5.8,86.1,High,1
