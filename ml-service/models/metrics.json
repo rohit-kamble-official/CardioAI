@@ -1,0 +1,60 @@
+{
+  "results": {
+    "Logistic Regression": {
+      "accuracy": 0.8,
+      "precision": 0.8152,
+      "recall": 0.9146,
+      "f1": 0.8621,
+      "roc_auc": 0.8244
+    },
+    "Decision Tree": {
+      "accuracy": 0.7125,
+      "precision": 0.7844,
+      "recall": 0.7988,
+      "f1": 0.7915,
+      "roc_auc": 0.7036
+    },
+    "Random Forest": {
+      "accuracy": 0.7583,
+      "precision": 0.7789,
+      "recall": 0.9024,
+      "f1": 0.8362,
+      "roc_auc": 0.7866
+    },
+    "SVM": {
+      "accuracy": 0.7875,
+      "precision": 0.7958,
+      "recall": 0.9268,
+      "f1": 0.8563,
+      "roc_auc": 0.8269
+    },
+    "XGBoost": {
+      "accuracy": 0.8083,
+      "precision": 0.8278,
+      "recall": 0.9085,
+      "f1": 0.8663,
+      "roc_auc": 0.8455
+    }
+  },
+  "best_model": "XGBoost",
+  "feature_importance": {
+    "Age": 0.161,
+    "BloodPressure": 0.1014,
+    "Cholesterol": 0.0887,
+    "OxygenLevel": 0.0713,
+    "StressLevel": 0.0709,
+    "BMI": 0.065,
+    "HeartRate": 0.0645,
+    "SleepHours": 0.0614,
+    "BloodSugar": 0.0586,
+    "Smoking": 0.0464,
+    "ChestPainType": 0.0372,
+    "Diabetes": 0.036,
+    "PhysicalActivity": 0.0328,
+    "ECGResults": 0.0289,
+    "FamilyHistory": 0.0271,
+    "ExerciseAngina": 0.0199,
+    "AlcoholConsumption": 0.0196,
+    "Gender": 0.0095
+  }
+}
