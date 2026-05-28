@@ -1,0 +1,17 @@
+{
+  "name": "cardioai-monorepo",
+  "version": "1.0.0",
+  "description": "CardioAI — AI Heart Attack Detection & Health Monitoring System",
+  "scripts": {
+    "install:all": "cd frontend && npm install && cd ../backend && npm install",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:ml": "cd ml-service && uvicorn app:app --reload --port 5001",
+    "setup:ml": "cd dataset && python generate_dataset.py && cd ../ml-service && python train_model.py",
+    "viz": "cd dataset && python visualization.py",
+    "build": "cd frontend && npm run build"
+  },
+  "keywords": ["healthcare", "AI", "machine-learning", "react", "fastapi", "cardiology"],
+  "author": "CardioAI",
+  "license": "MIT"
+}
