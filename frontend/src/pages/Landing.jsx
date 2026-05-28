@@ -173,7 +173,7 @@ export default function Landing() {
           <div className="flex items-center gap-2">
             <Heart size={16} className="text-crimson-light fill-crimson-light" />
             <span className="font-syne font-bold text-sm">CardioAI</span>
-            <span className="text-gray-500 text-xs">© 2024</span>
+            <span className="text-gray-500 text-xs">© Rohit Kamble</span>
           </div>
           <div className="text-xs text-gray-500">For educational and screening purposes only. Not a medical device.</div>
         </div>
