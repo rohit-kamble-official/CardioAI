@@ -1,3 +1,8 @@
 __pycache__
 venv
+.git
+.vscode
 *.pkl
+*.csv
+*.xlsx
+models/
