@@ -4,246 +4,294 @@ A production-ready, full-stack AI-powered healthcare platform for cardiac risk p
 
 ---
 
-## 🎯 Project Overview
+# 🎯 Project Overview
 
 CardioAI is a complete healthcare SaaS platform combining:
-- **Machine Learning** — XGBoost ensemble trained on 1,200+ cardiac records
-- **Full-Stack Development** — React + Vite frontend, Node.js/Express backend
-- **Data Science** — Pandas, Scikit-learn, XGBoost, feature importance (SHAP-style)
-- **Modern UI/UX** — Glassmorphism, Framer Motion, Recharts, Tailwind CSS
-- **Authentication** — JWT + bcrypt, protected routes, role-based access
-- **AI Chatbot** — Intelligent health assistant with Claude AI integration
+
+* **Machine Learning** — XGBoost ensemble trained on 1,200+ cardiac records
+* **Full-Stack Development** — React + Vite frontend, Node.js/Express backend
+* **Data Science** — Pandas, Scikit-learn, XGBoost, feature importance (SHAP-style)
+* **Modern UI/UX** — Glassmorphism, Framer Motion, Recharts, Tailwind CSS
+* **Authentication** — JWT + bcrypt, protected routes, role-based access
+* **AI Chatbot** — Intelligent health assistant with Claude AI integration
+* **Microservices Architecture** — Dockerized frontend, backend, and ML services
 
 ---
 
-## 🛠 Tech Stack
+# 🛠 Tech Stack
 
-| Layer        | Technology                                          |
-|-------------|-----------------------------------------------------|
-| Frontend     | React 18, Vite, Tailwind CSS, Framer Motion, Recharts, Lucide |
-| Backend      | Node.js, Express.js, MongoDB Atlas, Mongoose        |
-| ML Service   | Python, FastAPI, Scikit-learn, XGBoost, Pandas      |
-| Auth         | JWT tokens, bcryptjs                                |
-| State        | Zustand (persist middleware)                        |
-| Deployment   | Frontend → Vercel, Backend → Render, ML → Render   |
+| Layer            | Technology                                                    |
+| ---------------- | ------------------------------------------------------------- |
+| Frontend         | React 18, Vite, Tailwind CSS, Framer Motion, Recharts, Lucide |
+| Backend          | Node.js, Express.js, MongoDB Atlas, Mongoose                  |
+| ML Service       | Python, FastAPI, Scikit-learn, XGBoost, Pandas                |
+| Auth             | JWT, bcryptjs                                                 |
+| State Management | Zustand                                                       |
+| DevOps           | Docker, Docker Compose                                        |
+| Deployment       | Vercel, Render, MongoDB Atlas                                 |
 
 ---
 
-## 📁 Project Structure
+# 🏗 Microservices Architecture
 
+```text
+┌────────────────────┐
+│ Frontend Container │
+│ React + Vite       │
+│ Port: 5173         │
+└─────────┬──────────┘
+          │
+          ▼
+┌────────────────────┐
+│ Backend Container  │
+│ Node.js + Express  │
+│ Port: 5000         │
+└─────────┬──────────┘
+          │
+          ▼
+┌────────────────────┐
+│ ML Service         │
+│ FastAPI + XGBoost  │
+│ Port: 5001         │
+└─────────┬──────────┘
+          │
+          ▼
+┌────────────────────┐
+│ MongoDB Atlas      │
+│ Cloud Database     │
+└────────────────────┘
 ```
+
+---
+
+# 📁 Project Structure
+
+```text
 cardioai/
-├── frontend/                  # React + Vite app
+│
+├── frontend/
 │   ├── src/
-│   │   ├── pages/             # Landing, Login, Register, Dashboard, Predict, Analytics, Chatbot, Doctors, Profile
-│   │   ├── components/        # Layout, UI (StatCard, GaugeChart, RiskBadge, FeatureBar...)
-│   │   ├── context/           # Zustand auth store
-│   │   └── utils/             # Axios API client
-│   ├── tailwind.config.js
-│   └── vite.config.js
+│   ├── Dockerfile
+│   └── .dockerignore
 │
-├── backend/                   # Node.js/Express API
-│   ├── models/                # User.js, Prediction.js (Mongoose)
-│   ├── routes/                # auth.js, predictions.js, analytics.js, users.js
-│   ├── middleware/            # auth.js (JWT protect)
-│   ├── server.js              # Entry point
-│   └── .env.example
+├── backend/
+│   ├── models/
+│   ├── routes/
+│   ├── middleware/
+│   ├── Dockerfile
+│   └── .dockerignore
 │
-├── ml-service/                # Python FastAPI ML microservice
-│   ├── app.py                 # FastAPI app with /predict, /metrics, /analytics
-│   ├── train_model.py         # Multi-model training + auto-selection
-│   ├── models/                # Trained .pkl files (generated after training)
-│   └── requirements.txt
+├── ml-service/
+│   ├── app.py
+│   ├── train_model.py
+│   ├── Dockerfile
+│   └── .dockerignore
 │
 ├── dataset/
-│   ├── generate_dataset.py    # Generates 1,200 realistic patient records
+│   ├── generate_dataset.py
 │   ├── heart_attack_dataset.csv
 │   └── heart_attack_dataset.xlsx
 │
+├── docker-compose.yml
 └── README.md
 ```
 
 ---
 
-## 🚀 Quick Start
+# 🚀 Quick Start
 
-### 1. Clone and install dependencies
+## 1️⃣ Clone Repository
 
 ```bash
 git clone https://github.com/yourusername/cardioai.git
 cd cardioai
 ```
 
-**Frontend:**
-```bash
-cd frontend
-npm install
-cp .env.example .env.local   # set VITE_API_URL
-npm run dev                  # http://localhost:5173
-```
+---
 
-**Backend:**
-```bash
-cd backend
-npm install
-cp .env.example .env         # set MONGODB_URI + JWT_SECRET
-npm run dev                  # http://localhost:5000
-```
+# ⚙️ Environment Variables
 
-**ML Service:**
-```bash
-cd ml-service
-pip install -r requirements.txt
-# Generate dataset and train models first:
-cd ../dataset && python generate_dataset.py
-cd ../ml-service && python train_model.py
-# Start ML API:
-uvicorn app:app --reload --port 5001
+## Backend `.env`
+
+```env
+PORT=5000
+MONGODB_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/cardioai
+JWT_SECRET=your_secret_key
+ML_SERVICE_URL=http://ml-service:5001
+FRONTEND_URL=http://localhost:5173
 ```
 
 ---
 
-## ⚙️ Environment Variables
+## Frontend `.env.local`
 
-**Backend `.env`:**
-```
-PORT=5000
-MONGODB_URI=mongodb+srv://<user>:<pw>@cluster.mongodb.net/cardioai
-JWT_SECRET=your_super_secret_key_here
-ML_SERVICE_URL=http://localhost:5001
-FRONTEND_URL=http://localhost:5173
-```
-
-**Frontend `.env.local`:**
-```
+```env
 VITE_API_URL=http://localhost:5000/api
 ```
 
 ---
 
-## 🤖 Machine Learning Pipeline
+# 🐳 Docker Setup
 
-1. **Dataset generation** — 1,200 patient records with 21 columns (realistic correlations)
-2. **Preprocessing** — Label encoding for categoricals, StandardScaler for numerics
-3. **Model training** — 5 models: Logistic Regression, Decision Tree, Random Forest, SVM, XGBoost
-4. **Auto-selection** — Best model chosen by ROC-AUC score
-5. **Explainability** — Feature importance from Random Forest; natural-language explanations
-6. **API serving** — FastAPI `/predict` endpoint with recommendations
+CardioAI uses a professional multi-container Docker architecture.
 
-### Model Results
+Each service runs independently:
 
-| Model | Accuracy | ROC-AUC |
-|-------|----------|---------|
-| **XGBoost** ⭐ | **94.7%** | **0.967** |
-| Random Forest | 92.1% | 0.948 |
-| SVM | 88.9% | 0.921 |
-| Logistic Regression | 83.4% | 0.887 |
-| Decision Tree | 79.2% | 0.841 |
+* Frontend container
+* Backend container
+* ML service container
+
+MongoDB Atlas is used as a managed cloud database.
 
 ---
 
-## 📄 API Documentation
+# 📦 Docker Commands
 
-### Auth
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| POST | `/api/auth/register` | Register new user |
-| POST | `/api/auth/login` | Login and get JWT |
-| GET | `/api/auth/me` | Get current user |
+## Build & Start Containers
 
-### Predictions
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| POST | `/api/predictions` | Run prediction (calls ML service) |
-| GET | `/api/predictions/history` | Get user prediction history |
-| DELETE | `/api/predictions/:id` | Delete a prediction |
-
-### Analytics
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| GET | `/api/analytics` | Population analytics + model metrics |
-
-### ML Service (port 5001)
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| POST | `/predict` | Predict risk from patient data |
-| GET | `/metrics` | Model evaluation metrics |
-| GET | `/analytics` | Dataset analytics |
-
----
-
-## 🌐 Deployment
-
-**Frontend → Vercel:**
 ```bash
-cd frontend && vercel --prod
+docker compose up --build
 ```
 
-**Backend → Render:**
-- Add env vars in Render dashboard
-- Build command: `npm install`
-- Start command: `node server.js`
+---
 
-**ML Service → Render:**
-- Build: `pip install -r requirements.txt && python train_model.py`
-- Start: `uvicorn app:app --host 0.0.0.0 --port $PORT`
+## Stop Containers
+
+```bash
+docker compose down
+```
 
 ---
 
-## 📊 Dataset Columns
+## Rebuild Containers
 
-| Column | Type | Description |
-|--------|------|-------------|
-| Patient_ID | string | Unique patient identifier |
-| Age | int | Patient age (18–90) |
-| Gender | string | Male / Female / Other |
-| BloodPressure | int | Systolic BP in mmHg |
-| Cholesterol | int | Total cholesterol mg/dL |
-| HeartRate | int | Resting heart rate bpm |
-| BloodSugar | int | Fasting blood glucose mg/dL |
-| BMI | float | Body mass index kg/m² |
-| Smoking | string | Never / Former / Current |
-| AlcoholConsumption | string | None / Moderate / Heavy |
-| Diabetes | string | No / Yes / Pre-diabetic |
-| ChestPainType | string | None / Typical angina / etc. |
-| ECGResults | string | Normal / ST-T abnormality / LV hypertrophy |
-| ExerciseAngina | string | No / Yes |
-| OxygenLevel | float | SpO₂ percentage |
-| StressLevel | int | Self-reported 1–10 |
-| FamilyHistory | string | No / Yes |
-| PhysicalActivity | string | Sedentary / Light / Moderate / Active |
-| SleepHours | float | Average sleep hours/night |
-| RiskScore | float | Composite risk score 0–100 |
-| RiskLevel | string | Low / Medium / High |
-| HeartAttack | int | Target: 0 = No, 1 = Yes |
+```bash
+docker compose up --build --force-recreate
+```
 
 ---
 
-## 🎨 Key Features
+# 🌐 Local URLs
 
-- ✅ **8 fully functional pages** — Landing, Auth, Dashboard, Predict, Analytics, Chatbot, Doctors, Profile
-- ✅ **18-parameter prediction form** with sliders, live values, animated results
-- ✅ **SHAP-style feature importance** bars with AI-generated explanations
-- ✅ **Risk gauge SVG** with animated needle
-- ✅ **Recharts dashboards** — Line, Radar, Bar, Pie, Scatter charts
-- ✅ **AI Health Chatbot** with keyword routing + Claude API mode
-- ✅ **Doctor finder** with booking simulation
-- ✅ **PDF export** (toast simulation / hookable to jsPDF)
-- ✅ **JWT auth** with Zustand persist
-- ✅ **Demo mode** — works without backend/ML service running
-- ✅ **Mobile responsive** — sidebar collapses, fluid grids
-- ✅ **Framer Motion** animations throughout
+| Service         | URL                                                      |
+| --------------- | -------------------------------------------------------- |
+| Frontend        | [http://localhost:5173](http://localhost:5173)           |
+| Backend         | [http://localhost:5000](http://localhost:5000)           |
+| ML Swagger Docs | [http://localhost:5001/docs](http://localhost:5001/docs) |
 
 ---
 
-## 👨‍💻 Author
+# 🤖 Machine Learning Pipeline
+
+1. Dataset generation with realistic patient records
+2. Data preprocessing and feature engineering
+3. Training multiple ML models
+4. Automatic best-model selection using ROC-AUC
+5. FastAPI prediction service deployment
+6. Real-time cardiac risk prediction
+
+---
+
+# 📊 Model Performance
+
+| Model               | Accuracy | ROC-AUC |
+| ------------------- | -------- | ------- |
+| XGBoost             | 94.7%    | 0.967   |
+| Random Forest       | 92.1%    | 0.948   |
+| SVM                 | 88.9%    | 0.921   |
+| Logistic Regression | 83.4%    | 0.887   |
+| Decision Tree       | 79.2%    | 0.841   |
+
+---
+
+# 📄 API Documentation
+
+## Authentication
+
+| Method | Endpoint             | Description   |
+| ------ | -------------------- | ------------- |
+| POST   | `/api/auth/register` | Register user |
+| POST   | `/api/auth/login`    | User login    |
+| GET    | `/api/auth/me`       | Current user  |
+
+---
+
+## Predictions
+
+| Method | Endpoint                   | Description        |
+| ------ | -------------------------- | ------------------ |
+| POST   | `/api/predictions`         | Run AI prediction  |
+| GET    | `/api/predictions/history` | Prediction history |
+| DELETE | `/api/predictions/:id`     | Delete prediction  |
+
+---
+
+## Analytics
+
+| Method | Endpoint         | Description     |
+| ------ | ---------------- | --------------- |
+| GET    | `/api/analytics` | Model analytics |
+
+---
+
+# 🎨 Key Features
+
+* ✅ AI-powered cardiac risk prediction
+* ✅ XGBoost ensemble ML model
+* ✅ JWT authentication system
+* ✅ Analytics dashboard with charts
+* ✅ SHAP-style feature importance visualization
+* ✅ Responsive glassmorphism UI
+* ✅ AI healthcare chatbot
+* ✅ Doctor finder module
+* ✅ Dockerized microservices architecture
+* ✅ MongoDB Atlas integration
+* ✅ RESTful API architecture
+* ✅ Mobile responsive design
+
+---
+
+# 🌐 Deployment
+
+| Service    | Platform      |
+| ---------- | ------------- |
+| Frontend   | Vercel        |
+| Backend    | Render        |
+| ML Service | Render        |
+| Database   | MongoDB Atlas |
+
+---
+
+# 🚀 Future Improvements
+
+* Kubernetes deployment
+* CI/CD pipelines
+* Real-time monitoring
+* Advanced AI explainability
+* Role-based dashboards
+* Medical report PDF export
+
+---
+
+# 👨‍💻 Author
 
 Built with ❤️ as a full-stack AI healthcare portfolio project.
 
-**Suitable for:** Final year project · Resume showcase · GitHub portfolio · Internship applications
+Suitable for:
+
+* Final Year Projects
+* Resume Projects
+* Internship Applications
+* AI/ML Portfolio
+* Full-Stack Development Showcase
+* DevOps & Docker Showcase
 
 ---
 
-## ⚠️ Disclaimer
+# ⚠️ Disclaimer
 
-This application is for **educational and screening purposes only**. It is not a medical device and does not constitute medical advice. Always consult a licensed healthcare professional for diagnosis and treatment decisions.
+This application is for educational and screening purposes only.
+
+It is NOT a medical device and should not be used as a substitute for professional healthcare advice.
+
+Always consult licensed healthcare professionals for diagnosis and treatment.
