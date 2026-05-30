@@ -279,7 +279,6 @@ Built with ❤️ as a full-stack AI healthcare portfolio project.
 
 Suitable for:
 
-* Final Year Projects
 * Resume Projects
 * Internship Applications
 * AI/ML Portfolio
