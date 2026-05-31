@@ -293,4 +293,4 @@ This application is for educational and screening purposes only.
 
 It is NOT a medical device and should not be used as a substitute for professional healthcare advice.
 
-Always consult licensed healthcare professionals for diagnosis and treatment.
+Always consult licensed healthcare professional for diagnosis and treatment.
